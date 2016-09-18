@@ -1,0 +1,155 @@
+.course_ware_center{
+	width:1200px;
+	margin:0 auto;
+}
+.course_cen{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.course_hour{
+	line-height:42px;
+	font-size: 19px;
+	padding-left: 78px;
+	margin-top:60px;
+	padding-bottom: 40px;
+}
+.course_hx0{
+	width:20px;
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+	margin-top: 12px;
+}
+.course_hx1{
+	width:932px;
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+	margin-top: 12px;
+}
+.cour_title{
+	font-size: 14px;
+	color:#999;
+	padding-left: 44px;
+	margin-top:12px;
+}
+.cours_tit1{
+	color: #999;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.course_det{
+	width: 1080px;
+	overflow: hidden;
+	margin-left:40px;
+}
+.course_cen1_left{
+	float: left;
+}
+.course_detleft{
+	width: 1084px;
+    float: left;	
+}
+.course_cen1_float a{
+	display: block;
+}
+.course_cen1_float{
+	float: right;
+	margin-top: 20px;
+}
+.course_detright{
+	width:180px;
+	background: #f5f5f5;
+	overflow: hidden;
+	float: right;
+	padding:28px 0 64px 0;
+	margin-top: 25px;
+}
+.course_det1{
+	width: 102px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.course_intro_cont{
+	overflow: hidden;
+	margin-top: 24px;
+}
+.course_intro_cont .course_cont_tit0{
+	width: 50px;
+	float: left;
+	display: block;
+}
+.course_intro_cont .course_cont_tit1{
+	float: left;
+	width: 666px;
+}
+.course_cont_left{
+	float: left;
+	width: 26px;
+}
+.course_cont_right{
+	float: right;
+}
+.course_cont_lefthx{
+	text-align: center;
+}
+.course_cont_right ul{
+	margin-top: 20px;
+}
+.course_cont_right ul li{
+	line-height: 34px;
+	text-align: right;
+	color: #666666;
+	font-size: 14px;
+}
+.course_cen1_tit1{
+	color:#fd8257;
+	font-size: 17px;
+	float: left;
+	margin: 0 16px;
+}
+.course_cen1_tit2{
+	color:#999;
+	font-size: 14px;
+	line-height:24px;
+}
+.course_cen1{
+	padding-bottom: 50px;
+}
+.course_cen1_rtit1{
+	font-size: 14px;
+	color:#333;
+	line-height: 30px;
+	margin:45px 0 20px 0;
+}
+.course_intro1{
+	font-size: 14px;
+	color:#4d4d4d;
+	width:724px;
+	float: left;
+	margin: 4px 0 0 36px;
+}
+.course_condition{
+	margin-top: 35px;
+}
+.course_cen1_rtit2{
+	margin-top: 24px;
+}
+.course_line{
+	overflow: hidden;
+}
+.course_title1{
+	margin-right:15px;
+}
+.course_intro1 p{
+	line-height: 30px;
+}
+.course_cen1_float img{
+	width: 230px;
+	height: 160px;
+	border-radius: 6px;
+}
+
+

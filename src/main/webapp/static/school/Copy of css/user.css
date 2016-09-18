@@ -1,0 +1,227 @@
+.user{
+	width:1200px;
+	margin: 0 auto;
+}
+.usercenter{
+	width: 1100px;
+	background: #fff;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.ucenter{
+	width: 900px;
+	margin: 44px auto 0;
+}
+.uctit{
+	 font-size:18px;
+	 color: #666;
+	 padding-bottom:14px;
+	 border-bottom: 1px solid #e4e4e4;
+}
+.pwdedit{
+	overflow: hidden;
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 16px;
+	margin-top: 35px;
+}
+.pwdslide{
+	width: 400px;
+	margin: 0 auto;
+	padding-top:40px;
+	overflow: hidden;
+	height: 0;
+	transition: height 1s;
+}
+.usersave{
+	width:278px;
+	height:30px;
+	color:#333;
+	font-size: 14px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+.contlink{
+	margin: 28px 0 32px 0;	
+}
+.contlink span{
+	font-size: 13px;
+	color: #666;
+	font-family: 微软雅黑;
+}
+.nickname{
+	margin-top: 28px;
+}
+.contit{
+	font-size: 20px;
+	color: #666;
+	font-family: "宋体";
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.nickname span{
+	font-size: 16px;
+	color: #666;
+	display: block;
+    float: left;
+}
+.useredit{
+	width: 100px;
+	height: 30px;
+	color: #666;
+	font-size: 14px;
+}
+.useradvice{
+	width: 900px;
+	overflow: hidden;
+	background:#f5f5f5;
+}
+.useradcen{
+	width:850px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #666;
+}
+.userad{
+	padding: 20px 0;
+	overflow: hidden;
+	text-align: center;
+	border-bottom: 1px solid #e4e4e4;
+}
+.nick1{
+	float: left;
+	width: 130px;
+	line-height: 28px;
+}
+.nick2{
+	float: left;
+	line-height: 28px;
+}
+.nick2 span{
+	margin-right:46px;
+}
+.userzh{
+	font-size: 16px;
+	color: #666;
+	margin-top:38px;
+}
+.userzh span{
+	margin-right:59px;
+}
+.pwdedit1{
+	font-size: 16px;
+	color: #666;
+	float: left;
+	line-height: 30px;
+}
+.pwdedit1 span{
+	margin-right:60px;
+}
+.pwdedit2{
+	float: right;
+	position: relative;
+	width: 100px;
+}
+.pwdedit2 input{
+	font-size: 16px;
+	width: 100px;
+	color: #666;
+	height: 30px;
+}
+.pwdedit2 img{
+	position: absolute;
+	right: 10px;
+	top: 14px;
+}
+.pwdslide label{
+	font-size: 14px;
+	color: #666;
+	width: 100px;
+	display: block;
+	float: left;
+	line-height: 28px;
+}
+.pwdslide input{
+	width: 278px;
+	height: 28px;
+	float: left;
+}
+.pwdslide1{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.pwdslide2{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.pwdslide3{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.msg label{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+.msg{
+	float: left;
+	margin-right: 63px;
+}
+.msg input{
+	width: 198px;
+	height: 28px;
+}
+.usermsg{
+	width: 850px;
+	margin: 32px auto 0;
+}
+.usermsg3{
+	float: right;
+	margin-right: 0;
+}
+.board{
+	margin-top: 22px;
+	overflow:hidden;
+}
+.board label{
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 13px;
+	display: block;
+	float: left;
+	margin-right: 16px;
+}
+.board textarea{
+	width: 800px;
+	height: 99px;
+	float: left;
+}
+.sumit{
+	width: 280px;
+	height: 30px;
+	font-size: 14px;
+	display: block;
+	margin: 28px auto 26px;
+}
+.exit{
+	width:98px;
+	height: 40px;
+	position: absolute;
+	border: 1px solid #999;
+	color:#000;
+	font-size: 13px;
+	background: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.userexit{
+	position: relative;
+}	
+	
+
+
+
+
+
+
+
+

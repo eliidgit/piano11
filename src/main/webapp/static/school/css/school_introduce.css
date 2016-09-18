@@ -1,0 +1,406 @@
+.school_exp_cont{
+	width: 750px;
+	height: 330px;
+	background: #f2f2f2;
+	float: left;
+	margin-left: 30px;
+}
+.school_exp_sum .school_exp_change_sum{
+	background: #fff;
+	height: auto;
+}
+.school_intro{
+	width: 1200px;
+	margin: 0 auto;
+}
+.school_intro_cent{
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.school_list{
+	width: 50px;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	left: 65px;
+    top: 45px;
+    text-align: center;
+}
+.school_list_reward{
+	color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 65px;
+    top: 118px;
+}
+.school_reward{
+	background: #f2f2f2;
+	border-top: 2px solid #ebe8e7;
+	padding-bottom:30px;
+	margin-bottom: 40px;
+}
+.school_reward_top{
+	width: 187px;
+	height: 187px;
+	margin: 37px auto 19px;
+	background:url(../img/school_introce/3.png) no-repeat;
+	position: relative;
+}
+.school_reward_pic{
+	width:230px;
+	margin: 0 auto;
+}
+.school_reward_bot p{
+	color:#a89d9b;
+	font-size:16px;
+	text-align: center;
+	line-height:26px;
+}
+.school_rank{
+	width: 192px;
+	height: 166px;
+	background: url(../img/school_edit_03.png) no-repeat;
+	margin: 23px auto;
+	position: relative;
+}
+.school_rank_num{
+	font-size: 32px;
+	color:#cccccc;
+	position: absolute;
+	left: 49%;
+    top: 27%;
+}
+.school_average{
+	position: absolute;
+	bottom: 19%;
+	left: 33%;
+	color:#fff;
+	font-size: 18px;
+}
+.school_intro_top p{
+	font-size: 18px;
+	text-align: center;
+}
+.school_intro_title{
+	padding-top: 30px;
+}
+.school_intro_all{
+	width: 1120px;
+	background: #fff;
+	padding: 42px 0 20px 0;
+	margin: 0 auto;
+}
+.school_title{
+	font-size: 18px;
+	text-align: center;
+	color: #333;
+}
+.school_intro_alltop{
+	position: relative;
+	padding-bottom: 28px;
+}
+.school_title_edit{
+	width: 90px;
+	height: 30px;
+	font-size: 12px;
+	color:#fff;
+	float: right;
+	background:#968885;
+	border: 0;
+	border-radius: 20px;
+	line-height: 30px;/*添加*/
+}
+.school_edit_cent{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.school_img{
+	float: left;
+	position: relative;
+}
+.school_img img{
+	width: 300px;
+	height: 200px;
+}
+.school_exp{
+	width: 720px;
+	outline: none;
+}
+.school_exp_cont .school_exp_change{
+	width:611px;
+	height:210px;
+	background: #fff;
+	border: 1px solid #e0e1e5;
+	border-radius: 6px;
+	margin: 40px auto 20px;
+	padding:0 25px 0 30px;
+}
+.school_exp_save{
+	width:120px;
+	height: 40px;
+	background:#978e8c;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	margin: 0 auto;
+	display: none;
+	cursor: pointer;
+}
+.school_exp_sum{
+	padding-left: 40px;
+}
+.school_exp p{
+	color: #656565;
+	line-height: 20px;
+}
+.school_sum_p0{
+	margin-top: 20px;
+}
+.school_sum_p1{
+	margin:28px 0;
+}
+.sc_exp{
+	font-size: 17px;
+	padding:0 20px;
+	color:#7d6f6c;
+	float: left;
+}
+.school_exp_top{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.school_history_top2{
+	float: right;
+	cursor: pointer;
+	width:90px;
+	height: 30px;
+	background:#968885;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 20px;
+	font-size: 12px;
+}
+.school_history_cent p{
+	font-size: 12px;
+	color:#666666;
+	line-height: 30px;
+}
+.school_subject{
+	font-weight: 600;
+}
+.school_sub{
+	margin-top:45px;
+}
+.school_history_p{
+	margin:22px 0;
+	overflow: hidden;
+	height: 0;
+	background: #f2f2f2;
+}
+.school_history_edit{
+	width: 90px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    float: right;
+    background: #968885;
+    border: 0;
+    border-radius: 20px;
+    display: none;
+    line-height: 30px;/*添加*/
+}
+.school_history_cancle{
+	width:100px;
+	height:30px;
+	font-size:14px;
+	color: #666666;
+	float: right;
+	display: none;
+}
+.school_intro_exp{
+	margin-bottom: 32px;
+	position: relative;
+}
+.school_edit_active{
+	border: 0;
+}
+.school_edit_active .school_history_p{
+	border: 1px solid #a9a9a9;
+	outline: none;
+}
+.school_hx{
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+	margin-top:12px;
+}
+.school_hx0{
+	width: 20px;
+}
+.school_hx1{
+	width: 860px;
+}
+.school_name{
+	display: block;
+	color: #666666;
+	overflow: hidden;
+	float: left;
+	margin-top: 4px;
+}
+.school_name_input{
+	float: left;
+	width: 344px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	background: #fff;
+	border-radius:6px;
+	padding-left: 14px;
+}
+.school_create_time{
+	width:358px;
+	height:38px;
+	border: 1px solid #e0e1e5;
+	float: left;
+	background: #fff;
+	border-radius: 6px;
+}
+.school_date{
+	width:14px;
+	height:15px;
+	background: url(../img/spirit_img.png) no-repeat -429px -56px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+}
+.school_create_time input{
+	display: block;
+	float: left;
+	width:316px;
+	height: 38px;
+	line-height: 38px;
+	border: 0;
+	padding-left: 14px;
+	margin-left: 3px;
+	color:#797979;
+}
+.school_create_time img{
+	float: left;
+	margin-top: 8px;
+}
+.school_other2_right{
+	float: left;
+	margin-top: 20px;
+}
+.school_other2_right input{
+	width: 344px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	float: left;
+	border-radius: 6px;
+	padding-left: 14px;
+}
+.school_other3 input{
+	width: 344px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	float: left;
+	color: #797979;
+	line-height: 38px;
+	border-radius: 6px;
+	padding-left: 14px;
+}
+.school_save{
+	width:120px;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+	border: 0;
+	margin: 24px auto 0;
+	display: block;
+	background: #978e8c;
+	border-radius: 30px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.school_history_top{
+	margin-top: 30px;
+}
+.school_other2{
+	margin-top:18px;
+}
+.school_other2_left{
+	float: left;
+	margin: 20px 0 0 130px;
+}
+.school_other3{
+	float: left;
+	margin: 20px 0 0 130px;
+}
+.school_active .school_history_circle{
+	display: none;
+}
+.school_active .school_other{
+	display: block;
+}
+.school_history_cent{
+	background: #f2f2f2;
+}
+.school_sump1{
+	outline: none;
+}
+.school_img p{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: #6f615e;
+	bottom: 55px;
+	display: none;
+}
+.school_active .school_history_p{
+	display: none;
+}
+.school_other{
+	width:1040px;
+	margin:40px auto 0;
+	display: none;
+}
+.school_name1{
+	float: left;
+	color: #797979;
+	line-height: 40px;
+	width: 65px;
+	text-align: left;
+}
+.school_other textarea{
+	width:996px;
+	height: 158px;
+	resize: none;
+	outline: none;
+	color: #4d4d4d;
+	line-height: 30px;
+	border: 1px solid #e0e1e5;
+	border-radius: 6px;
+	padding: 20px 24px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.school_active .school_history_cancle{
+	margin-right: 15px;
+	display:block;
+}
+.school_active .school_history_top2{
+	display: none;
+}
+.school_sump{
+    margin: 40px 43px 48px 40px;
+}
+.school_other1{
+	overflow: hidden;
+	float: left;
+	margin-top: 20px;
+}

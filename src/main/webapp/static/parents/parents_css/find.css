@@ -1,0 +1,84 @@
+.findword{
+	font-size:0.17rem;
+}
+.findword1{
+	width: 100%;
+	height: 0.58rem;
+	background:#f2f2f2;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-left: 0.2rem;
+}
+.code1{
+	display: block;
+	float: left;
+}
+.code2{
+	display: block;
+	float: left;
+	width: 1.2rem;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	margin-top: 0.1rem;	
+	background:#f2f2f2;
+	color: #333;
+	margin-left: 0.13rem;
+}
+.code3{
+	display: block;
+	float: right;
+	width: 1.05rem;
+	height: 0.33rem;
+	font-size: 0.16rem;
+	line-height: 0.33rem;
+	text-align: center;
+	background: #c9c9c9;
+	color: #3c3c3c;
+	margin-top: 0.11rem;
+	margin: 0.11rem 0.1rem 0 0;
+}
+.findword2{
+	width: 100%;
+	height: 0.58rem;
+	background:#f2f2f2;
+	margin-top: 0.13rem;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-left: 0.2rem;
+	line-height:0.58rem;
+}
+.next{
+	width: 100%;
+	height: 0.58rem;
+	background: #ccc;
+	font-size: 0.16rem;
+	color: #585858;
+	margin-top: 1.62rem;
+}
+.findcenter{
+	width: 3.48rem;
+	margin: 0.11rem auto 0;
+}
+.phn1{
+	float: left;
+	display: block;
+	height: 0.58rem;
+	line-height: 0.58rem;
+}
+.phn2{
+    font-size: 0.18rem;
+    height: 0.4rem;
+    margin: 0.1rem 0 0 0.13rem;
+    background: #f2f2f2;
+}
+.pwdtip{
+	text-align: right;
+	padding-right: 0.18rem;
+	margin-top: 0.16rem;
+	height: 0.18rem;
+}
+
+
+

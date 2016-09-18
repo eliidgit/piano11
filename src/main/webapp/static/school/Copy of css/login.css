@@ -1,0 +1,122 @@
+/*头部样式*/
+.topcenter li a{
+	color:#666666;
+	font-size:16px;
+}
+.topcenter li{
+	float: left;
+	padding: 0 31px;
+}
+.topcenter{
+	float: left;
+}
+.logopic{
+	float: left;
+}
+.userpic{
+	float: right;
+}
+.userpic a{
+	color: #666;
+}
+.userpic span{
+	margin-left: 5px;
+}
+.exit{
+	width:98px;
+	height: 40px;
+	position: absolute;
+	border: 1px solid #999;
+	color:#000;
+	font-size: 13px;
+	background: #fff;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+}
+.userexit{
+	position: relative;
+}	
+/*登陆页面css样式*/
+.loginsum{
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo{
+	width: 1100px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.logincenter{
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+	padding:127px 0 302px;
+}
+.lcenter{
+	width: 335px;
+	margin: 0 auto;
+}
+.userlogin{
+	font-size: 21px;
+	margin-bottom: 33px;
+}
+.username{
+	width: 329px;
+	height: 39px;
+	border: 1px solid #a9a9a9;
+	margin-bottom: 30px;
+}
+.psd{
+	width: 329px;
+	height: 39px;
+	border: 1px solid #a9a9a9;
+	margin-bottom: 24px;
+}
+.alogin{
+	float: left;
+}
+.forget{
+	float: right;
+	color:#666666;
+}
+.clear{
+	clear: both;
+}
+.yes{
+	width: 329px;
+	height: 39px;
+	margin-top: 22px;
+	font-size: 14px;
+}
+/*公共底部*/
+.bot{
+	width:1200px;
+	height: 50px;
+	background:#949494;
+	color: #e4e4e4;
+}
+.bot p{
+	text-align: center;
+	line-height: 50px;
+}
+.auto{
+	float: left;
+	margin-top: 3px;
+}
+.autol{
+	display: block;
+	float: left;
+	color: #666666;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+.demo_detail{
+	width: 1200px;
+	background:#f5f5f5;
+	margin: 0 auto;
+}
+.demo_detail_center{
+	width:1100px;
+	background: #fff;
+	margin: 0 auto;
+}
+.demo_detail_center1{
+	width: 1000px;
+	margin: 0 auto;
+}
+.demo_det_dir{
+	font-size: 13px;
+	color: #999;
+	padding: 12px 0;
+}
+.demo_vedio{
+	width: 600px;
+	margin: 0 auto;
+}
+.demo_msg{
+	overflow: hidden;
+	padding-bottom: 63px;
+	font-size: 14px;
+	color:#999;
+	margin-top:30px;
+}
+.demo_msg1{
+	margin-bottom:27px;
+}
+.demo_msg p{
+	line-height: 24px;
+}
+.demo_msg_tit{
+	margin-left:42px;
+}
+.demo_msg1{
+	font-size:16px;
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1521 @@
+/*修改*/
+.scorecenter{
+	width: 1200px;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+.score{
+	width:1100px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.scoretit{
+	color: #333;
+	font-size: 17px;
+	padding: 30px 0;
+}
+.scored{
+	color: red;
+}
+.scoreall{
+	width:1060px;
+	margin: 0 auto;
+}
+.scoreul{
+	width:1060px;
+	height:38px;
+	background:#f0f0f0;
+}
+.scoreul li{
+	font-size: 16px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:38px;
+}
+.scoreul li a{
+	color:#666;
+	display: block;
+	padding: 0 40px;
+	line-height:38px;
+}
+.scoreul .scoact{
+	border-bottom:2px solid #666;
+}
+.score2{
+	width: 898px;
+	border: 1px solid #999;
+	margin: 24px auto 35px;
+}
+.clasore{
+	width:138px;
+	height: 28px;
+	color:#666;
+	font-size: 15px;
+}
+.scoredown{
+	position: absolute;
+	top: 13px;
+	right: 16px;	
+}
+.scall{
+	position: relative;
+	width:138px;
+	float: left;
+	margin-right:26px;
+}
+.period{
+	width: 126px;
+	height:28px;
+	border: 1px solid #a9a9a9;
+	float: left;
+	margin-right: 12px;
+}
+.refer{
+	float: left;
+	width: 68px;
+	height: 29px;
+	font-size:14px;
+	color: #666;
+}
+.scoresearch{
+	overflow: hidden;
+	margin: 17px 0 13px 33px;
+}
+.scoresort{
+	width: 100%;
+	height: 38px;
+	background: #ccc;
+}
+.scoresort li{
+	font-size: 15px;
+	color:#fff;
+	float: left;
+	text-align: center;
+	line-height:38px;
+}
+.scoretable0{
+	display: none;
+}
+.scoretable1{
+	display: block;
+}
+.tables{
+	width: 803px;
+	margin: 0 auto;
+}
+.tables div {
+	width: 803px;
+	margin: 0 auto;
+}
+.tables ul{
+	width: 803px;
+}
+.tables ul li{
+	width: 140px;
+	height:36px;
+	border-bottom: 1px solid #e4e4e4;
+	font-size: 14px;
+	color: #666;
+	padding-left: 48px;
+	float: left;
+	line-height: 36px;
+}
+.tables .scores{
+	padding-left: 110px;
+}
+.tables .rank{
+	padding-left:0;
+	text-align: center;
+}
+.scoresort .scsort1{
+	width: 200px;
+}
+.scoresort .scsort2{
+	width: 202px;
+}
+.scoresort .scsort3{
+	width:286px;
+}
+.scoresort .scsort4{
+	width:114px;
+}
+.scoretable{
+	overflow: hidden;
+}
+.scorenav{
+	width: 100px;
+	margin: 14px auto 17px;
+	overflow: hidden;
+}
+.scorenav li{
+	width:12px;
+	height: 12px;
+	background: url(../images/score1_03.gif) no-repeat;
+	float: left;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.scorenav .scoreliact{
+	background: url(../images/score2_06.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.scoretime{
+	margin-left:28px;
+}
+.add_teacher{
+	float: left;
+}
+.add_teacher input{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color:#666;
+	margin-left: 16px;
+}
+.score_edit input{
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	color:#666;
+}
+.edit_people{
+	float: left;
+	display: none;
+}
+.score_check{
+	float: left;
+	width:18px;
+	height: 18px;
+	margin: 7px 0 0 16px;
+}
+.score_all_check{
+	float: left;
+	margin: 5px 32px 0 13px;
+}
+.score_edit1{
+	margin-right:18px;
+	float: left;
+}
+.score_edit{
+	float: left;
+}
+.score_sum{
+	position: relative;
+	float: left;
+}
+.score_edit_check{
+	position: relative;
+	float: left;
+}
+.score_edit_check img{
+	position: absolute;
+	top: 12px;
+	right:10px;
+}
+.score_select{
+	position: absolute;
+	display: none;
+    background: #fff;
+    z-index: 8;
+    top: 33px;
+    font-size: 14px;
+    width: 99px;
+	border: 1px solid #a9a9a9;
+}
+.score_select li{
+	text-align: center;
+	line-height:35px;
+	cursor: pointer;
+}
+.score_select li:hover{
+	background: #ccc;
+}
+.score_btn{
+	margin-top:14px;
+}
+.score_teachpic ul{
+	overflow: hidden;
+    margin-left: 16px;
+    padding:0 0 10px 3px;
+}
+.score_teachpic li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin-right: 12px;
+    position: relative;
+    margin-top: 20px;
+}
+.score_teachpic li a{
+	display: block;
+    overflow: hidden;
+}
+.score_teachpic li:hover{
+	 box-shadow: 0 1px 10px 4px #ccc;
+}
+.score_checked{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+    display: none;
+}
+.score_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 16px auto 0;
+}
+.score_name{
+	color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 30px;
+}
+.score_post{
+	color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.alert_screen{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	z-index: 12;
+	display: none;
+}
+.alert_window{
+	width: 900px;
+	height:440px;
+	overflow: auto;
+	position: absolute;
+	z-index: 12;
+	background: #fff;
+	border: 1px solid #999999;
+	left: 50%;
+	margin-left: -450px;
+	top: 200px;
+	display: none;
+}
+.alert_tit{
+	width: 100%;
+	height:40px;
+	background: #ccc;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+.alert_check{
+	height:45px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.alert_right{
+	float: right;
+	margin-right: 36px;
+	margin-top: 10px;
+}
+.alert_right input{
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	display: block;
+	float: left;
+}
+.alert_right span{
+	float: left;
+}
+/*修改*/
+.alert_all ul{
+	overflow: hidden;
+    margin-left: 30px;
+    height:270px;
+    overflow: auto;
+    padding:0 0 10px 4px;
+}
+.alert_all ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.alert_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 16px auto 0;
+}
+.alert_check1{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+}
+.alert_name{
+	color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 30px;
+}
+.alert_post{
+	color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.alert_btns{
+	text-align: center;
+	margin-top: 28px;
+}
+.alert_btns input{
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	color: #666;
+	margin-right: 28px;
+}
+.class_start{
+	width:500px;
+	border: 1px solid #999;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	margin-left: -250px;
+	top: 200px;
+	z-index: 12;
+	padding: 67px 0 21px 0;
+	display: none;
+}
+.class_start_name{
+	float: left;
+    font-size: 14px;
+    margin: 0 28px 0 36px;
+}
+.class_start1{
+	font-size: 14px;
+	width: 300px;
+	float: left;
+}
+.class_start2{
+	float: left;
+}
+.class_sum{
+	width: 346px;
+    margin: 24px auto 0;
+    font-size: 14px;
+    line-height: 34px;
+}
+.clasore1{
+	position: relative;
+    margin-left: 48px;
+}
+.class_sum1{
+	float: left;
+    border: 1px solid #a9a9a9;
+    margin-right: 10px;
+}
+.class_sum_select{
+	width: 128px;
+    height: 34px;
+    float: left;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+}
+.class_sum_down{
+	float: right;
+    margin: 16px 16px 0 0;
+}
+.class_sum2{
+	width: 100px;
+    height: 36px;
+    float: left;
+    font-size: 14px;
+    color: #666666;
+}
+.class_sum3{
+	width: 130px;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #999;
+    text-align: center;
+    display: none;
+}
+.class_sum4{
+    width: 130px;
+    position: absolute;
+    top: 44px;
+    left: 132px;
+    background: #ccc;
+    text-align: center;
+}
+.class_sum4 li:hover{
+	background: #999999;
+	cursor: pointer;
+}
+.class_sum3 li:hover{
+	cursor: pointer;
+}
+.class_sum3 li{
+	line-height: 38px;
+}
+.class_sum4 li{
+	line-height: 38px;
+}
+.class_sum4 ul{
+	display: none;
+}
+.class_btns{
+	text-align: center;
+	margin-top: 33px;
+}
+.class_btns input{
+	width:120px;
+	height: 35px;
+	color: #666;
+	font-size: 14px;
+	margin-right: 26px;
+}
+.change_class_statue{
+	border: 1px solid #999;
+    position: absolute;
+    width: 500px;
+    margin-left: -250px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 67px 0 21px 0;
+    top: 200px;
+    display: none;
+}
+.change_class_statue1{
+	width: 346px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 34px;
+    position: relative;
+}
+.change_class_statue2{
+	margin-top: 81px;
+    text-align: center;
+}
+.change_class_stat1{
+	float: left;
+    margin-right: 23px;
+}
+.change_statue1{
+	width: 264px;
+    height: 34px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    position: relative;
+}
+.change_statue2{
+	width: 264px;
+    border: 1px solid #999;
+    position: absolute;
+    left: 79px;
+    top: 40px;
+    background: #fff;
+    display: none;
+}
+.change_input{
+	width: 230px;
+    height: 32px;
+    float: left;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+}
+.change_statue2 li{
+	text-align: center;
+	cursor: pointer;
+}
+.change_statue2 li:hover{
+	background: #ccc;
+}
+.change_class_statue2 input{
+	width:120px;
+	height: 35px;
+	color: #666;
+	margin-right: 26px;
+	font-size: 14px;
+}
+.stu_score_cbj{
+	float: left;
+	position: relative;
+}
+.stu_bj{
+	position: relative;
+}
+.stu_bj img{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+.stu_score_cbj1{
+	float: left;
+	margin-right: 18px;
+}
+.remove_tea{
+	width: 500px;
+	position: absolute;
+	z-index: 12;
+	top: 200px;
+	left: 50%;
+	margin-left: -250px;
+	background: #fff;
+	border: 1px solid #999999;
+	padding: 67px 0 21px 0;
+	display: none;
+}
+.remove_btns{
+	margin-top: 54px;
+	text-align: center;
+}
+.remove_btns input{
+	width: 120px;
+	height: 35px;
+	color: #666;
+	font-size: 14px;
+	margin-left: 54px;
+}
+.remove_tip{
+	text-align: center;
+	font-size: 18px;
+}
+.stu_score_btn{
+	margin-top:14px;
+}
+.stu_add_student input{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	margin-left: 16px;
+}
+.stu_score_edit{
+	float: left;
+}
+.stu_score_edit input{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.stu_score_select{
+	display: none;
+	position: absolute;
+	background: #fff;
+	width:99px;
+	z-index: 8;
+	border: 1px solid #a9a9a9;
+	margin-top: 9px;
+}
+.change_stubj li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.change_stunj li:hover{
+	cursor: pointer;
+}
+.stu_score_select li{
+	line-height: 38px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.stu_score_select li:hover{
+	background: #ccc;
+}
+.stu_score_check{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+	margin-left:14px;
+}
+.stu_score_all_check{
+	float: left;
+	margin: 4px 14px 0 12px;
+}
+.stu_add_student{
+	float: left;
+}
+.stu_edit_people{
+	float: left;
+	display: none;
+}
+.student_msg ul{
+	overflow: hidden;
+    margin-top: 10px;
+    padding: 10px 0 10px 10px;
+}
+.student_msg ul li a{
+	display: block;
+    overflow: hidden;
+}
+.student_msg ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 14px 20px 0;
+    position: relative;
+}
+.student_msg ul li:hover{
+	 box-shadow: 0 1px 10px 4px #ccc;
+}
+.student_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto 0;
+}
+.student_check{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+    display: none;
+}
+.student_name{
+	color: #333;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 16px;
+}
+.student_class{
+	text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.student_study{
+	text-align: center;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.student_study span{
+	font-size: 14px;
+    color: #666;
+}
+.change_stu{
+	border: 1px solid #999;
+    position: absolute;
+    width: 500px;
+    margin-left: -250px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 67px 0 21px 0;
+    top: 200px;
+    display: none;
+}
+.change_student2{
+	width: 264px;
+    height: 34px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    position: relative;
+}
+.change_select{
+	width: 230px;
+    height: 32px;
+    float: left;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+}
+.change_down{
+	float: right;
+    margin: 16px 16px 0 0;
+}
+.change_stunj{
+	width: 130px;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #999;
+    text-align: center;
+    display: none;
+}
+.change_stunj ul li{
+	line-height: 38px;
+}
+.change_stubj{
+	width: 130px;
+    position: absolute;
+    top: 41px;
+    right: 2px;
+    background: #ccc;
+    text-align: center;
+}
+.change_stubj ul{
+	display: none;
+}
+.change_stubj ul li{
+	line-height: 38px;
+}
+.change_student1{
+	float: left;
+    margin-right: 23px;
+}
+.change_stu1{
+	width: 346px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 34px;
+}
+.change_stu2 input{
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	color: #666;
+	margin-right: 27px;
+}
+.change_stu2{
+	text-align: center;
+	margin-top:66px;
+}
+.stu_change_statu{
+	border: 1px solid #999;
+    position: absolute;
+    width: 500px;
+    margin-left: -250px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 67px 0 21px 0;
+    top: 200px;
+    display: none;
+}
+.stu_change_statu1{
+	width: 346px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 34px;
+    position: relative;
+}
+.stu_change_statu2{
+	margin-top: 81px;
+    text-align: center;
+}
+.stu_change_statu2 input{
+	width: 126px;
+    height: 35px;
+    font-size: 14px;
+    color: #666;
+    margin-right: 34px;
+}
+.stu_change1 input{
+	width: 230px;
+    height: 32px;
+    float: left;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+}
+.stu_change2 li{
+	font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.stu_change1{
+	width: 264px;
+    height: 34px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    position: relative;
+}
+.stu_change_stat{
+	float: left;
+    margin-right: 23px;
+}
+.stu_change2{
+	width: 264px;
+    border: 1px solid #999;
+    position: absolute;
+    left: 79px;
+    top: 40px;
+    background: #fff;
+    display: none;
+}
+.timetable{
+	width: 1058px;
+	margin-top:23px;
+	border: 1px solid #999999;
+}
+.timetable_tit{
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+}
+.time_date_ul{
+	background:#ccc;
+	overflow: hidden;
+}
+.time_date_ul li{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	padding: 0 60px;
+}
+.time_date{
+	overflow: hidden;
+}
+.time_date_ul .time_date_li1{
+	padding: 0 51px;
+}
+.time_date1{
+	height:160px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.time_date1 .sw{
+	width: 40px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	margin-top: 2px;
+	font-size: 14px;
+	float: left;
+}
+.time_date2 .sw{
+	width: 40px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	margin-top: 2px;
+	font-size: 14px;
+	float: left;
+	padding: 0;
+}
+.time_date_ul .sw{
+	width: 40px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	margin-top: 2px;
+	font-size: 14px;
+	float: left;
+	padding: 0;
+}
+.time_date1 li{
+	width:144px;
+	border-right: 1px solid #e4e4e4;
+	float: left;
+	height: 160px;
+	cursor: pointer;
+	position: relative;
+	word-break: break-word;
+}
+.time_date2{
+	margin-top:14px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.time_date2 li{
+	width:144px;
+	border-right: 1px solid #e4e4e4;
+	float: left;
+	height: 160px;
+	cursor: pointer;
+	position: relative;
+}
+.time_table{
+	overflow: hidden;
+	padding-bottom: 143px;
+}
+.kb_add{
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 40px;
+	height: 42px;
+	margin-left: -20px;
+	margin-top: -21px;
+}
+/*添加*/
+.kb_add1{
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 40px;
+	height: 42px;
+	margin-left: -20px;
+	margin-top: -21px;
+}
+.time_date1 li:hover .kb_add{
+	display: block;
+}
+.time_date2 li:hover .kb_add1{
+	display: block;
+}
+.add_music{
+	width:638px;
+	height:340px;
+	border: 1px solid #999999;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -319px;
+	background: #fff;
+	z-index: 12;
+	display: none;
+}
+.add_music_tit{
+	height:40px;
+	background: #ccc;
+	text-align: center;
+	line-height: 40px;
+}
+.music_tit{
+	overflow: hidden;
+}
+.music_kc{
+	font-size: 14px;
+	width: 76px;
+	display: block;
+	float: left;
+}
+.music_class{
+	font-size: 16px;
+	display: block;
+	float: left;
+}
+.music_time1{
+	width: 154px;
+	height: 34px;
+	float: left;
+	border: 1px solid #a9a9a9;
+	margin-right: 18px;
+}
+.music_time1 input{
+	border: 0;
+	width:122px;
+	height: 34px;
+}
+.music_time2 input{
+	border: 0;
+	width:122px;
+	height: 34px;
+}
+.music_time2{
+	float: left;
+	width: 154px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+}
+.music_btn input{
+	width: 120px;
+	height: 36px;
+	font-size: 14px;
+	color: #666;
+}
+.music_bz textarea{
+	width: 506px;
+	height: 80px;
+	resize: none;
+	outline: none;
+}
+.music_time{
+	margin-top: 18px;
+}
+.music_bz{
+	margin-top: 16px;
+}
+.add_music_center{
+	margin: 33px 0 0 25px;
+}
+.music_btn{
+	text-align: center;
+	margin-top: 30px;
+}
+.music_btn1{
+	margin-right: 26px;
+}
+.time_date1 p{
+	text-align: center;
+	font-size: 14px;
+	color:#666666;
+	margin-top: 10px;
+}
+.time_date{
+	cursor: pointer;
+}
+.music_class{
+	color: #666;
+}
+.music_kc{
+	line-height: 36px;
+}
+.music_time1 input{
+	color: #666;
+}
+.add_student{
+	width: 900px;
+	border: 1px solid #a9a9a9;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -450px;
+	background: #fff;
+	z-index: 12;
+	display: none;
+}
+.add_student_title{
+	height:40px;
+	background: #cccccc;
+	text-align: center;
+	line-height: 40px;
+}
+.add_bjclick{
+	position: relative;
+}
+.add_bjclick img{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+/*修改*/
+.add_bj_select1 ul{
+	position: absolute;
+	width: 138px;
+    background: #fff;
+    border: 1px solid #a9a9a9;
+    font-size: 14px;
+    z-index: 10;
+}
+/*修改*/
+.add_bj_select1 ul li{
+	text-align: center;
+	line-height: 38px;
+	width: 138px;
+}
+.add_bj_select1 ul li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.add_student_li{
+	position: relative;
+}
+/*修改*/
+.add_bj_select2{
+	position: absolute;
+	left: 138px;
+	z-index: 10;
+	overflow:hidden;
+	background: #ccc;
+	border: 1px solid #a9a9a9;
+}
+/*修改*/
+.add_bj_select2 ul{
+	width: 136px;
+	display: none;
+}
+/*修改*/
+.add_bj_select2 ul li{
+	line-height: 38px;
+	text-align: center;
+	width: 138px;
+}
+.add_bj_select2 ul li:hover{
+	background: #999;
+	cursor: pointer;
+}
+/*修改*/
+.add_bj_select1{
+	display: none;
+}
+.add_student_banji ul li{
+	float: left;
+}
+.add_student_banji .add_bjclick input{
+	width: 138px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.add_student_banji li input{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.stu_add_hx{
+	font-size:20px;
+	color: #b2b2b2;
+	padding: 0 16px;
+}
+.add_student_banji{
+	border-bottom: 1px solid #e4e4e4;
+	padding: 13px 30px;
+}
+.add_all_check{
+	float: right;
+}
+.add_all_check input{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-top:3px;
+	margin-right: 10px;
+}
+.add_all_check span{
+	display: block;
+	float: left;
+    margin-top: 3px;
+}
+.add_center{
+	height:552px;
+	overflow: auto;
+	border-bottom: 1px solid #a9a9a9;
+	padding-bottom: 26px;
+}
+.add_center0 ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 14px 20px 0;
+    position: relative;
+    margin:21px 0 0 21px;
+}
+.add_center0 li a{
+	display: block;
+    overflow: hidden;
+}
+.add_center1 ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 14px 20px 0;
+    position: relative;
+    margin:21px 0 0 21px;
+}
+.add_center1 li a{
+	display: block;
+    overflow: hidden;
+}
+.add_cen1{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto 0;
+}
+.add_cen2{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+}
+.add_cen3{
+	color: #333;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 16px;
+}
+.add_cen4{
+	text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.add_cen5{
+	text-align: center;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.add_cen5 span{
+	font-size: 14px;
+    color: #666;
+}
+.add_student_btn{
+	margin: 14px 0;
+	text-align: center;
+}
+.add_student_btn input{
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	color: #666;
+}
+.add_student_cancle{
+	margin-right: 27px;
+}
+.add_cen2_tcheck{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.add_all_check1{
+	float: right;
+	display: none;
+}
+.add_all_check1 input{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-top:3px;
+	margin-right: 10px;
+}
+.add_all_check1 span{
+	display: block;
+	float: left;
+    margin-top: 3px;
+}
+/*修改*/
+.add_tit_center{
+	width: 440px;
+    margin: 90px auto;
+}
+.add_tit li{
+	height: 28px;
+    width: 162px;
+    background: #e6e6e6;
+    color: #333;
+    line-height: 28px;
+    font-size: 12px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+.add_tit{
+	margin:20px 0 0 16px;
+}
+.new_student_msg li input{
+	width: 140px;
+    height: 34px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.new_student_msg li{
+	width: 144px;
+    float: left;
+    height: 38px;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+}
+.add_student1{
+	width: 138px;
+	left: 0;
+	top: 40px;
+	position: absolute;
+	border: 1px solid #a9a9a9;
+	display: none;
+}
+.add_student1 li{
+	width: 138px;
+	float: none;
+	background: #fff;
+}
+.add_student1 li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.classse1{
+	position: absolute;
+	right: 11px;
+    top: 15px;
+}
+.classse2{
+	position: absolute;
+    right: 8px;
+    top: 9px;
+}
+.all_add_student{
+	position: absolute;
+	width: 138px;
+	left: 140px;
+	top: 40px;
+}
+.all_add_student ul li{
+	width: 138px;
+	background: #ccc;
+	margin-right: 0;
+}
+.all_add_student ul li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.new_student_msg .new_student_msg1{
+	margin: 14px 0 0 10px;
+	float: left;
+}
+.all_add_student ul{
+	display: none;
+}
+.new_student_msg .new_student_num{
+	float: left;
+    display: block;
+    line-height: 60px;
+    font-size: 12px;
+    width: 12px;
+}
+.new_student_msg{
+	width: 842px;
+	margin: 0 auto;
+}
+/*添加样式*/
+.add_center1 li{
+	float: left;
+	width: 198px;
+	border: 1px solid #a9a9a9;
+	margin: 20px 0 0 20px;
+	padding-bottom: 10px;
+	position: relative;
+	box-shadow: 0 1px 10px 4px #fff;
+}
+.add_center1 li:hover{
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.add_center0 li{
+	float: left;
+	width: 198px;
+	border: 1px solid #a9a9a9;
+	margin: 20px 0 0 20px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.add_center2_tit1 span{
+	display: block;
+    width: 120px;
+    float: left;
+    line-height: 36px;
+}
+.add_center2_tit1 input{
+	width: 264px;
+    height: 36px;
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+}
+.add_center2_tit1{
+	margin-top: 20px;
+	position: relative;
+}
+.add_center_class{
+	width: 264px;
+	border: 1px solid #ccc;
+	height: 36px;
+	float: left;
+}
+.add_center_class input{
+	width:246px;
+	border: 0;
+}
+.add_center_class img{
+	margin-top: 10px;
+}
+.add_center_class1{
+	width: 264px;
+	border: 1px solid #ccc;
+	height: 36px;
+	float: left;
+}
+.add_center_class1 input{
+	width:238px;
+	border: 0;
+}
+.add_center_class1 img{
+	margin-top: 10px;
+}
+.add_center2_class1{
+	position: absolute;
+	left: 120px;
+    top: 40px;
+    z-index: 10;
+    display: none;
+}
+.add_center2_class1 ul{
+	width: 138px;
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid #a9a9a9;
+}
+.add_center2_class1 ul li{
+	line-height: 38px;
+	width: 138px;
+	text-align: center;
+}
+.add_center2_class1 ul li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.add_center2_class2{
+	position: absolute;
+    left: 260px;
+    top: 40px;
+    width: 138px;
+    background: #ccc;
+    text-align: center;
+    line-height: 38px;
+    z-index: 10;
+}
+.add_center2_class2 ul{
+	display: none;
+}
+.add_center2_class2 ul li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.add_center0{
+	display: block;
+}
+.add_center1{
+	display: none;
+}
+.add_center2{
+	display: none;
+}
+.alert_all ul li:hover{
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.add_center0 li:hover{
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.class_start1 div{
+	float: left;
+	margin-top: 2px;
+}
+.time_date2 p{
+	text-align: center;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+}

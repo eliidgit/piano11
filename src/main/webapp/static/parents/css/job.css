@@ -1,0 +1,340 @@
+body{
+	background:#eaebef;
+}
+.job_center{
+	overflow: hidden;
+}
+.job_cent1{
+	width: 97%;
+	margin: 0 auto;
+}
+.job_align{
+   position: absolute;
+    left: -0.6rem;
+    top: 0.5rem;
+    width: 1.6rem;
+    text-align: center;
+    color: #aab2c8;
+}
+.job_part1{
+	background: url(../img/work/back.png) no-repeat;
+	background-size: 100% 100%;
+	width:7.35rem;
+	height: 4.07rem;
+	overflow: hidden;
+	margin-top: 0.15rem;
+}
+.job_part2{
+	position: relative;
+	/*overflow: hidden;*/
+	width: 7.35rem;
+	height: 5.31rem;
+	background:url(../img/work/bj1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.job_part2_imgs img{
+	width: 0.06rem;
+	height: 0.84rem;
+	position: absolute;
+}
+.job_part2_img1{
+	left: 0.33rem;
+	top: -0.48rem;
+}
+.job_part2_img2{
+	right: 0.38rem;
+	top: -0.48rem;
+}
+.job_part2_center{
+	margin-top:0.07rem;
+}
+.job_part2_center a{
+	display: block;
+}
+.job_centit{
+	width: 100%;
+	overflow: hidden;
+}
+.job_cont_bot1{
+	margin-top: 0.78rem;
+}
+.job_hour{
+	font-size: 0.26rem;
+	float: left;
+	margin-left: 0.2rem;
+	color: #4fc2b9;
+	line-height: 0.88rem;
+}
+.teacher_hx{
+	width:2px;
+	height:0.6rem;
+	background:#ace2de;
+	float:left;
+}
+.job_hour1{
+	font-size: 0.26rem;
+	float: left;
+	color: #52617d;
+	margin: 0 0 0 0.2rem;;
+}
+.job_detail{
+	font-size: 0.24rem;
+	float: right;
+	margin: 0.3rem 0.42rem 0 0;
+	width:0.15rem;
+	height: 0.3rem;
+}
+.job_detail1{
+	font-size: 0.24rem;
+	float: right;
+	margin: 0.04rem 0.42rem 0 0;
+	width:0.15rem;
+	height: 0.3rem;
+}
+.job_centit_center a{
+	display: block;
+	overflow: hidden;
+}
+.job_cont{
+	color: #333;
+}
+.job_cont_hx{
+	width: 0.4rem;
+	float: left;
+}
+.job_first{
+	margin-top: 0.32rem;
+}
+.new_job{
+	color: #6f7b91;
+	font-size:0.28rem;
+	margin: 0.46rem 0 0.51rem 0.2rem;
+}
+.new_job_cont{
+	width: 6rem;
+	margin: 0 auto;
+}
+.new_job_cont0_left span{
+	display: block;
+	margin-top: 0.07rem;
+}
+.new_job_cont0_left{
+	float: left;
+}
+.new_job_cont0_right{
+	width: 2rem;
+	height:0.04rem;
+	float: left;
+	background:#dee3f2;
+	margin: 0.2rem 0.06rem 0;
+}
+.new_job_cont0{
+	font-size: 0.22rem;
+	float: left;
+	position:relative;
+}
+.new_job_cont0 a{
+	color:#aab2c8;
+}
+.new_job_cont0 img{
+	width: 0.44rem;
+	height: 0.44rem;
+}
+.new_job_cont0 .music_theroy{
+	width: 0.4rem;
+	height: 0.44rem;
+}
+.reward{
+	float: left;
+	font-size: 0.2rem;
+	margin: 0.05rem 0.08rem 0 0.17rem;
+	color:#52617d;
+}
+.job_star{
+	float: left;
+}
+.job_star img{
+	float: left;
+	width: 0.38rem;
+	height: 0.35rem;
+	margin-left: 0.1rem;
+}
+.teacher_remark{
+	margin:0.8rem 0 0 0.34rem;
+	overflow: hidden;
+}
+.teacher_remark p{
+	font-size: 0.23rem;
+	color:#6f7b91;
+	display: block;
+	float: left;
+}
+.teacher_remark_right p{
+	width: 4.81rem;
+	padding-left: 0.4rem;
+	line-height:0.4rem;
+}
+.job_stars{
+	overflow: hidden;
+	position: absolute;
+    width: 2rem;
+    left: -0.8rem;
+    top: 0;
+    display: -moz-box;
+	display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;  
+    justify-content: center;
+}
+.job_stars img{
+	width: 0.24rem;
+	height: 0.23rem;
+	margin-left:0.06rem;
+	float: left;
+}
+.job_exp{
+	font-size: 0.24rem;
+	color:#aab2c8;
+	margin-top: 0.4rem;
+	text-align: center;
+}
+.job_exp1{
+	font-size: 0.24rem;
+	color:#e5e8f2;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+.tea_remark_top img{
+	width:0.41rem;
+	height:0.37rem;
+	margin: 0 auto;
+}
+.teacher_remark_left{
+	float: left;
+	margin-right:0.47rem;
+}
+.teacher_remark_left p{
+	font-size: 0.2rem;
+	color: #4fc2b9;
+	margin-top: 0.11rem;
+}
+.teacher_remark_right{
+	float:left;
+	-webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: box;
+    display: flex;
+	min-height:0.64rem;
+}
+.job_circle{
+	width: 0.4rem;
+	margin: 0.35rem auto 0;
+}
+.job_sort{
+	width: 6rem;
+	margin: 0 auto;
+}
+.job_circle1{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-top: 0.04rem;
+}
+.job_sort1{
+	float: left;
+	position:relative;
+}
+.job_sort1_left{
+	float: left;
+	position: relative;
+}
+.job_sort1_right{
+	float: left;
+	width: 2rem;
+    height:0.04rem;
+    background: #dee3f2;
+    margin: 0.55rem 0.1rem;
+}
+.job_circle img{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+}
+.job_circle .music_theroy{
+	width: 0.4rem;
+	height: 0.44rem;
+}
+.job_percent{
+	font-size:0.2rem;
+	color:#aaaaaa;
+	position: absolute;
+	top: 1.3rem;
+	left: -1rem;
+	width: 2.7rem;
+}
+.job_cent_left{
+	width: 0.26rem;
+	height: 0.26rem;
+}
+.job_cent_left1{
+	margin-top:0.72rem;
+	margin-left: 0.1rem;
+}
+.job_cent_left2{
+	margin-left: 0.1rem;
+}
+.job_cent_hx{
+	width: 3px;
+	height: 100%;
+}
+.job_cont_right{
+	float:left;
+	width:100%;
+	padding-bottom: 0.62rem;
+}
+.job_centit_center{
+	width:100%;
+	overflow: hidden;
+	height: 0.88rem;
+}
+.job_centit_center1_left{
+	float: left;
+}
+.job_centit_center1{
+	width:100%;
+	overflow: hidden;
+	margin-top: 0.64rem;
+}
+.job_cont_left{
+	height: 0;
+}
+.job_cont_left1{
+	height: 0;
+}
+.job_cont_left1 img{
+	width:0.26rem;
+	height: 0.26rem;
+}
+.job_centit_top{
+	position: absolute;
+    height: 0.8rem;
+    width: 3px;
+    background: #c9c9c9;
+    left: 0.1rem;
+    top: 0px;
+}
+.job_star_img{
+	/*display: -moz-box;
+	display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;  
+    justify-content: center;*/  
+}

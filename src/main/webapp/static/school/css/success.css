@@ -1,0 +1,117 @@
+.success{
+	width: 1200px;
+	margin: 0 auto;
+}
+.regsuccess{
+	width:1100px;
+	margin: 0 auto;
+	background: #fff;
+}
+.regsuc{
+	width:1040px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.regstu{
+ 	font-size: 14px;
+ 	color:#999;
+ 	margin-top: 12px;	
+}
+.zc{
+	font-size:24px;
+	text-align: center;
+	margin-top: 54px;
+}
+.backstu1{
+	text-align: center;
+	margin-bottom: 44px;
+}
+.backstu2{
+	width:140px;
+	height:30px;
+	color: #666;
+	margin-top: 30px;
+}
+.statue{
+	width: 1040px;
+	margin: 0 auto;
+	border-top: 1px solid #e4e4e4;
+}
+.state1{
+	width: 960px;
+	overflow: hidden;
+	margin: 25px auto 0;
+}
+.state1 ul li{
+	float: left;
+	height:28px;
+	background:#e6e6e6;
+	color: #333;
+	margin-left:1px;
+	line-height: 28px;
+	text-align: center;
+}
+.order{
+	width: 87px;
+}
+.sname{
+	width: 227px;
+}
+.spone{
+	width:285px;
+}
+.regstat{
+	width:356px;
+}
+.statul{
+	width: 1018px;
+	margin: 13px auto 31px;
+	border: 1px solid #999;
+	overflow: auto;
+	height: 390px;
+}
+.statul1{
+	overflow: hidden;
+}
+.statul1 .spareg{
+	text-align: left;
+	width:272px;
+	padding-left: 106px;
+}
+.statul1 li{
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	color:#666666;
+	line-height: 64px;
+}
+.snum{
+	width: 138px;
+}
+.staname{
+	width:182px;
+}
+.sparent{
+	width:302px;
+}
+.sparent span{
+	margin-left: 22px;
+}
+.spareg span{
+	margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

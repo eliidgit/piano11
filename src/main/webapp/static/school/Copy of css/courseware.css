@@ -1,0 +1,159 @@
+.courseware{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #f5f5f5;
+}
+.courseware_center{
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.course_top{
+	height: 38px;
+	background:#f0f0f0;
+	margin-top: 22px;
+}
+.courseware_center1{
+	width: 1040px;
+	margin: 0 auto;
+}
+.course_top ul li{
+	padding: 0 30px;
+	line-height: 34px;
+	border-bottom: 4px solid #f0f0f0;
+	float: left;
+	margin-right: 35px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.course_top .course_topact{
+	border-bottom: 4px solid #666;
+}
+.course_search{
+	width: 268px;
+	border: 1px solid #999999;
+	height: 28px;
+	border-radius: 5px;
+	overflow: hidden;
+	float: right;
+}
+.classserach1{
+	width: 222px;
+	float: left;
+	height:26px;
+	border: 0;
+	padding-left: 10px;
+}
+.course_search_k{
+	overflow: hidden;
+	padding: 10px 0 12px 14px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.courseware_li{
+	overflow: hidden;
+	padding: 20px 0 20px 4px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.courseware1{
+	width: 100px;
+	float: left;
+}
+.courseware2{
+	float: left;
+}
+.courseware3{
+	float: right;
+}
+.courseware3 input{
+	width:100px;
+	height:30px;
+	margin-top: 8px;
+}
+.courfirst1{
+	font-size: 16px;
+	color:#333;
+}
+.courfirst2{
+	font-size: 14px;
+	color:#999;
+	margin-top: 10px;
+}
+.courfirst3{
+	position: relative;
+}
+.courseware_update{
+	position: absolute;
+	width: 38px;
+	height: 18px;
+	background:#ff0033;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	top: 0;
+	right:-38px;
+}
+.courseware_page{
+	text-align: center;
+	padding: 24px 0;
+}
+.courseware_page input{
+	width: 30px;
+	height: 30px;
+	color:#666666;
+	margin-right: 10px;
+}
+.courseware_page span{
+	margin-right: 10px;
+}
+.courseware_page .coursepage_next{
+	width: 63px;
+	height: 30px;
+}
+.course_hx{
+	padding: 0 12px;
+	font-size: 20px;
+	float: left;
+	color: #b2b2b2;
+}
+.course_select ul li{
+	float: left;
+}
+.course_select ul li input{
+	width: 70px;
+	height: 30px;
+	color:#666;
+	font-size:14px;
+}
+.demo_who{
+	font-size: 14px;
+	color: #999;
+	margin-top: 8px;
+}
+.demo_cen1 img{
+	border: 1px solid #797979;
+}
+.demo_name{
+	color: #333;
+	font-size: 16px;
+	margin-top:18px;
+}
+.demo_whonaem{
+	margin-right:44px;
+}
+.demo_cen{
+	float: left;
+	margin: 20px 0 0 3px;
+}
+.demo_nomargin{
+	margin-right: 0;
+}
+.courseware_center_sum1{
+	overflow: hidden;
+	padding-bottom:14px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.course_select{
+	display:none;
+}

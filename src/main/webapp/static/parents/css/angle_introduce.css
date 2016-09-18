@@ -1,0 +1,51 @@
+body{
+	background:#eaebef;
+}
+.angle_introduce{
+	width:97%;
+	background:#fff;
+	margin: 0.1rem auto 0.55rem;
+	border-radius: 4px;
+	box-shadow: 4px 4px 5px #dbdee8;
+}
+.angle_intro_title{
+	font-size: 0.28rem;
+	color:#52617d;
+	height: 0.88rem;
+	border-bottom: 1px solid #eaebef;
+	line-height: 0.88rem;
+	padding-left: 0.2rem;
+}
+.angle_intro_time{
+	font-size: 0.2rem;
+	color:#ababab;
+	margin-top: 6px;
+}
+.angle_center{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.angel_cont p{
+	font-size: 0.24rem;
+	color: #6f7b91;
+	margin-top: 0.24rem;
+	margin: 0.3rem auto;
+	line-height: 0.42rem;
+}
+.angle_intro_pic1{
+	width: 81%;
+	margin: 0 auto;
+}
+.angle_intro_pic1 img{
+	width:100%;
+}
+.angle_introcenter{
+	width: 87%;
+	margin: 0.5rem auto 0;
+}
+.angle_intro_pic2{
+	width:100%;
+}
+.angle_intro_pic2 img{
+	width:100%;
+}

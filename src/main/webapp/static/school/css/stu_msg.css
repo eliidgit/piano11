@@ -1,0 +1,800 @@
+.stu_center{
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.stusent_mag{
+	width:1200px;
+	margin: 0 auto;
+}
+.stu_cen{
+	width: 1120px;
+	margin: 0 auto;
+	min-height: 550px;
+}
+.stu_search{
+	padding:16px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.stu_searchk{
+    overflow: hidden;
+    float: right;
+}
+.stu_search1{
+	width: 24px;
+	height: 24px;
+	background: url(../img/spirit_img.png) no-repeat -347px -52px;
+	float: left;
+	margin: 3px 0 0 6px;
+}
+.stu_searchk input{
+	display: block;
+    float: left;
+    border: 0;
+    height: 28px;
+    width: 244px;
+    font-size: 12px;
+    padding-left: 14px;
+   	border: 1px solid #e0e1e5;
+   	border-radius: 6px;
+   	color:#b4b4b4;
+}
+.stu_searchk .stuact{
+	border: 1px solid #e33a44;
+	color:#e33a44;
+	}
+.stu_searchk img{
+	display: block;
+    float: right;
+    margin: 4px 5px 0 0;
+}
+.all_stu{
+	margin: 0 auto;
+	height: 50px;
+	border-bottom: 1px solid #e4e4e4;
+	background: #ebe8e7;
+}
+.all_stu1{
+	position: relative;
+	float: left;
+	z-index: 10;
+	border-radius: 30px;
+	width:90px;
+	height: 30px;
+	background: #fff;
+	margin: 10px 0 0 10px;
+}
+.all_stu2{
+	float: right;
+}
+.all_stu1 input{
+	width:70px;
+	height: 30px;
+	font-size: 12px;
+	color:#656565;
+	border: 0;
+	background: #fff;
+	border-radius: 30px;
+}
+.stu_down{
+	position: absolute;
+	right: 8px;
+	top:12px;
+	width: 10px;
+	height: 5px;
+	background: url(../img/spirit_img.png) no-repeat -107px -62px;
+}
+.all_stu2 input{
+	width: 90px;
+	height: 30px;
+	font-size: 12px;
+	float: left;
+	line-height: 30px;
+	margin: 10px 10px 0 0;
+	background:#968885;
+	color: #fff;
+	border: 0;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.all_stu2 .batch_href1{
+	background: #968885;
+	color: #fff;
+	border: 0;
+	border-radius: 30px;
+	width: 90px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+}
+.all_stu2 .batch_href2{
+	background: #968885;
+	color: #fff;
+	border: 0;
+	border-radius: 30px;
+}
+.stu_num{
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-left:11px;
+	line-height: 50px;
+	color: #999999;
+}
+.every_stu{
+	margin: 0 auto;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ebe8e7;
+}
+.every_stu .every_stu1 .nomargin_right{
+	margin-right: 0;
+}
+.every_stu .every_stu1{
+	width: 1170px;
+}
+.every_stu .every_stu1 li{
+	width: 198px;
+    height: 248px;
+	border:1px solid #ebebeb;
+	box-shadow: 0 1px 10px 4px #fff;
+	float: left;
+	margin: 30px 30px 0 0;
+	position: relative;
+	background: #fbfbfb;
+}
+.every_stu .every_stu1 li:hover{
+	background: #fff;
+	box-shadow: 0 1px 10px 4px #d8d8d8;
+	cursor: pointer;
+}
+.every_stu .every_stu1 .li_act{
+	background: #fff;
+	box-shadow: 0 1px 10px 4px #d8d8d8;
+	cursor: pointer;
+}
+.every_stu .every_stu1 .li_act p{
+	color:#9ac170;
+}
+.every_stu .every_stu1 .li_act .stu_tx{
+	border: 6px solid #9ac170;
+}
+.every_stu .every_stu1 li:hover p{
+	color:#9ac170;
+}
+.every_stu .every_stu1 li:hover .stu_tx{
+	border: 6px solid #9ac170;
+}
+.every_stu .every_stu1 li a{
+	display: block;
+	overflow: hidden;
+}
+.stu_tx{
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 15px auto 0;
+	border: 6px solid #fbfbfb;
+}
+.stu_tx img{
+	width: 120px;
+	height:120px;
+	border-radius: 50%;
+}
+.stu_name{
+	color: #404040;
+	font-size:17px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 16px;
+}
+.stu_class{
+	text-align: center;
+	color: #999999;
+	margin-top: 15px;
+	line-height: 12px;
+}
+.stu_number{
+	text-align: center;
+	margin-top: 15px;
+	line-height: 14px;
+}
+.stu_number span{
+	font-size: 12px;
+	color: #8ac14f;
+}
+.stu_page{
+	padding-bottom: 31px;
+	overflow: hidden;
+}
+.stu_page input{
+	width: 30px;
+	height: 30px;
+	color: #666;
+	margin-right: 6px;
+}
+.stu_page span{
+	margin-right: 6px;
+	color: #666;
+}
+.select_class2 ul{
+	display: none;
+}
+.all_stu2_batch .all_stu2_check{
+	float: left;
+	margin:16px 35px 0 0;
+	display: none;
+}
+.all_stu2_check a{
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-top: 2px;
+	background:url(../img/spirit_img.png) no-repeat -218px -54px;
+	border: 0;
+}
+.all_stu2_check span{
+	font-size: 12px;
+	color: #333;
+	float: left;
+	margin:2px 0 0 10px;
+}
+.all_stu2_cancel{
+	display: block;
+	float: left;
+	display: none;
+}
+.all_stu2_edit{
+	float: left;
+	position: relative;
+	margin-left: 18px;
+	display: none;
+	z-index: 2;
+}
+.all_stu2_edit img{
+	position: absolute;
+	top: 12px;
+	right:14px;
+}
+.stu_change{
+	position: absolute;
+	background: #968887;
+	right: 10px;
+	top: 17px;
+	z-index: 1;
+	width: 90px;
+	display: none;
+	color: #fff;
+	border-radius: 14px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.stu_change li{
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+.all_stu2_batch{
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+.stu_batch_check{
+	position: absolute;
+	top: 9px;
+	right: 15px;
+	display: none;
+}
+.change_class{
+	position: absolute;
+	width:600px;
+	margin-left: -300px;
+	left: 50%;
+	z-index: 12;
+	background: #fff;
+	top:200px;
+	display: none;
+	padding: 40px 0 48px 0;
+}
+.change_class1{
+	line-height: 40px;
+	margin-left: 108px;
+}
+.change_btn{
+	margin-top:20px;
+}
+.change_btn input{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #666;
+	border: 0;
+	border-radius: 30px;
+	background: #f4f0ef;
+}
+.change_btn .change_btn_save{
+	background: #9b918f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.change_btn .change_btn_cancle{
+	margin-left:170px;
+	margin-right: 23px;
+}
+.change_class2 {
+    float: left;
+    margin-right: 23px;
+    color: #b4b4b4;
+}
+.change_class3 {
+    width: 258px;
+    height: 38px;
+    border: 1px solid #e1e0e5;
+    border-radius: 6px;
+    float: left;
+    position: relative;
+}
+.change_class4 {
+    width: 220px;
+    height: 38px;
+    float: left;
+    border: 0;
+    color: #cecece;
+    line-height: 38px;
+    margin-left: 14px;
+}
+.change_class3_down {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    float: left;
+    margin-top: 16px;
+}
+.change_class_tit{
+	text-align: center;
+	font-size: 21px;
+	color:#666666;
+	margin-bottom: 20px;
+}
+.change_nj {
+    width: 158px;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    display: none;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+.change_bj {
+    width: 100px;
+    position: absolute;
+    top: 42px;
+    right: -2px;
+    background: #e5e5e5;
+    text-align: center;
+    border-radius: 6px;
+}
+.change_nj li {
+	width: 144px;
+	padding-left: 14px;
+    line-height: 38px;
+    cursor: pointer;
+    color: #676767;
+}
+.change_nj li:hover{
+    background: #e5e5e5;
+}
+.change_bj ul {
+    display: none;
+    padding: 10px 0;
+}
+.change_bj li {
+    line-height: 30px;
+    cursor: pointer;
+}
+.change_bj li:hover{
+    background: #9a928f;
+    color: #fff;
+}
+.change_statue {
+    border: 1px solid #999;
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 39px 0 50px 0;
+    top: 200px;
+    display: none;
+}
+.change_tit{
+	text-align: center;
+	font-size:21px;
+	color:#666666;
+	margin-bottom: 20px;
+}
+.change_statue1 {
+    margin-left: 108px;
+    line-height: 40px;
+    position: relative;
+}
+.change_statue_btn {
+    margin-top: 20px;
+}
+.change_statue_cancle{
+	margin-left:170px;
+}
+.change_statue2 {
+    float: left;
+    margin-right: 23px;
+    color: #bfbfbf;
+}
+.change_statue3 {
+    width: 258px;
+    height: 38px;
+    border: 1px solid #e1e0e5;
+    float: left;
+    position: relative;
+    border-radius: 6px;
+    z-index: 2;
+}
+.change_statue_bj {
+    width: 256px;
+    border: 1px solid #e1e1e1;
+    position: absolute;
+    left: 72px;
+    top: 38px;
+    background: #fff;
+    display: none;
+    border-radius: 6px;
+    border-top: 0;
+    z-index: 1;
+}
+.change_statue4 {
+    width: 220px;
+    height: 38px;
+    float: left;
+    border: 0;
+    color: #bbbbbb;
+    padding-left: 10px;
+    margin-left: 4px;
+    line-height: 38px;
+}
+.change_statue3 span{
+	display: block;
+	width: 7px;
+	height: 7px;
+	background: url(../img/spirit_img.png) no-repeat -107px -62px;
+	float: left;
+	margin-top:16px;
+}
+.change_statue_bj li {
+    cursor: pointer;
+    color:#959595;
+    width: 242px;
+	padding-left: 14px;
+}
+.change_statue_bj li:hover{
+	background: #e5e5e5;
+}
+.change_statue_btn input {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 34px;
+    background: #f4f0ef;
+    border: 0;
+    border-radius: 30px;
+}
+.change_statue_btn .change_statue_save{
+	background:#9b918f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.stu_all_change{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 11;
+	display: none;
+}
+.add_new_student{
+	width: 600px;
+	background: #fff;
+	position: fixed;
+	margin-left: -300px;
+	margin-top:-300px;
+	left: 50%;
+	top:50%;
+	z-index: 12;
+	display: none;
+}
+.add_new_top{
+	height:50px;
+	background:#ece8e7;
+	font-size: 17px;
+	color:#a7a6a4;
+	text-align: center;
+	line-height: 50px;
+}
+.add_new_tit{
+	margin-top: 20px;
+    overflow: hidden;
+}
+.add_new_hx0{
+	width: 20px;
+    height: 1px;
+    background: #eaeaea;
+    float: left;
+    margin-top: 11px;
+}
+.add_new_cent{
+	float: left;
+    color: #5d4e4b;
+    margin: 0 20px;
+    font-size: 18px;
+}
+.add_new_hx1{
+	width: 432px;
+    height: 1px;
+    background: #eaeaea;
+    float: left;
+    margin-top: 11px;
+}
+.add_new_center{
+	margin: 0 auto;
+    position: relative;
+    height: 450px;
+    overflow: auto;
+}
+.add_stu_cent{
+	padding-left: 96px;
+	padding-bottom: 20px;
+}
+.add_stu_btn{
+	padding: 30px 0;
+    border-top: 1px solid #ebe8e7;
+}
+.add_stu_btn input{
+	width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 20px;
+    background: #9b928f;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px #ddd9d7;
+}
+.add_stu_btn .add_stu_cancle{
+	margin-left: 170px;
+    background: #f3f0ee;
+    color: #666;
+    box-shadow: 0px 0px 0px #fff;
+}
+.add_stu_cent1{
+	margin-top: 10px;
+	position: relative;
+}
+.add_stu_name{
+	width: 92px;
+    float: left;
+    text-align: right;
+    color: #a5a5a5;
+    line-height: 40px;
+    margin-right: 16px;
+}
+.add_stu_cent1 input{
+	display: block;
+    float: left;
+    width: 244px;
+    height: 38px;
+    color: #b8b8b8;
+    font-size: 12px;
+    line-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #e0e1e5;
+    padding-left: 14px;
+}
+.add_stu_cent1 .add_relate{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+.add_stu_cent1 .add_relate_down{
+	float: left;
+	width: 60px;
+	border: 1px solid #e1e0e5;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.add_stu_cent1 .add_relation_name0{
+	width: 46px;
+	border: 0;
+	padding-left: 0;
+	text-align: center;
+}
+.add_relate_down span{
+	width: 7px;
+	height: 6px;
+	display: block;
+	float:left;
+	background: url(../img/spirit_img.png) no-repeat -108px -62px;
+	margin-top: 16px;
+}
+.add_stu_cent1 .add_relation_nam1{
+	float: left;
+	width:56px;
+	margin-right: 10px;
+}
+.add_stu_cent1 .add_relation_phone{
+	float: left;
+	width: 91px;
+	margin-right: 10px;
+}
+.add_relation_ul{
+	position: absolute;
+    top: 40px;
+    width: 62px;
+    color: #b8b8b8;
+    background: #fff;
+    display: none;
+    z-index: 5;
+}
+.add_relation_ul li{
+	line-height: 30px;
+	cursor: pointer;
+	width: 48px;
+    padding-left: 14px;
+}
+.add_relation_ul li:hover{
+	background:#e5e5e5;
+}
+.all_stu_import{
+	display: none;
+}
+.add_statue_ul{
+	position: absolute;
+    left: 108px;
+    width: 258px;
+    border: 1px solid #e0e1e5;
+    top: 40px;
+    z-index: 3;
+    background: #fff;
+    border-radius: 6px;
+    display: none;
+}
+.add_statue_ul li{
+	line-height: 38px;
+	width: 244px;
+	padding-left: 14px;
+	color: #b8b8b8;
+}
+.add_statue_ul li:hover{
+	background:#e5e5e5;
+	cursor: pointer;
+}
+.add_statue_down{
+	width: 7px;
+	height: 7px;
+	background:url(../img/spirit_img.png) no-repeat -107px -62px;
+	display: block;
+	float: left;
+	margin-top: 15px;
+}
+.add_statue{
+	float: left;
+	width: 260px;
+	border:1px solid #e3e3e3;
+	border-radius: 6px;
+}
+.add_stu_cent1 .add_statue input{
+	width: 230px;
+	border:0;
+}
+.add_insert{
+	float: left;
+	width: 260px;
+	border:1px solid #e3e3e3;
+	height: 40px;
+	border-radius: 6px;
+}
+.add_insert input{
+	border:0;
+	width: 220px;
+	height: 38px;
+	float: left;
+}
+.add_insert .insert_down{
+	width: 13px;
+    height: 13px;
+    background: url(../img/spirit_img.png) no-repeat -429px -56px;
+    margin-top: 13px;
+    float: left;
+    display: block;
+}
+.stu_msg_class{
+	position: absolute;
+	width: 158px;
+	border:1px solid #e3e3e3;
+	background: #fff;
+	border-radius: 6px;
+	z-index: 5;
+    left: 108px;
+    top: 40px;
+   display: none;
+}
+.stu_msg_class li{
+	line-height: 38px;
+	color:#9c9c9c;
+	width: 144px;
+	padding-left: 14px;
+}
+.stu_msg_class li:hover{
+	background:#e5e5e5;
+	cursor: pointer;
+}
+.stu_msg_ul{
+	position: absolute;
+	width: 100px;
+	background: #e5e5e5;
+	z-index: 5;
+	color:#9c9c9c;
+	border-radius: 6px;
+	overflow: hidden;
+	left: 268px;
+	top: 40px;
+	/*display: none;*/
+}
+.stu_msg_ul ul{
+	display: none;
+}
+.stu_msg_ul ul li{
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.stu_msg_ul ul li:hover{
+	background: #9a928f;
+	color: #fff;
+}
+.add_stu_class{
+	width: 260px;
+	height: 38px;
+	border-radius: 6px;
+	border:1px solid #e1e0e5;
+	float: left;
+}
+.add_stu_class input{
+	width: 220px;
+	float: left;
+	border:0;
+}
+.add_class_down{
+	float: left;
+	display: block;
+	width: 7px;
+	height: 7px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    margin-top: 15px;
+}
+.circle {
+    background: rgba(0, 0, 0, 0) url("../img/spirit_img.png") no-repeat scroll -218px -54px;
+    display: block;
+    height: 18px;
+    margin-right: 8px;
+    width: 19px;
+}

@@ -1,0 +1,153 @@
+body{
+	overflow: hidden;
+}
+.phone p{
+	float: left;
+	line-height:40px;
+	margin-left:10px;
+	color:#c60204;
+	font-size:12px;
+}
+.angle_logo{
+	width: 600px;
+	margin: 0 auto 30px;
+}
+.angle_logo img{
+	margin: 0 auto;
+	display: block;
+}
+.find{
+	width: 977px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-212px;
+	margin-left:-490px;
+}
+.findcenter{
+	width: 600px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+	position: relative;
+}
+.circle{
+	margin-top: -28px;
+}
+.sumfind{
+	font-size: 16px;
+	color: #333;
+	padding: 38px 0 58px 0;
+}
+.pwdtit{
+	font-size:20px;
+	color: #666666;
+	text-align: center;
+	margin-bottom: 19px;
+}
+.sum_form{
+	margin-left:93px;
+}
+.phmsg{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #a6a6a6;
+}
+.phnum{
+	float: left;
+	width: 244px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	border-radius: 6px;
+	padding-left: 14px;
+	color: #a6a6a6;
+}
+.code{
+	overflow: hidden;
+	margin-top: 9px;
+}
+.codemsg{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #a6a6a6;
+}
+.codenum{
+	width: 144px;
+	border: 0;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+	padding-left: 14px;
+	color: #a6a6a6;
+}
+.code_sum{
+	width: 258px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	float: left;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.code p{
+	float: left;
+	line-height:40px;
+	margin-left:10px;
+	color:#c60204;
+	font-size:12px;
+}
+.code .pwdcode{
+	float: left;
+	font-size: 12px;
+	width:99px;
+	height: 30px;
+	background: #fff;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	margin: 4px 0;
+	border-left: 1px solid #e5e5e5;
+	color: #696969;
+}
+.code .pwdcode .pwdcode2{
+	color:#d63333;
+}
+.tj{
+	margin-top:20px;
+}
+.tj input{
+	float: left;
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	border: 0;
+	border-radius: 40px;
+}
+.rescond{
+	margin-left: 100px;
+	color: #666666;
+	background:#f3f0ee;
+}
+.confirm{
+	margin-left: 20px;
+	color: #fff;
+	background:#9b928f;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.logo a img{
+	margin-top:12px;
+}
+body .bot{
+	position:fixed;
+	bottom:20px;
+	margin-left:-210px;
+	left:50%;
+}
+
+
+
+
+

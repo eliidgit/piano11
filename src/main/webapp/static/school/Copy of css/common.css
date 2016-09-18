@@ -1,0 +1,117 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0}
+body{font:12px,"Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0}
+input{
+	outline: none;
+}
+html,body{
+	width: 100%;	
+	height: 100%;
+	background: #efebe8;
+	font-family: "微软雅黑";
+}
+body{
+	min-width: 1200px;
+}
+/*头部样式*/
+.top{	
+	width:100%;
+	height:60px;
+	background:url(/static/school/img/school_index_06.png) no-repeat;
+	background-size: 100% 100%;
+}
+.logo{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.clear{
+	clear: both;
+}
+.topcenter li a{
+	color:#d2cfce;
+	font-size:16px;
+	display: block;
+}
+.topcenter li{
+	float: left;
+	width: 103px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	margin: 0 10px;
+}
+.topcenter{
+	width: 870px;
+	float: left;
+	margin: 6px 42px 0;
+}
+.logopic{
+	float: left;
+}
+.userpic{
+	float: right;
+	margin-top: 8px;
+}
+.userpic a{
+	color: #eeeded;
+	text-decoration: underline;
+}
+.userpic span{
+	margin:0 10px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.topcenter .act{
+	background: url(/static/school/img/school_index_01.png) no-repeat;	
+	background-size: 100% 100%;
+}
+.topcenter .act a{
+	color: #675858;
+}
+.exit{
+	width:116px;
+	position: absolute;	
+	font-size: 14px;
+	text-align: center;
+	line-height:32px;
+	display: none;
+	top: 48px;
+	right: -7px;
+}
+.exit a{
+	color:#817574;
+	text-decoration: none;
+	height: 36px;
+	width:116px;
+	display: block;
+	line-height: 36px;
+	background: url(/static/school/img/school_index_05.png) no-repeat;
+}
+.userexit{
+	position: relative;
+	height: 50px;
+    display: block;
+    float: left;
+}	
+/*公共底部*/
+.bot{
+	color: #675858;
+}
+.bot p{
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}

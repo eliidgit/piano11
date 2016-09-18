@@ -1,0 +1,86 @@
+.find{
+	width: 1200px;
+	margin: 0 auto;
+}
+.findcenter{
+	width: 1100px;
+	background: #fff;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.findpwd{
+	width: 720px;
+	margin: 70px auto 207px;
+}
+.sumfind{
+	background: #ccc;
+	font-size: 16px;
+	color: #333;
+	padding:74px 0 114px 110px;
+}
+.pwdtit{
+	font-size:18px;
+	color: #333;
+}
+.phmsg{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+}
+.phnum{
+	float: left;
+	width: 328px;
+	height: 38px;
+	border: 1px solid #a9a9a9;
+}
+.code{
+	overflow: hidden;
+	margin-top: 34px;
+}
+.codemsg{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+}
+.codenum{
+	float: left;
+	width: 208px;
+	height: 38px;
+	border: 1px solid #a9a9a9;
+}
+.code .pwdcode{
+	float: left;
+	font-size: 12px;
+	width:98px;
+	height: 38px;
+	border: 1px solid #a9a9a9;
+	background: #fff;
+	text-align: center;
+	line-height: 38px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.tj{
+	overflow: hidden;
+	margin-top: 34px;
+}
+.tj input{
+	float: left;
+	width: 150px;
+	height: 40px;
+	color: #333;
+	font-size: 14px;
+}
+.rescond{
+	margin-left: 100px;
+}
+.confirm{
+	margin-left: 40px;
+}
+
+
+
+
+
+
+

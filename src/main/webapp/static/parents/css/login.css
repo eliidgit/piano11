@@ -1,0 +1,154 @@
+body{
+	background:#eaebef;
+}
+.logcenter{
+	width:98%;
+	margin: 0.2rem 0.12rem 0 0.12rem;
+	overflow: hidden;
+}
+.logpwd{
+	background:#f2f2f2;
+	float: left;
+	width:1.84rem;
+}
+.logphone{
+	background:#f2f2f2;
+}
+.loginphone{
+	width:100%;
+	height: 1rem;
+	font-size: 0.28rem;
+	line-height: 1rem;
+	background: url(../img/change_add/change_add01.png) no-repeat;
+	background-size: 100% 100%;
+	color: #52617d;
+}
+.loginphone span{
+	margin-left: 0.2rem;
+    float: left;
+    display: block;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.loginphone input{
+	font-size: 0.28rem;
+	padding-left:0.18rem;
+	color: #8690a4;
+	height: 0.86rem;
+	background: #fff;
+	float: left;
+	width:80%;
+}
+.loginpwd{
+	width:100%;
+	height: 1rem;
+	background: url(../img/change_add/change_add01.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.1rem;
+	line-height: 1rem;
+	font-size: 0.28rem;
+	color: #52617d;
+}
+.loginpwd span{
+	float: left;
+	margin-left: 0.2rem;
+	line-height:0.86rem;
+}
+.lma{
+	margin-left:0.2rem;
+	font-weight: 100;
+}
+.loginpwd input{
+	font-size: 0.28rem;
+	height: 0.86rem;
+	padding-left:0.3rem;
+	width: 61%;
+	background: #fff;
+	color: #8690a4;
+}
+.del{
+	width:0.43rem;
+	height:0.53rem;
+	float: left;
+	padding-top:0.34rem;
+	display: none;
+}
+.del img{
+	width: 0.18rem;
+	height: 0.18rem;
+	float:right;
+}
+.eyes{
+	width: 0.6rem;
+	height: 0.53rem;
+	margin-right:0.29rem;
+	float: right;
+	padding-top:0.34rem;
+}
+.eyes img{
+	width: 0.36rem;
+	height: 0.19rem;
+	float: right;
+}
+.eyes0{
+	display:none;
+	padding-top:0.3rem;
+	margin-right: 0.29rem;
+    float: right;
+	width: 0.6rem;
+	height: 0.53rem;
+}
+.eyes0 img{
+	width:0.36rem;
+	height:0.3rem;
+	float: right;
+}
+.loginsub{
+	width:5rem;
+	height:0.7rem;
+	font-size: 0.3rem;
+	color: #52617d;
+	margin:1.3rem auto 0;
+	display: block;
+	background:#eaebef;
+	border-radius:0.6rem;
+	border:1px solid #52617d;
+}
+.findmsg{
+	width:1.06rem;
+	height: 0.33rem;
+	color:#52617d;
+	display: block;
+	font-size: 0.22rem;
+	line-height: 0.33rem;
+	text-align: center;
+	text-decoration: underline;
+	float: right;
+	margin-right:1.46rem;
+}
+.find{
+	margin-top: 0.5rem;
+}
+.sumstep{
+	color: #9ea6b6;
+	font-size: 0.24rem;
+	margin-top: 2.16rem;
+}
+.step{
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.step:nth-of-type(2){
+	margin-top: 0.18rem;
+}
+.logintip{
+	font-size:0.24rem;
+	text-align: right;
+	margin-top:0.16rem;
+	margin-right:0.13rem;
+	height: 0.3rem;
+	color:#fb6a4f;
+}
+
+

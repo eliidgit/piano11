@@ -1,0 +1,165 @@
+.angle_top{
+	background: #f2f2f2;
+	overflow: hidden;
+	padding-bottom: 0.28rem;
+}
+.angle_logo{
+	width: 1.8rem;
+	height: 1.6rem;
+	margin-left: 0.26rem;
+}
+.teacher_lr{
+	font-size: 0.24rem;
+    width: 0.86rem;
+    height: 0.4rem;
+    background: #000;
+    opacity: 0.3;
+    text-align: center;
+    line-height: 0.4rem;
+    position: absolute;
+    top: 0;
+    left: 0.26rem;
+}
+.angle_exp{
+	position: absolute;
+    color: #fff;
+    font-size: 0.24rem;
+    top: 0.03rem;
+    left: 0.32rem;
+}
+.angle_music_left{
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.angle_part1 span{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+}
+.angle_part2 span{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+}
+.angle_part3 span{
+	font-size: 0.3rem;
+	float:left;
+}
+.angle_part3 .angle_part4{
+	float: left;
+}
+.angle_part3 .angle_part4 img{
+	width: 0.24rem;
+	height: 0.24rem;
+	float: left;
+}
+.angle_music_right{
+	float: left;
+	overflow: hidden;
+	margin-left: 0.2rem;
+}
+.angle_part2{
+	margin:0.21rem 0 0 0.16rem;
+}
+.angle_part3{
+	margin:0.2rem 0 0 0.16rem;
+}
+.angle_part_play1{
+	margin-right: 0.2rem;
+}
+.angle_part_play2{
+	margin-right: 0.2rem;
+}
+.angle_part4 img{
+	margin: 0.07rem 0 0 2px;
+}
+.angle_part1 .angle_part1_time{
+	font-size:0.16rem;
+	color:#a9a9a9;
+}
+.angle_music_author{
+	margin: 0 0.56rem 0 0.28rem;
+}
+.angle_music_top{
+	overflow: hidden;
+	margin-top: 0.22rem;
+}
+.angle_music_bottom1 img{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+.angle_music_bottom{
+	width: 96%;
+	margin: 0.4rem auto 0;
+}
+.angle_music_bottom3{
+	width: 0.4rem;
+	height: 0.36rem;
+	float: left;
+	margin-top: 0.2rem;
+}
+.angle_music_bottom2 span{
+	font-size:0.2rem;
+	display: block;
+	float: left;
+}
+.angle_music_bottom2_center{
+	float: left;
+	position: relative;
+	margin: 0 0.08rem;
+}
+.angle_music_bottom1{
+	float: left;
+}
+.angle_music_bottom2{
+	float: left;
+	margin: 0.21rem 0.9rem 0 0.3rem;
+}
+.angle_music_circle{
+	width:0.18rem;
+	height:0.18rem;
+	border: 1px solid #797979;
+	border-radius: 50%;
+	background:#666666;
+}
+.angle_music_hx{
+	width:3.04rem;
+	height:1px;
+	background: #000;
+	margin-top:0.14rem;
+}
+.angle_music_circle{
+	position: absolute;
+	left:10%;
+	top:0.06rem;
+}
+.angle_music_introduce{
+	width: 74%;
+	margin: 0.6rem auto 0;
+	padding-bottom: 1.2rem;
+}
+.angle_music_introduce p{
+	font-size:0.24rem;
+	text-align: center;
+	line-height: 0.66rem;
+}
+.angle_music_introduce .angle_music_heading{
+	font-size: 0.3rem;
+}
+.angle_heading{
+	margin-top: 0.36rem;
+}
+.angle_music_jump a{
+	display: block;
+	width:100%;
+	background: #f2f2f2;
+	color: #383838;
+	font-size: 0.3rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
+.angle_music_bottom3 img{
+	width: 100%;
+}

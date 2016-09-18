@@ -1,0 +1,280 @@
+.index{
+	width: 100%;
+}
+.index_center{
+	width: 1200px;
+	margin:0 auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.manage{
+	float: left;
+	position: relative;
+}
+.manage p{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	bottom: 40px;
+	color: #fff;
+}
+.index_top_left{
+	width: 840px;
+	float: left;
+}
+.index_center_right{
+	width: 340px;
+	height: 434px;
+	float: right;
+	background: url(../img/index_bc2.png) no-repeat;
+	margin-top: -10px;
+}
+.index_right_cen{
+	width: 320px;
+	margin: 0 auto;
+	padding:18px 0 19px 0;
+}
+.index_news{
+	overflow: hidden;
+}
+.index_newscen{
+	width:300px;
+	margin: 0 auto;
+}
+.index_courli{
+	width: 300px;
+	margin: 0 auto;
+}
+.course{
+	margin-right: 10px;	
+}
+.index_newman{
+	float: left;
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.index_more{
+	float: right;
+	color: #878787;
+	font-size: 12px;
+}
+.course p{
+	width:103px;
+	height:46px;
+	line-height: 46px;
+	bottom: 126px;
+	left: 50%;
+	margin-left: -51px;
+	background: url(../img/school_index_01.png) no-repeat;
+	color: #ed7e46;
+}
+.teacher{
+	margin-left: 10px;
+}
+.class{
+	margin-top: 10px;
+}
+.device{
+	margin:10px 0 0 10px;
+}
+.mannews{
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.mannews a{
+	font-size: 12px;
+}
+.mandate{
+	color:#9e9e9e;
+}
+.manage_new{
+	color:#595959;
+	padding-right: 3px;
+}
+.manage_detail{
+	color:#989898;
+}
+.manage_cont{
+	width: 200px;
+	line-height: 36px;
+}
+.manage_detail{
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float:left;
+}
+.manage_cont span{
+	float: left;
+}
+.manage_date{
+	float: right;
+	line-height: 36px;
+	margin-right: 10px;
+}
+.manage_pic img{
+	width: 36px;
+	height: 36px;
+}
+.index_courseware ul{
+	overflow: hidden;
+	margin-top: 12px;
+}
+.index_courseware ul li{
+	
+	margin-top: 8px;
+	overflow: hidden;
+}
+.index_courseware ul li:hover{
+	background:#f2f2f2;
+}
+.index_bot_left{
+   width: 850px;	
+   height: 248px;
+   background: url(../img/index_bc3.png) no-repeat;
+   float: left;
+   margin-left: -10px;
+  }
+.index_bcen{
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.index_bcen_top{
+	overflow: hidden;
+}
+.index_bcen_top span{
+	float: left;
+	margin-left:8px;
+	font-size: 14px;
+	color: #595959;
+}
+.index_bcen_top p{
+	float: right;	
+}
+.index_bcen_top p a{
+	font-size: 12px;
+	color: #989898;
+}
+.index_botul{
+	font-size: 12px;
+	color:#949393;
+	height:28px;
+	background: #eae7e6;
+}
+.index_botul li{
+	float: left;
+	text-align: center;
+	line-height:28px;
+}
+.index_bcen_bot{
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #e0e1e5;
+	margin-top: 21px;
+}
+.index_pinaoid{
+	width: 82px;
+	padding-left: 93px;
+}
+.index_class{
+	width:57px;
+	padding-left: 40px;
+}
+.index_type{
+	width: 48px;
+	padding-left: 40px;
+}
+.index_exp{
+	width: 120px;
+	padding-left: 76px;
+}
+.index_repairs{
+	width: 76px;
+	padding-left: 54px;
+}
+.index_checkdet{
+	width:106px;
+}
+.index_bot_msgul li{
+	float: left;
+	width: 115px;
+	font-size: 12px;
+	line-height: 40px;
+	color: #4d4d4d;
+	text-align: center;
+}
+.index_bot_msgul{
+	height: 40px;
+	border-top: 1px solid #e0e1e5;
+	cursor: pointer;
+}
+.index_bot_msgul:hover{
+	background:#f2f2f2;
+}
+.index_bot_msgul ul{
+	float: left;
+}
+.index_bot_a{
+	float: left;
+	padding-left: 49px;
+	display: block;
+}
+.index_bot_a img{
+	margin-top:10px;
+}
+.index_bot_msgul .exp{
+	width: 64px;
+}
+.index_bot_msgul .bot_exp{
+	width: 256px;
+}
+.index_bot_msgul .bot_date{
+	width: 50px;
+}
+.index_bot_msgul .bot_prev{
+	width: 125px;
+}
+.bot_prev a{
+	width: 23px;
+	height: 23px;
+	margin: 10px auto 0;
+	background: url(../img/school_index_20.png) no-repeat;
+	display: block;
+}
+.bot_prev:hover a{
+	background: url(../img/school_index_18.png) no-repeat;
+}
+.index_center_top{
+	overflow: hidden;
+}
+.index_center_bot{
+	margin-top: 20px;
+}
+.index_bot_right{
+	float: right;
+	width:354px;
+	height: 243px;
+	background:url(../img/index_bc1.png) no-repeat;
+	margin-right: -17px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.index_bot1{
+	width:340px;
+	height: 228px;
+	background: url(../img/index_03.png) no-repeat;
+	margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+

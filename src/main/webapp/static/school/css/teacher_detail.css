@@ -1,0 +1,702 @@
+.teacher_detail{
+	width: 1200px;
+	margin: 0 auto;
+}
+.teacher_decenter{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom:52px;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.teacher_tit{
+	font-size: 14px;
+	color: #999;
+	padding: 12px 0 12px 30px;
+}
+.teacher_top{
+	width: 1120px;
+	margin: 40px auto 73px;
+	height:100px;
+	background:#eaeaea;
+	position: relative;
+}
+.teacher_top img{
+	width: 108px;
+	height: 108px;
+	position: absolute;
+	top: 28px;
+	left:50%;
+	margin-left:-60px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+}
+.teacher_name{
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 27px;
+}
+.teacher_base{
+	width:1120px;
+	margin: 0 auto;
+}
+.teacher_base_hx0{
+	float: left;
+	width:20px;
+	height: 1px;
+	background:#eaeaea;
+	margin-top: 12px;
+}
+.teacher_base_hx1{
+	float: left;
+	color: #5d4e4b;
+	font-size: 17px;
+	margin: 0 20px;
+}
+.teacher_base_hx2{
+	float: left;
+	width:856px;
+	height: 1px;
+	background:#eaeaea;
+	margin-top: 12px;
+}
+.teacher_sum_hx{
+	float: left;
+}
+/*.teacher_edit{
+	width: 100px;
+	height: 30px;
+	color:#666;
+}*/
+.teacher_base_msg{
+	float: left;
+	margin-left:362px;
+	color: #4c4c4c;
+	line-height: 50px;
+	padding-bottom:57px;
+}
+.select_nj li{
+	width: 144px;
+	padding-left: 14px;
+}
+.teacher_edit{
+	float: left;
+	width: 90px;
+	height: 30px;
+	background: #968885;
+	color: #fff;
+	border: 0;
+	border-radius: 30px;
+	margin-left: 22px;
+	line-height: 30px;/*添加*/
+}
+.tea_class{
+	overflow: hidden;
+}
+.teacher_base_msg .tea_class span{
+	margin-right: 40px;
+}
+.teacher_base_msg span{
+	margin-right: 34px;
+	display: block;
+	float: left;
+}
+.teacher_base_msg .tea_sex_name{
+	width: 60px;
+	text-align: right;
+	margin-right: 18px;
+}
+.tea_base_sex{
+	float: left;
+}
+.teacher_base_msg .tea_tit{
+	width: 50px;
+	text-align: right;
+	color:#bdbdbd;
+}
+.tea_base_sex span{
+	display: block;
+	float: left;
+}
+.select_bj{
+	float: left;
+	width: 260px;
+	height: 40px;
+	cursor: pointer;
+	background: url(../img/spirit_img.png) no-repeat -179px -79px;
+}
+.tea_base_sex .select_insert{
+	float: left;
+	font-size: 12px;
+	color: #fff;	
+	padding-left: 39px;
+	line-height: 40px;
+}
+.select_bj_border{
+	float: left;
+}
+.select_bj span{
+	width: 6px;
+    height: 6px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    margin: 17px 0 0 0;
+}
+.tea_base_sex .select_bj input{
+	width: 126px;
+	border: 0;
+	color: #b8b8b8;
+	font-size: 12px;
+	padding-left: 8px;
+	line-height: 40px;
+	float: left;
+	margin: 1px 0 0 4px;
+}
+.teacher_btn input{
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	border-radius: 30px;
+	border: 0;
+	float: left;
+}
+.teacher_save{
+	background:#9b928f;
+	color: #fff;
+	margin-left: 20px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.teacher_cancle{
+	background:#f3f0ee;
+	color: #666666;
+	margin-left: 90px;
+}
+.tea_base_sex input{
+	width: 244px;
+	height: 38px;
+	color:#c7c7c7;
+	font-size:12px;
+	border: 1px solid #e0e1e5;
+	border-radius: 6px;
+	padding-left:14px;
+}
+.tea_base_sex .tea_base_date1{
+   width:220px;
+   float: left;	
+   border: 0;
+}
+.tea_base_sex .tea_base_date2{
+   float: right;	
+   margin: 8px 14px 0 0;
+}
+.tea_base_sex .school_age2{
+	border: 0;
+}
+.tea_base_sex1 .tea_date{
+	width: 13px;
+	height: 13px;
+	background: url(../img/spirit_img.png) no-repeat -428px -56px;
+	margin: 12px 0 0 0;
+}
+.tea_base_sex1{
+	width: 258px;
+	cursor: pointer;
+	background: #fff;
+	margin-top: 5px;
+}
+.tea_base_sex .tea_base_job{
+	width:226px;
+	float: left;
+	border: 0;
+	height: 40px;
+}
+.tea_base_sex .tea_sex_select{
+	width:18px;
+	height: 18px;
+    border: 0;
+    margin-right: 7px;
+    float:left;
+    display:block;
+    margin-top: 16px;
+}
+.tea_base_sex label{
+	display: block;
+	float: left;
+}
+.tea_sex_select2{
+	margin-left: 23px;
+}
+.tea_base_sex .tea_base_down1{
+	float: right;
+	margin: 15px 18px 0 0;
+}
+.tea_job li{
+	line-height: 38px;
+	cursor: pointer;
+	width: 246px;
+	padding-left: 7px;
+	color: #a0a0a0;
+}
+.tea_job{
+	width:260px;
+	margin: 8px 0 0 86px;
+	position: absolute;
+	background: #fff;
+	display: none;
+	border-radius: 6px;
+}
+.tea_job li:hover{
+	background: #e5e5e5;
+}
+.tea_base_msg1{
+	display: block;
+}
+.tea_base_msg2{
+	display: none;
+	margin-top: 10px;
+}
+.teacher_basemsg{
+	padding-bottom: 20px;
+}
+.teacher_base2_left{
+	float: left;
+}
+.teacher_base2_right{
+	float: left;
+	font-size: 12px;
+	margin-top: -10px;
+	cursor: pointer;
+	width: 90px;
+	height: 30px;
+	background:#968885;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 30px;
+	margin-left: 23px;
+}
+.tea_base_sex .graduate_school2{
+	border: 0;
+}
+.teacher_base2_msg{	
+	margin-top: 30px;
+	padding-bottom: 55px;
+}
+.teach_hx{
+	margin-left:5px;
+}
+.teacher_bmsg_right p{
+	width: 530px;
+}
+.teacher_bmsg_right .teacher_title{
+	font-size: 16px;
+}
+.teacher_bmsg_right{
+	float: left;
+	font-size: 14px;
+	color: #666;
+}
+.teacher_bmsg_left{
+	float: left;
+	width:16px;
+	height:16px;
+	background: url(../img/spirit_img.png) no-repeat -425px -15px;
+	margin: 2px 20px 0 0;
+}
+.teacher_base2_edit{
+	position: absolute;
+	right: 0;
+	top:22px;
+	width: 90px;
+	height: 30px;
+	color:#a8a19e;
+	background: #fff;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid #eeeeee;
+	border-radius: 30px;
+	line-height: 30px;
+}
+.teacher_bmsg2{
+	padding: 14px 0 20px 115px;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.teacher_btn{
+	margin-top: 20px;
+	display: none;
+}
+.teacher_bmsg2 input{
+	color: #bdbdbd;
+	font-size: 12px;
+	border: 0;
+}
+.teacher_bmsg2_time2{
+	float: left;
+}
+.teacher_bmsg2_hx{
+	float: left;
+	margin: 10px 18px 0;
+}
+.teacher_base2_tit input{
+	width:150px;
+	height: 36px;
+}
+.teacher_fut2_tit input{
+	width:150px;
+	height: 40px;
+	float: left;
+}
+.teacher_bmsg2_time1{
+	width: 96px;
+	height: 34px;
+	background: #fff;
+	float: left;
+}
+.teacher_fut2_time1{
+	width: 113px;
+	height: 34px;
+	background: #fff;
+	float: left;
+}
+.teacher_bmsg2_time1 input{
+	width: 82px;
+	height: 38px;
+	float: left;
+}
+.teacher_fut2_time1 input{
+	width: 90px;
+	height: 40px;
+	float: left;
+}
+.teacher_fut2_time1 span{
+	display: block;
+	float: left;
+	width: 13px;
+    height: 13px;
+    background: url(../img/spirit_img.png) no-repeat -428px -56px;
+    margin: 13px 0 0 0;
+}
+.tea_add_fut1{
+	width: 420px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.teacher_fut2_hx{
+	float: left;
+	margin: 11px 18px;
+	color: #b2b2b2;
+}
+.teacher_fut2_content p{
+	margin-top: 10px;
+}
+.tea_btns{
+	margin-top: 10px;
+}
+.tea_addtit{
+	text-align: center;
+	line-height: 50px;
+	color: #5d4e4b;
+	font-size: 17px;
+}
+.teacher_p{
+	float: left;
+	width: 70px;
+	color: #bdbdbd;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	margin-right:30px;
+}
+.tea_add_fut1 input{
+	border: 0;
+	color: #b2b2b2;
+	line-height: 40px;
+}
+.teacher_base2_content textarea{
+	width: 390px;
+	height: 134px;
+	resize: none;
+	outline: none;
+	border: 0;
+	color: #bdbdbd;
+	padding-top: 10px;
+}
+.teacher_bmsg2_time1 span{
+	width: 13px;
+    height: 13px;
+    background: url(../img/spirit_img.png) no-repeat -428px -56px;
+    margin: 12px 0 0 0;
+    float: left;
+}
+.teacher_fut2_content textarea{
+	width:320px;
+	height:128px;
+	resize: none;
+	outline: none;
+	border: 0;
+	color: #b2b2b2;
+	margin-top: 20px;
+}
+.teacher_bmsg2 .teacher_base2_contsave{
+	width: 120px;
+	height: 40px;
+	color:#fff;
+	display: block;
+	background: #9b928f;
+	line-height: 40px;
+	border-radius: 30px;
+	font-size: 15px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	float: left;
+	margin-left: 20px;
+}
+.teacher_bmsg2 .teacher_base2_contcancle{
+	width: 120px;
+	height: 40px;
+	color:#666666;
+	display: block;
+	background: #f3f0ee;
+	line-height: 40px;
+	border-radius: 30px;
+	font-size: 15px;
+	float: left;
+	margin-left:84px;
+}
+.teacher_base2_tit{
+	margin-top:12px;
+}
+.teacher_base2_time{
+	margin-top:12px;
+	overflow: hidden;
+}
+.teacher_fut2_time{
+	margin-top:12px;
+}
+.teacher_base2_content{
+	margin-top:12px;
+}
+.teacher_bmsg2 p{
+	float: left;
+	line-height: 40px;
+	margin-right: 32px;
+	width: 50px;
+	text-align: right;
+}
+.teacher_bmsgs{
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #ebe8e7;
+	padding: 30px 0 23px 0;
+}
+.allp .teacher_date{
+	font-size: 12px;
+	color: #a6a6a6;
+	margin-top: 10px;
+}
+.allp .teacher_cont{
+	color:#595959;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+.select_class1{
+	position: absolute;
+	display: none;
+	left: 2px;
+    top: 32px;
+    padding: 10px 0;
+}
+.select_class1 .select_nj{
+	width: 158px;
+    background: #fff;
+    border: 1px solid #e1e0e5;
+    line-height: 38px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.select_class1 .select_nj li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.select_class1 .select_bj1{
+	width: 130px;
+	background: #cccccc;
+	text-align: center;
+	line-height:38px;
+}
+.select_class1 .select_bj1 li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.select_class2{
+	position: absolute;
+	top: 44px;
+    left: 160px;
+}
+.select_class2 ul{
+	width: 100px;
+	background: #e5e5e5;
+	text-align: center;
+	line-height:30px;
+	display: none;
+	border-radius: 6px;
+	padding: 10px 0;
+}
+.class_arrange{
+	position: relative;
+}
+.select_class2 ul li:hover{
+	background: #9a928f;
+	cursor: pointer;
+	color: #fff;
+}
+.tea_base_sex2{
+	float: left;
+	border: 1px solid #e0e1e5;
+	background: #fff;
+	width: 258px;
+	cursor: pointer;
+	border-radius: 6px;
+	overflow: hidden;
+	z-index: 2;
+}
+.tea_base_sex2 .head_teacher{
+	float: left;
+	color:#b2b2b2;
+	padding-left: 14px;
+	width: 225px;
+}
+.tea_bj .tea_del{
+	width: 18px;
+	height: 18px;
+	background: url(../img/spirit_img.png) no-repeat -158px -76px;
+	cursor: pointer;
+	margin: 3px 0 0 8px;
+}
+.teacher_base_msg .tea_down{
+	width: 7px;
+    height: 6px;
+   	background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    margin: 16px 0 0 0;
+}
+.tea_base_sex2 input{
+	border: 0;
+	height: 38px;
+	padding-left: 2px;
+	border-radius: 6px;
+}
+.tea_base_sex2 img{
+	margin-right: 18px;
+}
+.select_teacher{
+	position: absolute;
+	left: 78px;
+	top: 40px;
+	background: #fff;
+	z-index: 1;
+	display: none;
+}
+.tea_base_teacher{
+	position: relative;
+}
+.select_teacher ul{
+	width: 258px;
+	border: 1px solid #e1e0e5;
+	background: #fff;
+	border-top: 0;
+}
+.select_teacher ul li{
+	line-height: 40px;
+	color: #9a9a9a;
+	width: 244px;
+	padding-left: 14px;
+}
+.select_teacher ul li:hover{
+	cursor: pointer;
+	background: #e5e5e5;
+}
+.tea_base_sex3{
+	position: relative;
+	left: 74px;
+}
+.tea_base_sex4{
+	width: 260px;
+	background: #fff;
+	margin-top: 6px;
+}
+.tea_bj{
+	float: left;
+	background:#f2f2f2;
+	margin-right:4px;
+	margin-top: 3px;
+}
+.tea_bj span{
+	margin: 0;
+	line-height: 24px;
+}
+.tea_bjs{
+	width: 500px;
+	float: left;
+	margin-top: 13px;
+}
+.tea_base_pk{
+	overflow: hidden;
+}
+.tea_add_fruit{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 30;
+	display: none;
+}
+.tea_add_fut{
+	width:600px;
+	background: #fff;
+	position: fixed;
+	z-index: 31;
+	margin-left: -300px;
+	left: 50%;
+	top: 200px;
+	display: none;
+	padding-bottom: 20px;
+}
+.tea_can{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #666666;
+	margin-right: 20px;
+	background: #f3f0ee;
+	border-radius: 30px;
+}
+.tea_add_fut1 .tea_yes{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background: #9b928f;
+	border-radius: 30px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.tea_btns{
+	text-align: center;
+}
+.tea_top{
+	position: absolute;
+    left: 45%;
+    top: 29px;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+    display: none;
+}

@@ -1,0 +1,292 @@
+.stu_center{
+	width:1200px;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+.stu_cen{
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+}
+.stu_search{
+	width:1060px;
+	padding: 21px 0 21px 0;
+	margin: 0 auto;
+}
+.stu_searchk{
+	width: 268px;
+    height: 28px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.stu_searchk input{
+	display: block;
+    float: left;
+    border: 0;
+    height: 26px;
+    width: 220px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.stu_searchk img{
+	display: block;
+    float: right;
+    margin: 4px 5px 0 0;
+}
+.all_stu{
+	width: 1060px;
+	margin: 0 auto;
+	height: 58px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.all_stu1{
+	position: relative;
+	width:140px;
+	float: left;
+}
+.all_stu2{
+	float: right;
+	width:272px;
+	position: relative;
+}
+.all_stu2_check{
+	display: none;
+}
+.all_stu1 input{
+	width:140px;
+	height: 30px;
+	font-size: 14px;
+	color:#666;
+}
+.all_stu1 img{
+	position: absolute;
+	right: 17px;
+	top:11px;
+}
+.all_stu2 input{
+	width: 100px;
+	height: 30px;
+	color: #666666;
+	font-size: 14px;
+	float: left;
+}
+.batch_href1{
+	margin-right: 20px;
+}
+.all_stu3{
+	position: absolute;
+	width: 138px;
+	background: #fff;
+	border: 1px solid #999;
+	font-size: 14px;
+	top: 32px;
+	display: none;
+	z-index: 10;
+}
+.all_stu3 li{
+	line-height: 38px;
+	text-align: center;
+}
+.all_stu3 li:hover{
+	background:#ccc;
+	cursor: pointer;
+}
+.all_stu4{
+	position: absolute;
+	width: 138px;
+	top: 32px;
+	left: 140px;
+	background:#ccc;
+	font-size: 14px;
+	z-index: 10;
+}
+.all_stu4 ul{
+	display: none;
+	height:192px;
+	overflow: auto;
+}
+.all_stu4 li{
+	line-height: 38px;
+	text-align: center;
+}
+.all_stu4 li:hover{
+	background:#999;
+	cursor: pointer;
+}
+.stu_num{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color:#666;
+	margin-left:31px;
+	line-height: 30px;
+}
+.every_stu{
+	width: 1080px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.every_stu .every_stu1{
+	overflow: hidden;
+	margin-top: 10px;
+	padding: 10px 0 10px 10px;
+	width:1080px;
+}
+.every_stu .every_stu1 li{
+	width: 194px;
+	height:238px;
+	border:1px solid #ccc;
+	box-shadow: 0 1px 10px 4px #fff;
+	float: left;
+	margin: 0 18px 20px 0;
+	position: relative;
+}
+.every_stu .every_stu1 li:hover{
+	box-shadow: 0 1px 10px 4px #d8d8d8;
+}
+.every_stu .every_stu1 li a{
+	display: block;
+	overflow: hidden;
+}
+.stu_tx{
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 15px auto 0;
+}
+.stu_name{
+	color: #333;
+	font-size:16px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 16px;
+}
+.stu_class{
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	margin-top: 15px;
+	line-height: 14px;
+}
+.stu_number{
+	text-align: center;
+	margin-top: 15px;
+	line-height: 14px;
+}
+.stu_number span{
+	font-size: 14px;
+	color: #666;
+}
+.stu_page{
+	padding-bottom: 31px;
+	overflow: hidden;
+}
+.stu_page input{
+	width: 30px;
+	height: 30px;
+	color: #666;
+	margin-right: 6px;
+}
+.stu_page span{
+	margin-right: 6px;
+	color: #666;
+}
+.add_select_class3 .add_select_class5{
+	width:264px;
+}
+.add_select_class5 .add_tea_newname{
+	width: 230px;
+}
+.add_select_class{
+	margin-top: 0;
+}
+.select_class2 ul{
+	display: none;
+}
+.all_stu2_batch .all_stu2_check{
+	float: left;
+	margin:7px 32px 0 0;
+	display: none;
+}
+.all_stu2_check input{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 2px;
+}
+.all_stu2_check span{
+	font-size: 14px;
+	color: #333;
+	margin-left: 10px;
+	float: left;
+}
+.all_stu2_cancel{
+	display: block;
+	float: left;
+	display: none;
+}
+.all_stu2_edit{
+	float: left;
+	position: relative;
+	margin-left: 18px;
+	display: none;
+}
+.all_stu2_edit img{
+	position: absolute;
+	top: 12px;
+	right:14px;
+}
+.stu_change{
+	position: absolute;
+	background: #fff;
+	border: 1px solid #999;
+	font-size: 14px;
+	right: 0;
+	top: 40px;
+	z-index: 10;
+	width: 98px;
+	display: none;
+}
+.stu_change li{
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+.stu_change li:hover{
+	background: #ccc;
+}
+.all_stu2_batch{
+	float: right;
+	position: relative;
+}
+.stu_batch_check{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.select_student{
+	width: 264px;
+	position: absolute;
+	background: #fff;
+	top: 3px;
+	left: 93px;
+}
+.select_student select{
+	width: 264px;
+	height:38px;
+	outline:none;
+}
+
+.gender_class{
+	float: left;
+	margin-top: 11px;
+}
+.stu_sex{
+	margin-left:80px;
+}
+.stu_hour{
+	line-height:36px;
+}

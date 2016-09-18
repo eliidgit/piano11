@@ -1,0 +1,827 @@
+.teacher_detail{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.teacher_decenter{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom:52px;
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.teacher_tit{
+	font-size: 14px;
+	color: #999;
+	padding: 12px 0 12px 30px;
+}
+.teacher_top{
+	width: 1120px;
+	margin: 40px auto 0;
+	height:100px;
+	background:#eaeaea;
+	position: relative;
+}
+.teacher_top img{
+	height:108px;
+	width: 108px;
+	position: absolute;
+}
+.teacher_top_img{
+	width: 108px;
+	height: 108px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	top: 39px;
+	left:50%;
+	margin-left: -60px;
+	border: 6px solid #fff;
+}
+.teacher_name{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	margin: 73px 0 35px 0;
+}
+.teacher_base{
+	width: 1120px;
+	margin:40px auto 0;
+}
+.teacher_edit{
+	width: 90px;
+	height: 30px;
+	color:#fff;
+	float: left;
+	background:#968885;
+	border: 0;
+	border-radius: 30px;
+	margin: -15px 0 0 19px;
+	cursor: pointer;
+}
+.stu_left{
+	width:20px;
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+}
+.stu_center{
+	float: left;
+	color: #6a953a;
+	font-size: 18px;
+	margin: -10px 18px 0 20px;
+}
+.stu_right{
+	width:860px;
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+}
+.stu_right1{
+	width:824px;
+	height: 1px;
+	background:#eaeaea;
+	float: left;
+}
+.teacher_base_msg{
+	float: left;
+	font-size: 12px;
+	color: #666;
+	line-height: 34px;
+	margin: 12px 0 35px 0;	
+	padding-left:390px;
+}
+.teacher_base_msg span{
+	margin-right: 10px;
+	display: block;
+	float: left;
+	line-height:40px;
+}
+.teacher_base_msg .stu_com{
+	width: 54px;
+	text-align: right;
+	margin-right:18px;
+	color:#b4b4b4;
+}
+.teacher_base_msg .stu_coms{
+	float: left;
+}
+.tea_sex_name{
+	float: left;
+}
+.tea_base_sex{
+	float: left;
+}
+.teacher_base_msg .tea_sex_name{
+	margin-right: 17px;
+	width: 54px;
+	text-align: right;
+	color:#b3b3b3;
+}
+.select_bj{
+	float: left;
+	width: 258px;
+	height: 38px;
+	border: 1px solid #e1e0e5;
+	cursor: pointer;
+	background: #fff;
+	border-radius:6px;
+}
+.tea_base_sex .select_insert{
+	float: left;
+	width: 100px;
+	height: 36px;
+	font-size: 14px;
+	margin: 20px 0 0 10px;
+}
+.tea_base_sex .select_bj input{
+	width: 225px;
+	border: 0;
+	float: left;
+}
+.select_bj span{
+	width:6px;
+	height:6px;
+	background: url(../img/spirit_img.png) no-repeat -150px -64px;
+	float: left;
+	margin-top: 16px;
+}
+.teacher_save{
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+	margin-left:20px;
+	background:#9b928f;
+	border-radius: 30px;
+	border: 0;
+	box-shadow: 4px 4px 30px #ddd9d7;
+	float: left;
+	display: block;
+}
+.stu_btn{
+	margin: 35px 0 0 69px;
+	display: none;
+}
+.tea_base_sex input{
+	width: 244px;
+	height: 38px;
+	font-size:12px;
+	border: 1px solid #e1e0e5;
+	padding-left: 14px;
+	color:#bdbdbd;
+	border-radius: 6px;
+	line-height: 40px;
+}
+.tea_base_sex .stu_sex_select{
+	width: 18px;
+	height: 18px;
+	border: 0;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	appearance:none;
+	float: left;
+	margin-top: 10px;
+}
+.stu_sex_select1{
+	background: url(../img/spirit_img.png) no-repeat -218px -54px;
+	margin-left: 10px;
+}
+.stu_sex_select2{
+	background: url(../img/spirit_img.png) no-repeat -197px -54px;
+	margin-left: 23px;
+}
+.tea_base_sex label{
+	margin-left:8px;
+	display: block;
+    float: left;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.tea_base_sex .tea_base_date1{
+   width:220px;
+   float: left;	
+   border: 0;
+}
+.teacher_cancle{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color:#666;
+	background:#f3f0ee;
+	border: 0;
+	font-size: 15px;
+	border-radius: 30px;
+	display: block;
+	float: left;
+}
+.tea_base_sex .tea_base_date2{
+   float: right;	
+   margin: 8px 14px 0 0;
+}
+.stu_date{
+	width: 13px;
+	height: 13px;
+	background: url(../img/spirit_img.png) no-repeat -429px -56px;
+	margin-top: 13px;
+}
+.tea_base_sex1{
+	width: 258px;
+	cursor: pointer;
+	background: #fff;
+}
+.tea_base_sex .tea_base_job{
+	width:226px;
+	float: left;
+	border: 0;
+	height: 32px;
+}
+.tea_base_sex .tea_base_down1{
+	float: right;
+	margin: 15px 18px 0 0;
+}
+.tea_job li{
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+.tea_job{
+	width:264px;
+	border: 1px solid #999999;
+	margin: 8px 0 0 98px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.tea_job li:hover{
+	background: #ccc;
+}
+.tea_base_msg2{
+	margin-top: 10px;
+	display: none;
+	color:#b4b4b4;
+	position:relative ;
+}
+.teacher_basemsg{
+	padding-bottom: 20px;
+}
+.teacher_base2_left{
+	float: left;
+	width: 990px;
+}
+.teacher_base2_right{
+	float: left;
+	color:#666;
+	font-size: 15px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.tbleft{
+	width: 200px;
+	height: 40px;
+	border: 1px solid #797979;
+	border-radius: 30px;
+	margin: -20px auto 30px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+}
+.teacher_base2_msg{	
+	padding-bottom: 55px;
+}
+.teach_hx{
+	margin-left:5px;
+}
+.teacher_bmsg_right p{
+	width: 530px;
+	line-height: 20px;
+}
+.teacher_bmsg_right{
+	float: left;
+	font-size: 14px;
+	color: #666;
+	margin-left: 20px;
+}
+.teacher_bmsg_left{
+	float: left;
+}
+.teacher_base2_edit{
+	position: absolute;
+	right: 0;
+	width: 90px;
+	height: 30px;
+	color:#a29996;
+	font-size: 12px;
+	border: 0;
+	background: #fff;
+	border: 1px solid #eeeeee;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.teacher_bmsg2{
+	width:584px;
+	padding: 14px 0 20px 126px;
+	margin-bottom:26px;
+	display: none;
+}
+.tea_relation{
+	float: left;
+	line-height: 40px;
+}
+.teacher_bmsg2_time1{
+	float: left;
+}
+.teacher_bmsg2_time2{
+	float: left;
+}
+.teacher_bmsg2_hx{
+	float: left;
+	margin: 6px 20px 0;
+}
+.teacher_base2_tit input{
+	width:218px;
+	height: 38px;
+	color: #c9c9c9;
+	font-size: 12px;
+	border: 0;
+	float: left;
+	padding-left: 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	line-height: 40px;
+}
+.teacher_bmsg2 .stu_add{
+	width: 244px;
+	height: 38px;
+	display: block;
+	float: left;
+	border: 1px solid #e0e1e6;
+	border-radius: 6px;
+	margin-left: 18px;
+	padding-left: 14px;
+	color:#c9c9c9;
+	line-height: 40px;
+}
+.tea_link{
+	position: relative;
+	width: 258px;
+	height: 38px;
+	border: 1px solid #e0e1e6;
+	background: #fff;
+	float: left;
+	border-radius: 6px;
+	margin-left:23px;
+}
+.teacher_bmsg2_time1{
+	width: 113px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	background: #fff;
+}
+.teacher_bmsg2_time1 input{
+	width: 90px;
+	height: 30px;
+	border: 0;
+}
+.teacher_base2_tit{
+	color: #c9c9c9;
+	margin-top:12px;
+	position: relative;
+}
+.teacher_base2_time{
+	margin-top:12px;
+	color: #c9c9c9;
+}
+.teacher_base2_content{
+	margin-top:12px;
+	color: #c9c9c9;
+}
+.teacher_base2_time span{
+	display: block;
+	width: 54px;
+	float: left;
+	line-height: 36px;
+	text-align: right;
+}
+.teacher_base2_content span{
+	display: block;
+	width: 54px;
+	float: left;
+	line-height: 36px;
+	text-align: right;
+}
+.teacher_bmsgs{
+	width: 600px;
+	position: relative;
+	margin: 28px auto 0;
+	border-bottom: 1px solid #ebe8e7;
+	padding-bottom:25px;
+}
+.select_class1{
+	position: absolute;
+	top:40px;
+	left:74px;	
+	display: none;
+	z-index: 6;
+}
+.select_class1 .select_nj{
+	width: 159px;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+	line-height:38px;
+	border-radius: 4px;
+	padding-top: 10px;
+}
+.select_class1 .select_nj li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.select_class1 .select_bj1{
+	width: 130px;
+	background: #cccccc;
+	text-align: center;
+	line-height:38px;
+}
+.select_class1 .select_bj1 li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.select_class2{
+	position: absolute;
+	left: 231px;
+	top:41px;
+}
+.select_class2 ul{
+	display: none;
+}
+.select_class2 ul{
+	width: 100px;
+	background: #e5e5e5;
+	text-align: center;
+	line-height:38px;
+	border-radius: 6px;
+	padding: 10px 0;
+}
+.class_arrange{
+	position: relative;
+}
+.select_class2 ul li:hover{
+	background: #9a928f;
+	cursor: pointer;
+	color: #fff;
+}
+.tea_base_sex2{
+	float: left;
+	border: 1px solid #a9a9a9;
+	background: #fff;
+	width: 264px;
+	cursor: pointer;
+}
+.tea_base_sex2 input{
+	border: 0;
+	width: 228px;
+	height: 34px;
+	color: #666;
+	padding-left: 2px;
+}
+.tea_base_sex2 img{
+	margin-right: 18px;
+}
+.select_teacher{
+	position: absolute;
+	left: 98px;
+	top: 46px;
+	background: #fff;
+	z-index: 10;
+	display: none;
+}
+.tea_base_teacher{
+	position: relative;
+}
+.select_teacher ul{
+	width: 264px;
+	border: 1px solid #999;
+	background: #fff;
+	padding:25px 0;
+}
+.select_teacher ul li{
+	line-height: 33px;
+	text-align: center;
+}
+.select_teacher ul li:hover{
+	cursor: pointer;
+}
+.stu_base_tit1{
+	float: left;
+}
+.stu_base_tit3{
+	float: left;
+	margin: -10px 0 0 20px;
+}
+.stu_base_tit3 span{
+	font-size: 15px;
+	color:#666;
+	margin-left: 8px;
+}
+.stu_first{
+	font-size: 12px;
+	color:#4d4d4d;
+}
+.stu_first span{
+	display: block;
+	line-height:30px;
+}
+.stu_second{
+	font-size: 12px;
+	color:#4d4d4d;
+	line-height: 30px;
+}
+.stu_circle{
+	width: 16px;
+	height: 16px;
+	background: url(../img/spirit_img.png) no-repeat -425px -15px;
+	float: left;
+	margin-top:8px;
+}
+.stu_relation{
+	float: left;
+	margin-left: 33px;
+	width: 540px;
+}
+.stu_base_sex3{
+	position: relative;
+}
+.stu_det_label{
+	display: block;
+	float: left;
+	width: 88px;
+}
+.stu_statue{
+	margin-top: 27px;
+}
+.stu_statue span{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	float: left;
+}
+.tea_stu_link{
+	position: absolute;
+    width: 258px;
+    border: 1px solid #e3e3e3;
+    background: #fff;
+    left: 74px;
+    top: 40px;
+    display: none;
+    border-radius: 6px;
+}
+.tea_stu_link ul li{
+	line-height: 38px;
+	text-align: center;
+}
+.tea_stu_link ul li:hover{
+	background: #e5e5e5;
+	cursor: pointer;
+}
+.teacher_base2_right .tea_add_stu{
+	display: block;
+	width: 90px;
+	height: 30px;
+	background:#968885;
+	border-radius: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 19px;
+}
+.teacher_base2_right img{
+	float: left;
+	display: block;
+}
+.tea_base_sex4{
+	width: 264px;
+	background: #fff;
+	border: 1px solid #a9a9a9;
+}
+.allstu_screen{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 10;
+    display: none;
+}
+.all_parent{
+	width:600px;
+	margin: 0 auto;
+	background: #fff;
+	position: absolute;
+	z-index: 12;
+	left: 50%;
+	margin-left: -350px;
+	top:200px;
+	display: none;
+}
+.allparent1{
+	width: 420px;
+	margin: 0 auto;
+}
+.allp span{
+	float: left;
+}
+.allp input{
+	width: 150px;
+    height: 40px;
+    float: left;
+    border: 0;
+    color: #b2b2b2;
+}
+.parent1{
+	width: 260px;
+	height:40px;
+	float: left;
+}
+.link_parent{
+	position: absolute;
+	width:260px;
+	display: none;
+	top: 41px;
+	left: 88px;
+}
+.link_parent li{
+	line-height: 38px;
+	background: #fff;
+	padding-left: 14px;
+	color: #7a7a7a;
+}
+.link_parent li:hover{
+	background: #e5e5e5;
+	cursor: pointer;
+}
+.allp{
+	position: relative;
+}
+.all_save1 .all_save{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #9b928f;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px #ddd9d7;
+}
+.all_name{
+	width:260px;
+	height: 40px;
+	border: 0;
+	color: #b2b2b2;
+}
+.allp2{
+	margin-top: 14px;
+}
+.allp2 span{
+	float: left;
+    width: 70px;
+    color: #bdbdbd;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 30px;
+}
+.all_save1{
+	overflow: hidden;
+	margin-top:40px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.all_parent_tit{
+	text-align: center;
+    line-height: 50px;
+    color: #5d4e4b;
+    font-size: 17px;
+}
+.all_save1 input{
+	border: 0;
+    color: #b2b2b2;
+    line-height: 40px;
+}
+.all_cancel{
+	width: 120px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    background: #f3f0ee;
+    border-radius: 30px;	
+}
+.teacher_bmsg1{
+	overflow: hidden;
+}
+.stu_tip{
+	float: right;
+}
+.tea_link span{
+	width: 6px;
+    height: 6px;
+    background: url(../img/spirit_img.png) no-repeat -150px -64px;
+    float: left;
+    margin-top: 15px;
+}
+.teacher_base2_cancle{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color:#666;
+	background:#f3f0ee;
+	border: 0;
+	font-size: 15px;
+	border-radius: 30px;
+	display: block;
+	float: left;
+	margin-left:67px;
+}
+.teacher_base2_contsave{
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+	margin-left:20px;
+	background:#9b928f;
+	border-radius: 30px;
+	border: 0;
+	box-shadow: 4px 4px 30px #ddd9d7;
+	float: left;
+	display: block;
+}
+.stubtn{
+	margin-top:20px;
+}
+.stu_state{
+	width: 258px;
+	height: 38px;
+	border:1px solid #e1e0e5;
+	border-radius: 6px;
+	float: left;
+}
+.stu_state input{
+	width: 220px;
+    border: 0;
+    height: 37px;
+    color: #bdbdbd;
+    padding-left: 11px;
+    margin-left: 1px;
+    float: left;
+}
+.stu_state_ul{
+	width: 260px;
+	border:1px solid #e1e0e5;
+	background: #fff;
+	position: absolute;
+	border-radius: 6px;
+	left: 71px;
+    top: 40px;
+    border-radius: 6px;
+    z-index: 5;
+    display: none;
+}
+.stu_state_ul li{
+	width: 244px;
+	padding-left: 14px;
+}
+.stu_state_ul li:hover{
+	background: #e5e5e5;
+	cursor: pointer;
+}
+.stu_state span{
+	display: block;
+	width: 6px;
+	height: 7px;
+	background: url(../img/spirit_img.png) no-repeat -150px -64px;
+    float: left;
+    margin-top: 16px;
+}
+.tea_stu_time{
+	width: 244px;
+	float: left;
+	height: 38px;
+	border:1px solid #e3e3e3;
+	border-radius: 6px;
+	color: #b4b4b4;
+	padding-left: 14px;
+}
+.circle {
+    background: rgba(0, 0, 0, 0) url("../img/spirit_img.png") no-repeat scroll -218px -54px;
+    display: block;
+    height: 18px;
+    margin-right: 8px;
+    width: 19px;
+}

@@ -1,0 +1,1764 @@
+.scorecenter{
+	width: 1200px;
+	margin: 0 auto;
+}
+.score{
+	width:1200px;
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.scoreall{
+	width:1120px;
+	margin: 0 auto;
+	padding-bottom: 35px;
+	min-height: 628px;
+}
+.stu_change_statue{
+	text-align: center;
+    font-size: 21px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.scoretit{
+	color: #333;
+	font-size: 12px;
+	padding: 30px 0;
+}
+.scored{
+	color:#f9c23c;
+}
+.scoreul{
+	float: left;
+}
+.scoreul li{
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:30px;
+	width: 90px;
+	border-radius: 30px;
+	line-height: 30px;
+}
+.scorec{
+	background: #ebe8e7;
+	padding: 10px;
+	padding-right: 0;
+}
+.scoreul li a{
+	color:#666;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+}
+.scoreul .scoact{
+	background: #fff;
+}
+.clasore{
+	width:90px;
+	height: 30px;
+	color:#fff;
+	background:#978885;
+	border-radius: 30px;
+	border: 0;
+	line-height: 30px;
+}
+.scoredown{
+	position: absolute;
+	top: 13px;
+	right: 8px;	
+	width:7px;
+	display: block;
+	height:6px;
+	background: url(../img/spirit_img.png) no-repeat -108px -62px;
+}
+.scall{
+	position: relative;
+	width:90px;
+	float: left;
+	margin-right:26px;
+}
+.period{
+	width: 102px;
+	height:30px;
+	float: left;
+	margin-right: 12px;
+	background:#968885;
+	border: 0;
+	padding-left: 14px;
+	color: #cdc4c5;
+}
+.so_scall{
+	float: left;
+	width:180px;
+	height: 30px;
+	background:#968885;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.refer{
+	float: left;
+	color: #fff;
+	border: 0;
+	background:#968885;
+	border-left: 2px solid #cfcac7;
+	margin-top: 7px;
+	padding-left:10px;
+	line-height: 15px;
+}
+.scoresearch{
+	float: right;
+	display: none;
+}
+.scoresort{
+	width: 100%;
+	height:49px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.scoresort li{
+	color:#7e7e7e;
+	float: left;
+	text-align: center;
+	line-height:50px;
+}
+.tables ul{
+	width: 100%;
+	overflow: hidden;
+	height: 49px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.tables ul li{
+	color: #4d4d4d;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+}
+.tables .scores{
+	padding-left: 110px;
+}
+.tables .rank{
+	padding-left:0;
+	text-align: center;
+}
+.scsort1{
+	width:126px;
+}
+.scsort2{
+	width: 175px;
+}
+.scsort3{
+	width:128px;
+}
+.tables  .scsort4{
+	width:139px;
+	float: right;
+}
+.scoresort .scsort4{
+	width:139px;
+	float: right;
+}
+.scoretable1{
+	overflow: hidden;
+}
+.scoretable1 ul:hover{
+	background: #f2f2f2;
+	cursor: pointer;
+}
+.scorenav{
+	width: 100px;
+	margin: 14px auto 17px;
+	overflow: hidden;
+}
+.scorenav li{
+	width:12px;
+	height: 12px;
+	background: url(../img/score1_03.gif) no-repeat;
+	float: left;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.scorenav .scoreliact{
+	background: url(../img/score2_06.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.scoretime{
+	margin-left:28px;
+	color: #999999;
+}
+.add_teacher{
+	float: right;
+}
+.add_teacher input{
+	width: 90px;
+	height: 30px;
+	color:#fff;
+	background: #968885;
+	border: 0;
+	border-radius: 30px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.score_edit input{
+	width: 90px;
+	height: 30px;
+	color:#fff;
+	border: 0;
+	background: #968885;
+	border-radius: 30px;
+	line-height: 30px;
+}
+.edit_people{
+	float: right;
+	display: none;
+}
+.score_check{
+	float: left;
+	width:18px;
+	height: 18px;
+	margin: 8px 0 0 16px;
+	display: block;
+	background:url(../img/spirit_img.png) no-repeat -218px -54px;
+	cursor: pointer;
+}
+.score_all_check{
+	float: left;
+	margin: 8px 32px 0 13px;
+}
+.score_edit1{
+	margin-right:18px;
+	float: left;
+}
+.score_edit{
+	float: left;
+}
+.score_sum{
+	position: relative;
+	float: left;
+}
+.score_edit_check{
+	position: relative;
+	float: left;
+	z-index: 9;
+	margin-right: 10px;
+}
+.score_edit_check img{
+	position: absolute;
+	top: 12px;
+	right:10px;
+}
+.score_select{
+	position: absolute;
+    display: none;
+    background: #968885;
+    z-index: 8;
+    top: 8px;
+    width: 90px;
+    color: #fff;
+    border-radius: 14px;
+    padding-top: 25px;
+}
+.score_select li{
+	text-align: center;
+	line-height:35px;
+	cursor: pointer;
+}
+.score_teachpic ul{
+	width: 1150px;
+}
+.score_teachpic li{
+	width: 198px;
+    height: 248px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    background: #fbfbfb;
+    margin-top:20px;
+    cursor: pointer;
+}
+.score_teachpic li a{
+	display: block;
+    overflow: hidden;
+}
+.score_teachpic li:hover{
+	 box-shadow: 0 1px 10px 4px #ccc;
+	 background:#fff;
+}
+.score_teachpic .li_act{
+	box-shadow: 0 1px 10px 4px #ccc;
+	background:#fff;
+}
+.score_teachpic .li_act p{
+	color:#fab91f;
+}
+.score_teachpic .li_act .score_tx{
+	border: 6px solid #fab91f;
+}
+.score_teachpic li:hover .score_tx{
+	border: 6px solid #f8b920;
+}
+.score_teachpic li:hover p{
+	color:#fab91f;
+}
+.student_msg li:hover .student_tx{
+	border: 6px solid #f8b920;
+}
+.student_msg .li_act{
+	box-shadow: 0 1px 10px 4px #ccc;
+	background:#fff;
+}
+.student_msg .li_act p{
+	color:#fab91f;
+}
+.student_msg .li_act .student_tx{
+	border: 6px solid #fab91f;
+}
+.score_teachpic li:hover p{
+	color:#fab91f;
+}
+.score_checked{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+    display: none;
+}
+.score_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 16px auto 0;
+    border:6px solid #fbfbfb;
+}
+.score_tx img{
+	width: 120px;
+}
+.score_name{
+	color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 30px;
+}
+.score_post{
+	color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.alert_screen{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	z-index: 12;
+	display: none;
+	top:0;
+}
+.sum_class_start{
+	float: left;
+}
+.add_cen1 img{
+	width: 120px;
+}
+.alert_window{
+	width: 1200px;
+	position: absolute;
+	z-index: 12;
+	background: #fff;
+	border: 1px solid #999999;
+	left: 50%;
+	margin-left: -600px;
+	top: 200px;
+	padding-bottom: 46px;
+	display: none;
+}
+.alert_tit{
+	width: 100%;
+	height:50px;
+	background: #ece8e7;
+	font-size: 15px;
+	text-align: center;
+	line-height: 50px;
+	color: #adacaa;
+}
+.alert_all{
+	width: 1120px;
+	margin: 0 auto;
+}
+.alert_check{
+	width: 1120px;
+	margin: 0 auto;
+	height:48px;
+	border-bottom: 2px solid #ece8e7;
+}
+.alert_right{
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.alert_right1{
+	margin-right: 10px;
+	width: 18px;
+	height: 18px;
+	margin-top: 1px;
+	display: block;
+	float: left;
+	background: url(../img/spirit_img.png) no-repeat -218px -54px;
+	cursor: pointer;
+}
+.alert_right span{
+	float: left;
+	color: #808080;
+}
+.alert_all .alert_all_teacher{
+	width: 1150px;
+    max-height:390px;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.alert_all .alert_all_teacher li{
+	width: 198px;
+    height: 248px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 20px 21px 0 5px;
+    position: relative;
+    background: #fbfbfb;
+}
+.alert_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 16px auto 0;
+    border: 6px solid #fbfbfb;
+}
+.alert_check1{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+}
+.alert_name{
+	color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 30px;
+}
+.alert_post{
+	color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.alert_btns{
+	text-align: center;
+	margin-top: 28px;
+}
+.alert_btns input{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #666;
+	background:#f4f0ef;
+	border: 0;
+	border-radius: 40px;
+}
+.alert_btns .alert_comfirm{
+	background:#9b918f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	margin-left: 28px;
+}
+.class_start{
+	position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 40px 0 67px 0;
+    top: 200px;
+    display: none;
+}
+.class_start_name{
+	float: left;
+    font-size: 12px;
+    margin: 5px 28px 0 36px;
+}
+.class_start1{
+	width: 300px;
+	float: left;
+}
+.change_sum_stu{
+	padding-left: 107px;
+    margin-top: 26px;
+}
+.class_start2{
+	float: left;
+    background: #f2f2f2;
+    padding: 3px;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+.class_start2 span{
+	display: block;
+    float: left;
+    color: #797979;	
+}
+.class_start2 .class_del{
+	width: 18px;
+    height: 18px;
+    background: url(../img/spirit_img.png) no-repeat -158px -76px;
+    margin-left: 8px;
+}
+.class_sum{
+	margin-top: 16px;
+}
+.clasore1{
+	position: relative;
+}
+.class_sum1{
+	float: left;
+    margin-right: 10px;
+    width: 260px;
+    height: 40px;
+    cursor: pointer;
+    background: url(../img/spirit_img.png) no-repeat -179px -79px;
+}
+.select_class_sum{
+	float: left;
+    width: 160px;
+}
+.select_class_sum span{
+	width: 6px;
+    height: 6px;
+    background: url(../img/spirit_img.png) no-repeat -134px -64px;
+    margin: 17px 0 0 0;
+    display: block;
+    float: left;
+}
+.class_sum_select{
+	width: 128px;
+    height: 38px;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+    float: left;
+    line-height: 34px;
+    margin: 1px 0 0 14px;
+}
+.class_sum_down{
+	float: right;
+    margin: 16px 16px 0 0;
+}
+.class_sum2{
+	width: 100px;
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.class_sum3{
+	width: 158px;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    background: #fff;
+    display: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+.class_sum4{
+    width: 100px;
+    position: absolute;
+    top: 41px;
+    left: 158px;
+    background: #e5e5e5;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.class_sum4 li:hover{
+	background: #9a928f;
+	cursor: pointer;
+	color: #fff;
+}
+.class_sum3 li:hover{
+	cursor: pointer;
+}
+.class_sum3 li{
+	line-height: 38px;
+	width: 144px;
+	padding-left: 14px;
+	color: #9b9b9b;
+}
+.class_sum4 li{
+	line-height: 30px;
+}
+.class_sum4 ul{
+	display: none;
+	 padding: 10px 0;
+}
+.class_btns{
+	text-align: center;
+	margin-top: 33px;
+}
+.class_btns input{
+	width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;
+    background: #f3f0ee;
+    border: 0;
+    border-radius: 30px;
+}
+.change_class_statue{
+	border: 1px solid #999;
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 40px 0 50px 0;
+    top: 200px;
+    display: none;
+}
+.class_btns .class_btns2{
+	background: #9b928f;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 4px 4px 10px #ddd9d7;
+}
+.change_class_statue1{
+	width: 346px;
+    margin: 0 auto;
+    line-height: 34px;
+    position: relative;
+}
+.change_class_statue2{
+	margin-top: 81px;
+    text-align: center;
+}
+.change_class_stat1{
+	float: left;
+    margin-right: 23px;
+    font-size: 12px;
+    color: #a6a6a6;
+}
+.change_statue1{
+	width: 244px;
+    height: 38px;
+    border: 1px solid #e0e1e5;
+    float: left;
+    position: relative;
+    font-size: 12px;
+    padding-left: 14px;
+    z-index: 2;
+    background: #fff;
+    border-radius: 6px;
+}
+.change_statue2{
+	width: 258px;
+    border: 1px solid #e0e1e5;
+    position: absolute;
+    left: 71px;
+    top: 36px;
+    background: #fff;
+    display: none;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+.change_input{
+	width: 220px;
+    height: 38px;
+    float: left;
+    border: 0;
+    color: #b2b2b2;
+    font-size: 12px;
+    line-height: 32px;
+}
+.change_simg{
+	display: block;
+    float: left;
+    width: 7px;
+    height: 7px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    margin: 16px 0 0 0;
+}
+.change_statue2 li{
+    cursor: pointer;
+    color: #7a7a7a;
+    padding-left: 14px;
+    line-height: 40px;
+}
+.change_statue2 li:hover{
+	background: #e5e5e5;
+}
+.change_class_statue2 input{
+	width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: #666;
+    margin-right: 20px;
+    background: #f3f0ee;
+    border: 0;
+    border-radius: 30px;
+}
+.change_class_statue2 .change_class_save{
+	background: #9b928f;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 4px 4px 10px #ddd9d7
+}
+.stu_score_cbj{
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+.stu_bj{
+	position: relative;
+	z-index: 9;
+}
+.stu_bj img{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+.stu_score_cbj1{
+	float: left;
+	margin-right: 18px;
+}
+.remove_tea{
+	width: 440px;
+	position: absolute;
+	z-index: 12;
+	top: 200px;
+	left: 50%;
+	margin-left: -250px;
+	background: #fff;
+	border: 1px solid #999999;
+	display: none;
+	height: 190px;
+}
+.remove_btns{
+	margin-top: 38px;
+	text-align: center;
+}
+.remove_btns input{
+	width: 120px;
+	height: 40px;
+	color: #666;
+	font-size: 16px;
+	background: #f4f0ef;
+	border: 0;
+	border-radius: 30px;
+}
+.remove_btns .remove_comfirm{
+	background: #9b918f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	margin-left: 18px;
+}
+.remove_tip{
+	text-align: center;
+	font-size: 19px;
+	color:#656565;
+	margin-top: 52px;
+}
+.stu_score_btn{
+	margin-top:14px;
+}
+.stu_add_student input{
+	width: 90px;
+	height: 30px;
+	font-size: 12px;
+	color: #fff;
+	background:#968885;
+	border: 0;
+	border-radius: 30px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.stu_score_edit{
+	float: left;
+}
+.stu_score_edit input{
+	width: 90px;
+	height: 30px;
+	color: #fff;
+	background:#9b918f;
+	border: 0;
+	border-radius: 30px;
+}
+.stu_score_select{
+	display: none;
+    position: absolute;
+    background: #9b918f;
+    width: 90px;
+    z-index: 8;
+    color: #fff;
+    top: 8px;
+    padding-top: 20px;
+    border-radius: 14px;
+}
+.change_stubj li:hover{
+	background: #9a928f;
+	cursor: pointer;
+	color: #fff;
+}
+.change_stunj li:hover{
+	cursor: pointer;
+}
+.stu_score_select li{
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+.stu_score_check{
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin: 8px 0 0 14px;
+	display: block;
+	background: url(../img/spirit_img.png) no-repeat -218px -54px;
+	cursor: pointer;
+}
+.stu_score_all_check{
+	float: left;
+	margin: 8px 23px 0 12px;
+}
+.stu_add_student{
+	float: right;
+}
+.stu_add_sum{
+	display: none;
+}
+.stu_edit_people{
+	float: right;
+	display: none;
+}
+.student_msg ul{
+	width: 1150px;
+}
+.student_msg ul li a{
+	display: block;
+    overflow: hidden;
+}
+.student_msg ul li{
+	width: 198px;
+    height: 248px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 30px 20px 0;
+    position: relative;
+    background: #fbfbfb;
+}
+.student_msg ul li:hover{
+	 box-shadow: 0 1px 10px 4px #ccc;
+	 background: #fff;
+	 cursor: pointer;
+}
+.student_msg ul li:hover p{
+	color:#fab91f;
+}
+.student_tx{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    border:6px solid #fbfbfb;
+}
+.student_tx img{
+	width: 120px;
+	min-height:120px;
+}
+.student_check{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+    display: none;
+}
+.student_name{
+	color: #333;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 16px;
+}
+.student_class{
+	text-align: center;
+    font-size: 12px;
+    color: #a6a6a6;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.student_study{
+	text-align: center;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.student_study span{
+	font-size: 12px;
+    color: #f8c23b;
+}
+.change_stu{
+	position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    top: 200px;
+    display: none;
+    padding: 40px 0 48px 0;
+}
+.change_student2{
+	width: 258px;
+    height: 38px;
+    border: 1px solid #e1e0e5;
+    border-radius: 6px;
+    float: left;
+    position: relative;
+}
+.change_stu_bj{
+	text-align: center;
+    font-size: 21px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.change_select{
+	width: 220px;
+    height: 38px;
+    float: left;
+    border: 0;
+    color: #cecece;
+    line-height: 38px;
+    margin-left: 14px;
+}
+.change_student2 .change_down_img{
+	display: block;
+    width: 7px;
+    height: 7px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    float: left;
+    margin-top: 14px;
+}
+.change_down{
+	float: right;
+    margin: 16px 16px 0 0;
+}
+.change_stunj{
+	width: 158px;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    display: none;
+  	padding-top: 10px;
+    color: #959595;
+}
+.change_stunj ul li{
+	line-height: 38px;
+	width: 144px;
+	padding-left: 14px;
+}
+.change_stubj{
+	width: 100px;
+    position: absolute;
+    top: 41px;
+    right:-2px;
+    background: #e5e5e5;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+    color: #959595;
+}
+.change_stubj ul{
+	display: none;
+	padding: 10px 0;
+}
+.change_stubj ul li{
+	line-height: 30px;
+}
+.change_student1{
+	float: left;
+    margin-right: 23px;
+    color: #b4b4b4;
+}
+.change_stu1{
+	margin-left: 108px;
+    line-height: 40px;
+}
+.change_stu2 input{
+	width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    border: 0;
+    border-radius: 30px;
+    background: #f4f0ef;
+}
+.change_stu2 .change_stu2_save{
+	background: #9b918f;
+    color: #fff;
+    box-shadow: 4px 4px 10px #ddd9d7;
+    margin-left: 23px;
+}
+.change_stu2 .change_stu2_cancle{
+	margin-left: 170px;
+}
+.change_stu2{
+	margin-top:20px;
+}
+.stu_change_statu{
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 12;
+    background: #fff;
+    padding: 39px 0 50px 0;
+    top: 200px;
+    display: none;
+}
+.stu_change_statu1{
+	margin-left: 108px;
+    line-height: 40px;
+    position: relative;
+}
+.stu_change_statu2{
+	margin-top: 20px;
+}
+.stu_change_statu2 input{
+	width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 34px;
+    background: #f4f0ef;
+    border: 0;
+    border-radius: 30px;
+}
+.stu_change_statu2 .stu_sta_cancle{
+	margin-left: 170px;
+}
+.stu_change_statu2 .stu_sta_save{
+	background: #9b918f;
+    color: #fff;
+    box-shadow: 4px 4px 10px #ddd9d7;
+}
+.stu_change1 input{
+	width: 220px;
+    height: 38px;
+    float: left;
+    border: 0;
+    color: #bbbbbb;
+    padding-left: 10px;
+    margin-left: 4px;
+}
+.stu_change1 .add_stu_down{
+	display: block;
+    width: 7px;
+    height: 7px;
+    background: url(../img/spirit_img.png) no-repeat -107px -62px;
+    float: left;
+    margin-top: 16px;
+}
+.stu_change2 li{
+    cursor: pointer;
+    width: 244px;
+    padding-left: 14px;
+    color: #696969;
+}
+.stu_change1{
+	width: 258px;
+    height: 38px;
+    border: 1px solid #e1e0e5;
+    float: left;
+    position: relative;
+    border-radius: 6px;
+    z-index: 2;
+}
+.stu_change_stat{
+	float: left;
+    margin-right: 23px;
+    color: #bfbfbf;
+}
+.stu_change2{
+	width: 258px;
+    border: 1px solid #e3e3e3;
+    border-top: 0;
+    position: absolute;
+    left: 71px;
+    top: 37px;
+    background: #fff;
+    display: none;
+    border-radius: 6px;
+}
+.stu_change2 li:hover{
+	background:#e5e5e5;
+}
+.timetable{
+	margin-top:35px;
+}
+.timetable_tit{
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+}
+.kb_height{
+	width: 100%;
+	height:14px;
+	background:#e9e9e9;
+	margin: 1px 0 0;
+}
+.time_date_ul{
+	background:#ccc;
+	overflow: hidden;
+}
+.time_date_ul li{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	width: 149px;
+    text-align: center;
+}
+.time_date{
+	overflow: hidden;
+}
+.time_date1{
+	height:160px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.time_date2{
+	height:160px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.time_date1 .sw{
+	width:69px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	margin-right: 1px;
+}
+.time_date2 .sw{
+	width: 69px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	margin-top: 2px;
+	font-size: 12px;
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+.time_date_ul .sw{
+	width: 69px;
+	background: #cccccc;
+	line-height: 160px;
+	color: #fff;
+	margin-top: 2px;
+	font-size: 14px;
+	float: left;
+	padding: 0;
+}
+.time_date1 li{
+	width:149px;
+	float: left;
+	height: 160px;
+	cursor: pointer;
+	position: relative;
+	word-break: break-word;
+	background: #f2f2f2;
+	margin: 1px 1px 0 0;
+}
+.time_date2 li{
+	width:149px;
+	float: left;
+	height: 160px;
+	cursor: pointer;
+	position: relative;
+	background:#f2f2f2;
+	margin: 1px 1px 0 0;
+}
+.time_date1 .time_already{
+	background:#f8b91e;
+	color: #fff;
+}
+.time_date2 .time_already{
+	background:#f8b91e;
+	color: #fff;
+}
+.time_table{
+	overflow: hidden;
+	padding-bottom: 143px;
+}
+.time_select li:hover{
+	background:#f5f3f3;
+}
+.time_select{
+	width: 111px;
+    position: absolute;
+    border: 1px solid #e0e1e5;
+    background: #fff;
+    z-index: 10;
+    top: -66px;
+    overflow-y: scroll;
+    height: 150px;
+    display: none;
+}
+.time_select li{
+	line-height: 30px;
+	padding-left: 13px;
+	cursor: pointer;
+	color: #a6a6a6;
+}
+.kb_add{
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	margin-top: -12px;
+}
+.kb_add1{
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	margin-top: -12px;
+}
+.time_date1 .kb:hover{
+	background: #f9f9f9;
+}
+.time_date2 .kb:hover{
+	background: #f9f9f9;
+}
+.time_date1 .kb:hover .kb_add{
+	display: block;	
+}
+.time_date2 .kb:hover .kb_add{
+	display: block;
+}
+.add_music{
+	width:600px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -300px;
+	background: #fff;
+	z-index: 12;
+	display:block;
+	padding: 30px 0 40px 0;
+	display: none;
+}
+.add_music_tit{
+	text-align: center;
+	font-size: 21px;
+	color: #666666;
+}
+.music_tit{
+	overflow: hidden;
+}
+.music_kc{
+	width: 40px;
+	display: block;
+	float: left;
+	color: #a6a6a6;
+}
+.music_class{
+	display: block;
+	float: left;
+	color: #8f8f8f;
+	width: 246px;
+	border: 0;
+	padding-left: 14px;
+	line-height: 0;
+}
+.music_time1{
+	width: 110px;
+	float: left;
+	color: #a6a6a6;
+	position:relative;
+}
+.music_time1 input{
+	border: 0;
+	width:82px;
+	color: #a6a6a6;
+	padding-left:13px;
+	line-height: 0;
+}
+.most{
+	float: left;
+	color:#bdbdbd;
+	margin: 0 18px;
+}
+.music_time2 input{
+	border: 0;
+	width:95px;
+	color:#bdbdbd;
+	line-height: 0;
+}
+.music_time2{
+	float: left;
+	width: 110px;
+	position:relative;
+}
+.timedate{
+	display: block;
+	float: right;
+	width: 13px;
+    height: 13px;
+    background: url(../img/spirit_img.png) no-repeat -428px -56px;
+    margin-top: 1px;
+}
+.music_btn input{
+	width: 120px;
+	height: 40px;
+	border-radius: 30px;
+	border: 0;
+	color: #666;
+	font-size: 16px;
+	background: #f3f0ee;
+	line-height: 40px;
+	margin: 20px 20px 0 0;
+}
+.music_btn .music_btn_yes{
+	background:#9b928f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.music_btn .music_btn1{
+	margin-left: 54px;
+}
+.music_bz textarea{
+	width:260px;
+	height: 80px;
+	resize: none;
+	outline: none;
+	border: 1px solid #e0e1e5;
+	border-radius: 6px;
+	color: #8f8f8f;
+	margin-left: 12px;
+}
+.music_time{
+	margin-top: 38px;
+}
+.music_bz{
+	margin-top: 25px;
+}
+.music_bz .music_kc{
+	margin-top: 14px;
+}
+.add_music_center{
+	margin: 33px 0 0 132px;
+}
+.time_date1 p{
+	margin-top: 10px;
+	width: 135px;
+	padding-left: 14px;
+}
+.time_date2 p{
+	margin-top: 10px;
+	width: 135px;
+	padding-left: 14px;
+}
+.time_date{
+	cursor: pointer;
+}
+.add_student{
+	width: 1200px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -600px;
+	background: #fff;
+	z-index: 12;
+	padding-bottom: 30px;
+	display: none;
+}
+.add_student_title{
+	height:50px;
+	background: #ebe8e7;
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	color: #9c9a9a;
+}
+.add_student_li{
+	position: relative;
+	z-index: 10;
+}
+.add_student_banji ul li{
+	float: left;
+	margin-right: 33px;
+	color: #a6a6a6;
+	cursor: pointer;
+}
+.add_student_banji{
+	width: 1120px;
+	margin: 0 auto;
+	padding: 18px 0;
+	border-bottom: 1px solid #ebe8e7;
+}
+.add_all_check{
+	float: right;
+	cursor: pointer;
+}
+.add_all_check .add_all_check11{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	margin-top:4px;
+	margin-right: 10px;
+	background: url(../img/spirit_img.png) no-repeat -218px -54px;
+}
+.add_all_check span{
+	display: block;
+	float: left;
+    margin-top: 3px;
+    color: #666;
+}
+.add_center{
+	padding-bottom: 30px;
+	position: relative;
+	width: 1167px;;
+	margin: 0 auto;
+	overflow: auto;
+	max-height: 390px;
+}
+.add_center0 ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 14px 20px 0;
+    position: relative;
+    margin:21px 0 0 21px;
+}
+.add_center0 li a{
+	display: block;
+    overflow: hidden;
+}
+.add_center1 ul li{
+	width: 194px;
+    height: 238px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 10px 4px #fff;
+    float: left;
+    margin: 0 14px 20px 0;
+    position: relative;
+    margin:21px 0 0 21px;
+}
+.add_center1 li a{
+	display: block;
+    overflow: hidden;
+}
+.add_cen1{
+	width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    border:6px solid #fbfbfb;
+}
+.add_cen2{
+	position: absolute;
+    top: 9px;
+    right: 15px;
+}
+.add_cen3{
+	color: #333;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 16px;
+}
+.add_cen4{
+	text-align: center;
+    color: #a6a6a6;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.add_cen5{
+	text-align: center;
+    margin-top: 15px;
+    line-height: 14px;
+}
+.add_cen5 span{
+    color: #f8c23b;
+}
+.add_student_btn{
+	text-align: center;
+	margin-top: 35px;
+}
+.add_student_btn input{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background:#9b928f;
+	border: 0;
+	border-radius: 30px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.add_student_btn .add_student_cancle{
+	margin-right: 27px;
+	box-shadow: 0 0 0 #fff;
+	color: #666;
+	background:#f3f0ee;
+}
+.add_cen2_tcheck{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.add_all_check1{
+	float: right;
+	display: none;
+}
+.add_all_check1 input{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-top:7px;
+	margin-right: 10px;
+}
+.add_all_check1 span{
+	display: block;
+	float: left;
+    margin-top: 3px;
+}
+.add_tit li{
+	height: 28px;
+    width: 162px;
+    background: #e6e6e6;
+    color: #333;
+    line-height: 28px;
+    font-size: 12px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+.add_tit{
+	margin:20px 0 0 16px;
+}
+.new_student_msg li input{
+	width: 140px;
+    height: 34px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.new_student_msg li{
+	width: 144px;
+    float: left;
+    height: 38px;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+}
+.add_student1{
+	width: 138px;
+	left: 0;
+	top: 40px;
+	position: absolute;
+	border: 1px solid #a9a9a9;
+	display: none;
+}
+.add_student1 li{
+	width: 138px;
+	float: none;
+	background: #fff;
+}
+.add_student1 li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.classse1{
+	position: absolute;
+	right: 11px;
+    top: 15px;
+}
+.classse2{
+	position: absolute;
+    right: 8px;
+    top: 9px;
+}
+.all_add_student{
+	position: absolute;
+	width: 138px;
+	left: 140px;
+	top: 40px;
+}
+.all_add_student ul li{
+	width: 138px;
+	background: #ccc;
+	margin-right: 0;
+}
+.all_add_student ul li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.new_student_msg .new_student_msg1{
+	margin: 14px 0 0 10px;
+	float: left;
+}
+.all_add_student ul{
+	display: none;
+}
+.new_student_msg .new_student_num{
+	float: left;
+    display: block;
+    line-height: 60px;
+    font-size: 12px;
+    width: 12px;
+}
+.new_student_msg{
+	width: 842px;
+	margin: 0 auto;
+}
+.add_center1 li{
+	float: left;
+	width: 198px;
+	border: 1px solid #ebebeb;
+	margin-top: 20px;
+	margin-right: 30px;
+	padding-bottom: 10px;
+	position: relative;
+	box-shadow: 0 1px 10px 4px #fff;
+	background:#fbfbfb;
+}
+.add_center1 li:hover{
+	background: #fff;
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.add_center1 li:hover p{
+	color:#f9ba21;
+}
+.add_center1 li:hover .add_cen1{
+	border: 6px solid #f9ba21;
+}
+.add_center1 li:hover span{
+	color:#f9ba21;
+}
+.add_center0 li{
+	float: left;
+	width: 198px;
+	height: 248px;
+	border: 1px solid #ebebeb;
+	position: relative;
+	background: #fbfbfb;
+	margin: 20px 22px 0 5px;
+	cursor: pointer;
+}
+.add_center_class{
+	width: 264px;
+	border: 1px solid #ccc;
+	height: 36px;
+	float: left;
+}
+.add_center_class input{
+	width:246px;
+	border: 0;
+}
+.add_center_class img{
+	margin-top: 10px;
+}
+.add_center0{
+	display: block;
+	width: 1150px;
+	padding-left: 18px;
+}
+.add_center1{
+	display: none;
+	width: 1150px;
+	/*overflow: auto;*/
+	max-height: 395px;
+}
+.alert_all .alert_all_teacher li:hover{
+	box-shadow: 0 1px 10px 4px #ccc;
+	background: #fff;
+	cursor: pointer;
+}
+.alert_all .alert_all_teacher .alert_li_act{
+	box-shadow: 0 1px 10px 4px #ccc;
+	background: #fff;
+	cursor: pointer;
+}
+.alert_all .alert_li_act p{
+	color:#f8b91c;
+}
+.alert_all .alert_li_act .alert_tx{
+	border: 6px solid #f8b91c;
+}
+.alert_all .alert_all_teacher li:hover .alert_tx{
+	border: 6px solid #f8b91c;
+}
+.alert_all .alert_all_teacher li:hover p{
+	color:#f8b91c;
+}
+.add_center0 li:hover{
+	background: #fff;
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.add_center0 li:hover p{
+	color: #f8b91e;
+}
+.add_center0 li:hover p span{
+	color: #f8b91e;
+}
+.add_center0 li:hover .add_cen1{
+	border: 6px solid #f8b91e;
+}
+.add_center0 .add_student_act{
+	background: #fff;
+	box-shadow: 0 1px 10px 4px #ccc;
+}
+.add_center0 .add_student_act p{
+	color: #f8b91e;
+}
+.add_center0 .add_student_act .add_cen1{
+	border: 6px solid #f8b91e;
+}
+.add_center0 .add_student_act p span{
+	color: #f8b91e;
+}
+.class_start1 li{
+	float: left;
+	margin-top: 2px;
+}
+

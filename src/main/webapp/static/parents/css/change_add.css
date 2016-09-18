@@ -1,0 +1,102 @@
+body{
+	background: #eaebef;
+}
+.change_add{
+	width:7.38rem;
+	background: url(../img/change_add/change_add01.png) no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	margin-top: 0.2rem;
+	padding-bottom: 0.5rem;
+}
+.change_addcenter{
+	width: 6.88rem;
+	margin: 0 auto;
+	color:#52617d;
+	font-size: 0.3rem;
+}
+.change_add1{
+	display: block;
+	float: left;
+	width: 1.57rem;
+	margin-top: 0.3rem;
+}
+.change_add2{
+	width: 4rem;
+	color:#52617d;
+	font-size: 0.3rem;
+	font-family: "微软雅黑";
+	float: left;
+	margin-top: 0.24rem;
+	line-height: 0.5rem;
+	resize: none;
+	border: 0;
+	outline: none;
+}
+.change_btn{
+	width:5rem;
+	height: 0.7rem;
+	background:#eaebef;
+	border-radius:0.6rem;
+	border:1px solid #52617d;
+	margin: 0 auto;
+	color: #52617d;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+	margin-top: 4.7rem;
+}
+.add_screen{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	background: #000;
+	display: none;
+}
+.add_window{
+	width: 6.46rem;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -43.1%;
+    height: 1.5rem;
+    margin-top: 50%;
+    border-radius: 0.1rem;
+	-webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: box;
+    display: flex;
+	-webkit-justify-content: center;  
+    justify-content: center;  
+	-webkit-box-pack: center;  
+    -moz-box-pack: center; 
+	display:none;
+}
+.add_already span{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+	line-height:0.6rem;
+	color:#52617d;
+}
+.add_already img{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+	float: left;
+	margin-right: 0.3rem;
+}
+.change_add_tip{
+	height: 0.3rem;
+	text-align: right;
+	padding-right: 0.15rem;
+	font-size: 0.3rem;
+	color: #52617D;
+}

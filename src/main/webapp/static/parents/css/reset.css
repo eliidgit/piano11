@@ -1,0 +1,124 @@
+body{
+	background:#eaebef;
+}
+.resetcenter{
+	width:95%;
+	margin: 0 auto;
+}
+/*添加*/
+.rcenter{
+	background: #fff;
+	box-shadow: 4px 4px 5px #dadde7;
+	margin-top: 0.2rem;
+}
+.rcenter_cent{
+	width:97%;
+	margin: 0 auto;
+}
+/**/
+.resetyes{
+	width:5rem;/*修改*/
+	height: 0.7rem;
+	background: #eaebef;
+	color:#52617d;/*修改*/
+	font-size: 0.28rem;/*修改*/
+	/*margin-top: 1.3rem;*/
+	/*添加*/
+	border: 1px solid #52617d;
+	border-radius: 30px;
+	display: block;
+	margin: 3.8rem auto 0;/*修改*/
+	}
+.rcenter1{
+	height: 0.88rem;/*修改*/
+	/*background: #f2f2f2;*/
+	/*margin-top: 0.12rem;删除*/
+	border-bottom: 1px solid #eaebef;
+}
+.rcenter2{
+	height: 1rem;
+	/*background: #f2f2f2;*/	
+	margin: 0 0 0.15rem 0;
+}
+.rcenter1 span{
+	font-size: 0.28rem;/*修改*/
+	display: block;
+	float: left;
+	line-height: 0.88rem;/*修改*/
+	margin-left:0.2rem;
+	color: #52617d;/*添加*/
+}
+.rcenter2 span{
+	font-size: 0.28rem;/*修改*/
+	display: block;
+	float: left;
+	line-height: 1rem;
+	margin-left:0.2rem;
+	color: #52617d;/*添加*/
+}
+.renewpwd{
+	float: left;
+	height: 0.88rem;/*修改*/
+	font-size: 0.28rem;/*修改*/
+	width: 60%;
+	/*margin: 0.1rem 0 0 0.23rem;*/
+	background:#fff;/*修改*/
+	line-height: 0.88rem;/*修改*/
+	margin-left: 0.24rem;/*添加*/
+}
+.renew{
+	width: 0.9rem;
+	float: right;
+	margin-top: 0.2rem;
+}
+.renew #del2{
+	width: 0.16rem;
+	height: 0.17rem;
+	margin-right: 0.18rem;
+	float: left;
+	display: none;
+}
+.renew #eyes2{
+	width: 0.42rem;
+	height: 0.2rem;
+	float: right;
+	margin: 0.24rem 0.18rem 0 0;
+}
+.renew #del3{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-right: 0.18rem;
+	float: left;
+	display: none;
+}
+.renew #eyes3{
+	width: 0.42rem;
+	height: 0.2rem;
+	float: right;
+	margin: 0.25rem 0.18rem 0 0;
+}
+.reyes{
+	display: block;
+	float: left;
+	height: 0.88rem;/*修改*/
+	font-size: 0.28rem;/*修改*/
+	width: 60%;
+	margin:0.08rem 0 0 0.24rem;/*修改*/
+	background:#fff;/*修改*/
+	line-height: 0.88rem;/*修改*/
+}
+/*修改*/
+.errortip{
+	font-size: 0.24rem;
+	text-align: right;
+	height: 0.3rem;
+	color: #fa694d;
+}
+
+
+
+
+
+
+
+

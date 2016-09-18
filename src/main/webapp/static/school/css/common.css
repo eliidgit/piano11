@@ -1,0 +1,334 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0}
+body{font-size:12px;background:#fff;-webkit-text-size-adjust:100%}
+a{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0}
+input,textarea{
+	outline: none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.user_center{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width:60px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	font-size:14px;
+}
+html,body{
+	width: 100%;	
+	height: 100%;
+	background: #efebe8;
+	font-family: "微软雅黑";
+}
+body{
+	min-width: 1200px;
+}
+.top{	
+	width:100%;
+	height:60px;
+	background:url(../img/school_index_06.png) repeat-x;
+	background-size: 100% 100%;
+}
+.logo{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.clear{
+	clear: both;
+}
+.topcenter li a{
+	color:#d2cfce;
+	font-size:16px;
+	display: block;
+}
+.topcenter li{
+	float: left;
+	width: 103px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	margin: 0 10px;
+}
+.topcenter{
+	width: 870px;
+	float: left;
+	margin: 6px 42px 0;
+}
+.logopic{
+	float: left;
+}
+.userpic{
+	float: right;
+	margin-top: 8px;
+}
+.userpic a{
+	color: #eeeded;
+	text-decoration: underline;
+}
+.userpic span{
+	margin:0 10px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.topcenter .act{
+	background: url(../img/school_index_01.png) no-repeat;	
+	background-size: 100% 100%;
+}
+.topcenter .act a{
+	color: #675858;
+}
+.exit{
+	width:116px;
+	position: absolute;	
+	font-size: 14px;
+	text-align: center;
+	line-height:32px;
+	display: none;
+	top: 48px;
+	right: -7px;
+}
+.exit a{
+	color:#817574;
+	text-decoration: none;
+	height: 36px;
+	width:116px;
+	display: block;
+	line-height: 30px;
+	background: url(../img/school_index_05.png) no-repeat;
+}
+.userexit{
+	position: relative;
+	height: 50px;
+    display: block;
+    float: left;
+}	
+.bot{
+	color: #675858;
+}
+.bot p{
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.pagenum{
+	text-align:center;
+	margin-top: 20px;
+}
+.pagenum li{
+	display: inline;
+	text-align: center;
+	padding:3.5px 8px;
+	margin-right:6px;
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	cursor:pointer;
+}
+.pagenum .page_act{
+	background:#968885;
+	border: 0;
+}
+.pagenum .page_act a{
+	color:#fff;
+}
+.pagenum li a{
+	color: #333;
+	font-size: 10px;
+}
+.pagenum .prev{
+	display: none;
+}
+.pagenum .first{
+	display: none;
+}
+.pagenum .ignore{
+	border: 0;
+}
+.pagenum .next{
+	background:#968885;
+	border: 0;
+}
+.pagenum .next a{
+	color:#fff;
+}
+.pagenum .last{
+	display: none;
+}
+.common_top{
+	overflow: hidden;
+	line-height: 30px;
+	color: #aaa8a6;
+	font-size: 12px;
+}
+.common_top li{
+	float: left;
+	margin-right: 8px;
+}
+/* 班级年级联动央视  */
+.all_stu_hover{
+	position: absolute;
+	top: 32px;
+	display:none;
+}
+.change_hover{
+	position: absolute;
+	top: 40px;
+	display:none;
+}
+.all_stu3,.change_hover_div1{
+	position: absolute;
+	width: 158px;
+	background: #fff;
+	border: 1px solid #e0e1e5;
+	z-index: 10;
+	left: 0;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.all_stu3 ul,.change_hover_div1 ul{
+	margin-top:10px;
+}
+.all_stu3 li,.change_hover_div1 li{
+	line-height: 38px;
+	width: 144px;
+    padding-left: 14px;
+	color: #8f8f8f;
+}
+.all_stu3 li:hover,.change_hover_div1 li:hover{
+	background:#9b928f;
+	cursor: pointer;
+}
+.all_stu4,.change_hover_div2{
+	position: absolute;
+	width: 100px;
+	left: 158px;
+	background:#e5e5e5;
+	z-index: 6;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.all_stu4 ul,.change_hover_div2 ul{
+	display: none;
+	margin-top: 10px;
+	padding-bottom: 19px;
+}
+.all_stu4 li,.change_hover_div2 li{
+	line-height: 30px;
+	text-align: center;
+}
+.all_stu4 li:hover,.change_hover_div2 li:hover{
+	background:#9b928f;
+	cursor: pointer;
+	color: #ebe9e9;
+}
+/* 性别选择样式 */
+.add_stu_sex{
+	overflow: hidden;
+	margin-top: 11px;
+}
+.add_stu_overflow{
+	overflow: hidden;
+}
+.add_stu_sex span{
+	display: block;
+	float: left;
+	color: #8a8a8a;
+}
+.add_stu_sex div{
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.girl{
+	margin-left:24px;
+}
+.boy{
+	margin-left: 12px;
+}
+.loading{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background: url(../img/pic20.png) no-repeat;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	z-index: 13;
+}
+@-webkit-keyframes move {
+	from { transform: rotate(0); }
+	to { transform: rotate(360deg); }
+}
+@-o-keyframes move {
+	from { transform: rotate(0); }
+	to { transform: rotate(360deg); }
+}
+@-moz-keyframes move {
+	from { transform: rotate(0); }
+	to { transform: rotate(360deg); }
+}
+@keyframes move {
+	from { transform: rotate(0); }
+	to { transform: rotate(360deg); }
+}
+.loading img{
+	width:57px;
+	height:54px;
+	margin: 22px auto;
+	display: block;
+	-webkit-animation: move 1.2s linear infinite;
+	-o-animation: move 1.2s linear infinite;
+	animation: move 1.2s linear infinite;
+}
+.user_img1{
+	float: left;
+}
+.user_img2{
+	float: left;
+	margin-top: 20px;
+}
+.lr_tc{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	z-index: 12;
+	/*display: none;*/
+	top: 0;
+}
+.kj_logo1{
+	background: url(../img/spirit_img.png) no-repeat -387px -3px;
+}
+.kj_logo0{
+	background: url(../img/spirit_img.png) no-repeat -346px -3px;
+}
+.kj_logo2 {
+    background: url(../img/spirit_img.png) no-repeat -306px -3px;
+}
+.kj_logo3 {
+    background: url(../img/spirit_img.png) no-repeat -266px -3px;
+}
+.kj_logo5 {
+    background: url(../img/spirit_img.png) no-repeat -186px -3px;
+}
+.kj_logo6 {
+    background: url(../img/spirit_img.png) no-repeat -226px -3px;
+}

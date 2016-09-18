@@ -1,0 +1,176 @@
+/*班级管理页面*/
+.classcenter{
+	width: 1200px;
+	margin: 0 auto;
+}
+.class{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+}
+.search{
+	width: 270px;
+	height: 28px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+.search input{
+	border: 0;
+	line-height: 28px;
+	float: left;
+	margin-left: 4px;
+}
+.search a{
+	float: right;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.magcenter{
+	width: 1060px;
+	margin: 0 auto;
+}
+.allclass{
+	width: 138px;
+	height: 28px;
+	float: left;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px;
+	position: relative;
+	cursor: pointer;
+}
+.down img{
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+.allclass input{
+	width: 138px;
+	height: 28px;
+	color: #666;
+}
+.selectright{
+	width: 98px;
+	height: 28px;
+	float: right;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px;
+}
+.allclass span{
+	float: left;
+}
+.sumclass{
+	font-size:16px;
+	display: block;
+	float: left;
+	margin:7px 0 0 30px;
+	color:#666;
+}
+.own{
+	width: 1060px;
+	margin-top: 20px;
+}
+.thead{
+	width: 100%;
+	background:#e1e1e1;
+}
+.own th{
+	padding: 0 30px;
+	height: 38px;
+	font-weight: 100;
+	font-size: 14px;
+	color: #333;
+}
+.own tr{
+	border-bottom: 1px solid #e4e4e4;
+}
+.own tr td{
+	height: 60px;
+	text-align: center;
+	font-size: 15px;
+}
+.own .red a{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.own .numcolor{
+	color:#ff0000;
+}
+.line{
+	text-decoration: underline;
+}
+.own .score{
+	display: block;
+	width:78px;
+	height:28px;
+	color: #666;
+	line-height: 28px;
+	margin:0 auto;
+}
+.own .classtable{
+	display: block;
+	width:78px;
+	height:28px;
+	color: #666;
+	line-height: 28px;
+	margin:0 auto;
+}
+.pagenum{
+	width:455px;
+	overflow: hidden;
+	margin: 20px auto 15px;
+}
+.pagenum li{
+	height:28px;
+	float: left;
+	line-height: 28px;
+	text-align: center;
+}
+.pagenum li input{
+	padding: 0 10px;
+	height:28px;
+	float: left;
+	line-height: 28px;
+	text-align: center;
+	margin: 0 5px;
+}
+.pagenum .dots{
+	border: 0;
+	background: #fff;
+}
+.collect ul{
+	width:138px;
+	overflow: auto;
+	border: 1px solid #999;
+	position: absolute;
+	background: #fff;
+	top:38px;
+	display: none;
+	height: 194px;
+}
+.colothers ul{
+	display: none;
+}
+.collect ul li{
+	height:38px;
+	line-height: 38px;
+}
+.collect ul li:hover{
+	background: #ccc;
+}
+.collect li a{
+	color: #000;
+}
+.colothers ul{
+	left:137px;
+	background: #ccc;
+}
+.collect .colothers li:hover{
+	background: #999;
+}
+

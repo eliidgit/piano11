@@ -1,0 +1,193 @@
+body{
+	overflow: hidden;
+}
+.next_login{
+	background: url(../img/spirit_img.png) no-repeat -332px -59px;
+}
+.userpic{
+	float: right;
+}
+.userpic a{
+	color: #666;
+}
+.userpic span{
+	margin-left: 5px;
+}
+.phone_email span{
+    color: #b2b2b2;
+    display: block;
+    width: 66px;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 15px;
+}
+.phone_email p{
+	float: left;
+	line-height:40px;
+	margin-left:10px;
+	color:#c60204;
+}  /*添加*/
+.phone_pwd span{
+	font-size: 12px;
+	color: #b2b2b2;
+	display: block;
+    width: 66px;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 15px;
+}
+.phone_pwd p{
+	line-height:40px;
+	margin-left:10px;
+	color:#c60204;
+	float: left;
+}
+.exit{
+	width:98px;
+	height: 40px;
+	position: absolute;
+	border: 1px solid #999;
+	color:#000;
+	font-size: 13px;
+	background: #fff;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+}
+.userexit{
+	position: relative;
+}	
+/*登陆页面css样式*/
+.loginsum{
+	width: 1342px;
+	background:url(../img/bg1.png) no-repeat;
+	background-size: 100% 100%;
+	height: 469px;
+	overflow: hidden;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -235px;
+    margin-left: -671px;
+}
+.logo{
+	width: 1100px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.logincenter{
+	width: 600px;
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;	
+}
+.login_center{
+	margin:30px 0px 0px 392px;
+}
+.angle_logo{
+	width: 600px;
+	margin-bottom: 33px;
+}
+.angle_logo img{
+	margin: 0 auto;
+	display: block;
+}
+.phone_email{
+	margin-bottom: 9px;
+	overflow:hidden;
+}
+.phone_pwd{
+	margin-bottom: 10px;
+	overflow:hidden;
+}
+.autologin{
+	margin-left: 90px;
+	overflow:hidden;
+}
+.lcenter{
+	overflow: hidden;
+	margin-left: 90px;
+	padding: 36px 0;
+}
+.userlogin{
+	font-size: 20px;
+	margin-bottom:19px;
+	color: #666666;
+	padding-left: 166px;
+}
+.username{
+	width: 244px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	/*margin-bottom: 30px;*/
+	border-radius: 6px;
+	color: #b2b2b2;
+	padding-left: 14px;
+	line-height: 40px;
+	float:left;
+}
+.psd{
+	width: 244px;
+	height: 38px;
+	border: 1px solid #e0e1e5;
+	/*margin-bottom: 24px;*/
+	border-radius: 6px;
+	color: #b2b2b2;
+	padding-left: 14px;
+	line-height: 40px;
+	float:left;
+}
+.alogin{
+	float: left;
+	cursor: pointer;
+}
+.forget{
+	float: left;
+	font-size: 12px;
+	color: #7e7e7e;
+	margin-left:84px;
+}
+.clear{
+	clear: both;
+}
+.yes{
+	width: 260px;
+	height: 40px;
+	font-size: 16px;
+	border: 0;
+	background: #9b928f;
+	color: #fff;
+	border-radius: 30px;
+	margin: 18px 0 0 80px;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.auto{
+	float: left;
+	display: block;
+	float: left;
+	width: 13px;
+	height: 12px;
+	background:url(../img/spirit_img.png) no-repeat -317px -59px;
+	margin-top: 3px;
+}
+.autol{
+	display: block;
+	float: left;
+	color: #7e7e7e;
+}
+body .bot{
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -240px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.next_login{
+	background: url(../img/spirit_img.png) no-repeat -332px -59px;
+}

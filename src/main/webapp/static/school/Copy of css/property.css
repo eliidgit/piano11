@@ -1,0 +1,675 @@
+.allpinao{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+.newpinao{
+	width:638px;
+	height:355px;
+	position: absolute;
+	border: 1px solid #999;
+	left: 50%;
+	margin-left:-319px;
+	top: 50%;
+	margin-top:-175px;
+	z-index: 11;
+	background: #fff;
+	display: none;
+}
+.newptop{
+	width: 100%;
+	height: 40px;
+	background: #ccc;
+	color: #000;
+	font-size: 17px;
+	text-align: center;
+	line-height: 40px;
+}
+.canres{
+	width:120px;
+	height:36px;
+	color: #666;
+	font-size: 14px;
+}
+.canyes{
+	width:120px;
+	height:36px;
+	color: #666;
+	font-size: 14px;
+	margin-left:27px;
+}
+.createclass{
+	width:102px;
+	height:30px;
+	color: #666;
+	margin: 3px 0 0 20px;
+}
+.date{
+	width:264px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	float: left;
+}
+.date1{
+	border: 0;
+	height: 34px;
+	width: 230px;
+	color: #666;
+}
+.date2{
+	width:264px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	color: #666;
+}
+.cendates{
+	float: left;
+	width:264px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	position: relative;
+	color: #666;
+}
+.cendown{
+	width: 262px;
+	height: 122px;
+	border: 1px solid #999;
+	position: absolute;
+	top:44px;
+	background: #fff;
+	padding:10px 0 5px 0;
+	overflow: auto;
+	display: none;
+}
+.cendown ul li{
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+.cendate img{
+	cursor: pointer;
+}
+.date3{
+	height: 34px;
+	width:234px;
+	border: 0;
+	color: #666;
+}
+.lab{
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 36px;
+	width: 73px;
+}
+.newcens{
+	width:463px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+.newcen1{
+	margin-top: 20px;
+}
+.newcen2{
+	margin-top: 20px;
+}
+.newcen3{
+	margin-top: 20px;
+}
+.cans{
+	overflow: hidden;
+	margin-top:52px;
+	text-align: center;
+}
+.newclass{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 13;
+	display: none;
+}
+.newc1{
+	width: 638px;
+	height: 316px;
+	border: 1px solid #999;
+	position: absolute;
+	z-index: 14;
+	background: #fff;
+	left: 50%;
+	margin-left: -222px;
+	top: 50%;
+	margin-top: -108px;
+	display: none;
+}
+.newctop{
+	width: 100%;
+	height:40px;
+	background: #ccc;
+	text-align: center;
+	line-height: 40px;
+	font-size: 17px;
+}
+.newtea{
+	display: block;
+	width: 74px;
+	font-size: 14px;
+	float: left;
+	line-height: 36px;
+}
+.jxl{
+	width: 266px;
+	height:36px;
+	color:#666;
+}
+.jsname{
+	width: 266px;
+	height:36px;
+	color:#666;
+}
+.newcla2{
+	margin-top: 14px;
+}
+.newbtn{
+	text-align: center;
+	margin-top: 33px;
+}
+.newbtnc{
+	width:120px;
+	height: 36px;
+	color: #666;
+	font-size: 14px;
+}
+.newbtny{
+	width:120px;
+	height: 36px;
+	margin-left:26px;
+	color: #666;
+	font-size: 14px;
+}
+.newclasscen{
+	width:344px;
+	margin: 47px auto 0;
+}
+.property{
+	width: 1200px;
+	margin: 0 auto;
+}
+.propcenter{
+	width: 1100px;
+	background: #fff;
+	margin: 0 auto;
+}
+.proptitleft{
+	font-size: 14px;
+	float: left;
+	margin:50px 0 0 30px;
+	color: #333;
+}
+.prop1{
+	float: left;
+}
+.prop2{
+	float: left;
+	position: relative;
+	width: 382px;
+	margin: 0 30px;
+}
+.prop3{
+	float: right;
+}
+.procent1{
+	width: 382px;
+	height:20px;
+	border-radius: 10px;
+	border:1px solid #797979;
+	position: absolute;
+}
+.procent2{
+	width: 300px;
+	background: #999;
+	position: absolute;
+	height:22px;
+	border-radius: 10px;
+}
+.procircle{
+	width:70px;
+	height: 70px;
+	position: absolute;
+	border-radius:50%;
+	border:1px solid #797979;
+	font-size: 20px;
+	background: #fff;
+	text-align: center;
+    line-height: 70px;
+    right: 20px;
+    top: -30px;
+}
+.proptitright{
+	float: right;
+	margin-top: 38px;
+	margin-right: 184px;
+}
+.proptit{
+	overflow: hidden;
+	padding-bottom: 48px;
+}
+.propnum1{
+	font-size:20px;
+}
+.propnum2{
+	font-size:20px;
+}
+.prop1 p{
+	text-align: center;
+}
+.prop3 p{
+	text-align: center;
+}
+.proptitnun{
+	font-size: 18px;
+}
+.ptitnun{
+	font-size: 18px;
+}
+.proplist{
+	height: 36px;
+	width: 1040px;
+	background: #f0f0f0;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+.proplist li{
+	float: left;
+	padding: 0 22px;
+	height:36px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-top: 6px;
+}
+.proplist li a{
+	color: #666;
+	font-size: 16px;
+}
+.proplist .act{
+	border-bottom:4px solid #666;
+}
+.propsear{
+   width:270px;
+   height: 30px;	
+   border: 1px solid #999;
+   border-radius: 5px;
+   float: left;
+}
+.propsear input{
+	border: 0;
+	width: 240px;
+	height: 30px;
+    margin-left:4px;
+}
+.propdetail{
+	width: 1040px;
+	margin: 0 auto;
+}
+.propadd{
+	width: 100px;
+	height: 28px;
+	font-size: 14px;
+	color:#666;
+	float: right;
+}
+.psearch{
+	overflow: hidden;
+}
+.propdecen0{
+	width: 1000px;
+	margin: 0 auto;
+}
+.propdecen1{
+	width: 1000px;
+	margin: 0 auto;
+	display: none;
+}
+.propsort{
+	overflow: hidden;
+	margin:28px 0 20px 0;
+}
+.propsort li{
+	padding:0 12px;
+	float: left;
+}
+.propsort li input{
+	width: 70px;
+	height: 30px;
+	font-size: 14px;
+	color:#666;
+}
+.propsort .propall{
+	padding-left: 0;
+}
+.state{
+	width: 100%;
+}
+.thead{
+	border: 1px solid #999;
+	height: 38px;	
+}
+.thead li{
+	font-size: 16px;
+	float: left;
+	text-align: center;
+	line-height:38px;
+}
+.state tr td{
+	text-align: center;
+}
+.propid{
+	width: 170px;
+}
+.propstate{
+	width: 160px;
+}
+.thead .propde{
+	width: 598px;
+	text-align: right;
+	padding-right: 70px;
+}
+.state tr{
+	border-bottom: 1px solid #e4e4e4;
+}
+.state tr td{
+	height: 60px;
+	font-size: 14px;
+}
+.state .propde1{
+	text-align: right;
+}
+.propde1 input{
+	width:70px;
+	height:30px;
+	font-size: 14px;
+	color: #666;
+	margin-right:18px;
+}
+.proptext{
+	text-decoration: underline;
+}
+.proppage{
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+.proppage input{
+	width: 30px;
+	height: 30px;
+	margin-right: 12px;
+	float: left;
+	color: #666;
+}
+.propsort .prophx{
+	font-size: 20px;
+	color: #b1b1b1;
+	padding: 0;
+}
+.proppage .active1{
+  color: #000;	
+}
+.propsort .active2 input{
+  color: #000;	
+}
+.propsum{
+  padding-bottom: 42px;	
+}
+.propdec ul li{	
+	float: left;
+}
+.propdec li input{
+	width: 70px;
+	height: 30px;
+	color: #666;
+}
+.propdec .prophx{
+	font-size: 20px;
+	margin-top: 4px;
+	padding: 0 13px;
+	float: left;
+}
+.propdec .wxact input{
+	color: #000;
+}
+.propm{
+	width:1000px;
+	height:40px;
+	background:#999;
+}
+.propm ul li{
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	/*padding: 0 40px;*/
+	line-height: 40px;
+	width: 142px;
+	text-align: center;
+}
+.down2{
+ 	margin-left:11px;
+ }
+.propmsg{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.sumpropul .sumul{
+	height: 70px;
+}
+.sumul li{
+	width: 142px;
+	float: left;
+	height: 70px;
+	border-bottom: 1px solid #e4e4e4;
+	line-height: 70px;
+	font-size: 14px;
+	text-align: center;
+}
+.sumpropul .sumpropul1{
+   overflow: hidden;
+}
+.sumpropul .sumpropul1 li{
+	width: 142px;
+	float: left;
+	height: 70px;
+	border-bottom: 1px solid #e4e4e4;
+	line-height: 70px;
+	font-size: 14px;
+	text-align: center;
+}
+.maintain1{
+	display: none;
+}
+.flodli{
+	position: relative;
+}
+.unfold{
+	width:98px;
+	height: 28px;
+	color: #666;
+	font-size: 14px;
+}
+.flodul{
+	width:98px;
+	border: 1px solid #999;
+	position: absolute;
+	top:60px;
+	right:30px;
+	background: #fff;
+	color: #666;
+	display: none;
+	z-index: 1;
+}
+.flodul div{
+	height: 49px;
+	line-height: 49px;
+	font-size: 14px;
+}
+.flodul div:hover{
+	background:#ccc;
+	cursor: pointer;
+}
+.down{
+	position: absolute;
+	right: 42px;
+	top: 32px;
+}
+.sumlefthx{
+	color: #ccc;
+	margin: 5px 0 5px 4px;
+}
+.sumleft{
+	float: left;
+}
+.sumleft span{
+	color: #999;
+}
+.sumright{
+	position: absolute;
+	right:17px;
+	bottom: 17px;
+}
+.proplink{
+	width: 92px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.sumpropde{
+	width: 100%;
+	background:#f5f5f5;
+	overflow: hidden;
+	position: relative;
+	height: 0;
+}
+.spread{
+	cursor: pointer;
+}
+.sumleft ul{
+	font-size: 14px;
+	padding:36px 0 20px 22px ;
+}
+.sumleftact span{
+	color: #666;
+}
+.sumtime{
+	margin:0 36px 0 22px;
+}
+.screen{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+.propcontact{
+	width: 640px;
+	position: absolute;
+	z-index: 12;
+	overflow: hidden;
+	border: 1px solid #999;
+	margin-left: -320px;
+	left: 50%;
+	top:30%;
+	background: #fff;
+	display: none;
+}
+.pcontact{
+	width: 100%;
+	height: 40px;
+	background: #ccc;
+	text-align: center;
+	font-size:16px;
+	color: #000;
+	line-height: 40px;
+}
+.pques span{
+	display: block;
+	float: left;
+}
+.pques textarea{
+	width: 450px;
+	height: 98px;
+	resize: none;
+	border: 1px solid #a9a9a9;
+	float: left;
+	margin-left:21px;
+	outline: none;
+}
+.pcenter{
+	width: 530px;
+	margin: 0 auto;
+	padding: 43px 0 40px;
+	font-size: 14px;
+}
+.pc1{
+	overflow: hidden;
+}
+.pc2{
+	margin: 30px 0 34px;
+	overflow: hidden;
+}
+.pc2 .pophone{
+	width: 264px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	margin-left:21px;
+}
+.btns{
+	text-align: center;
+}
+.btns input{
+	width: 118px;
+	height: 34px;
+	font-size: 14px;
+	color: #666;
+	margin-left: 26px;
+}
+.mtain{
+	width:1000px;
+	height:40px;
+	background:#999;
+}
+.mtain li{
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	width: 166px;
+	line-height:40px;
+	text-align: center;
+}
+.mainul ul{
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.mainul ul li{
+	float: left;
+	width: 166px;
+	text-align: center;
+	font-size: 16px;
+}
+.already{
+	color: #999;
+}

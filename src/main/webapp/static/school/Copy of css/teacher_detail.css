@@ -1,0 +1,405 @@
+.teacher_detail{
+	width: 1200px;
+	background:#f5f5f5;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.teacher_decenter{
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom:52px;
+}
+.teacher_tit{
+	font-size: 14px;
+	color: #999;
+	padding: 12px 0 12px 30px;
+}
+.teacher_top{
+	width: 1060px;
+	margin: 20px auto 41px;
+	height:110px;
+	background:#ccc;
+	position: relative;
+}
+.teacher_top img{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 28px;
+	left:50%;
+	margin-left:-60px;
+}
+.teacher_name{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	margin: 7px 0 20px 0;
+}
+.teacher_base{
+	width:700px;
+	margin:40px auto 0;
+	border-top: 1px solid #e4e4e4;
+}
+.teacher_base_tit{
+	width: 200px;
+	height: 40px;
+	border-radius:30px;
+	border: 1px solid #797979;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+	color: #666;
+	margin: -20px auto 0;
+}
+.teacher_edit{
+	width: 100px;
+	height: 30px;
+	color:#666;
+}
+.teacher_base_msg{
+	width:500px;
+	float: left;
+	overflow: hidden;
+	margin-left: 98px;
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	padding-bottom: 20px;
+}
+.teacher_edit{
+	float: right;
+}
+.teacher_base_msg span{
+	margin-right: 10px;
+}
+.tea_sex_name{
+	float: left;
+}
+.tea_base_sex{
+	float: left;
+}
+.tea_base_sex span{
+	display: block;
+	float: left;
+}
+.boy{
+	width:14px;
+	height: 14px;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid #797979;
+	margin-top: 8px;
+	cursor: pointer;
+}
+.girl{
+	width:14px;
+	height: 14px;
+	background: #666;
+	border-radius: 50%;
+	border: 1px solid #797979;
+	margin: 8px 0 0 60px;
+	cursor: pointer;
+}
+.tea_sex_name{
+	width: 88px;
+}
+.select_bj{
+	float: left;
+	width: 154px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	cursor: pointer;
+	background: #fff;
+	margin:20px 0 0 98px;
+}
+.tea_base_sex .select_insert{
+	float: left;
+	width: 100px;
+	height: 36px;
+	font-size: 14px;
+	margin: 20px 0 0 10px;
+}
+.tea_base_sex .select_bj input{
+	width: 126px;
+	border: 0;
+	color: #666;
+	font-size: 12px;
+	padding-left: 8px;
+	height: 30px;
+}
+.teacher_save{
+	display: none;
+	width: 100px;
+	height: 30px;
+	color: #666;
+	font-size: 14px;
+	margin: 20px 0 0 154px;
+}
+.tea_base_sex input{
+	width: 264px;
+	height: 34px;
+	color:#666;
+	font-size:12px;
+}
+.tea_base_sex .tea_base_date1{
+   width:220px;
+   float: left;	
+   border: 0;
+}
+.tea_base_sex .tea_base_date2{
+   float: right;	
+   margin: 8px 14px 0 0;
+}
+.tea_base_sex1{
+	width: 264px;
+	border: 1px solid #a9a9a9;
+	cursor: pointer;
+	background: #fff;
+}
+.tea_base_sex .tea_base_job{
+	width:226px;
+	float: left;
+	border: 0;
+	height: 32px;
+}
+.tea_base_sex .tea_base_down1{
+	float: right;
+	margin: 15px 18px 0 0;
+}
+.tea_job li{
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+.tea_job{
+	width:264px;
+	border: 1px solid #999999;
+	margin: 8px 0 0 98px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.tea_job li:hover{
+	background: #ccc;
+}
+.tea_base_msg2{
+	display: none;
+	margin-top: 25px;
+}
+.teacher_basemsg{
+	padding-bottom: 20px;
+}
+.teacher_base2_left{
+	width:626px;
+	border-top: 1px solid #e4e4e4;
+	float: left;
+}
+.teacher_base2_right{
+	float: right;
+	color:#666;
+	font-size: 15px;
+	margin-top: -10px;
+}
+.tbleft{
+	width: 200px;
+	height: 40px;
+	border: 1px solid #797979;
+	border-radius: 30px;
+	margin: -20px auto 30px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+}
+.teacher_base2_msg{	
+	margin-top: 30px;
+	padding-bottom: 55px;
+}
+.teach_hx{
+	margin-left:5px;
+}
+.teacher_bmsg_right p{
+	width: 530px;
+	line-height: 20px;
+}
+.teacher_bmsg_right{
+	float: left;
+	font-size: 14px;
+	color: #666;
+	margin-left: 20px;
+}
+.teacher_bmsg_left{
+	float: left;
+}
+.teacher_base2_edit{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 30px;
+	color:#666;
+	font-size: 14px;
+}
+.teacher_bmsg2{
+	width:584px;
+	background:#f5f5f5;
+	overflow: hidden;
+	padding: 14px 0 20px 126px;
+	margin-bottom:26px;
+}
+.teacher_bmsg2_time1{
+	float: left;
+}
+.teacher_bmsg2_time2{
+	float: left;
+}
+.teacher_bmsg2_hx{
+	float: left;
+	margin: 6px 20px 0;
+}
+.teacher_base2_tit input{
+	width:150px;
+	height: 36px;
+	color: #666666;
+}
+.teacher_bmsg2_time1{
+	width: 113px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+	background: #fff;
+}
+.teacher_bmsg2_time1 input{
+	width: 90px;
+	height: 30px;
+	border: 0;
+}
+.teacher_base2_content textarea{
+	width: 540px;
+	height: 91px;
+	padding:14px 0 0 22px;
+}
+.teacher_base2_contsave{
+	width: 100px;
+	height: 30px;
+	margin: 20px auto 0;
+	color:#666;
+	display: block;
+}
+.teacher_base2_tit{
+	margin-top:12px;
+}
+.teacher_base2_time{
+	margin-top:12px;
+}
+.teacher_base2_content{
+	margin-top:12px;
+}
+.teacher_base2_tit p{
+	margin-bottom:16px;
+}
+.teacher_base2_time p{
+	margin-bottom:16px;
+}
+.teacher_base2_content p{
+	margin-bottom:16px;
+}
+.teacher_bmsgs{
+	width: 610px;
+	float: right;
+	position: relative;
+}
+.select_class1{
+	position: absolute;
+	display: none;
+	left: 98px;
+	top: 60px;
+}
+.select_class1 .select_nj{
+	width: 130px;
+	background: #fff;
+	border: 1px solid #999;
+	text-align: center;
+	line-height:38px;
+}
+.select_class1 .select_nj li:hover{
+	background: #ccc;
+	cursor: pointer;
+}
+.select_class1 .select_bj1{
+	width: 130px;
+	background: #cccccc;
+	text-align: center;
+	line-height:38px;
+}
+.select_class1 .select_bj1 li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.select_class2{
+	position: absolute;
+	top: 61px;
+	left: 231px;
+}
+.select_class2 ul{
+	display: none;
+}
+.select_class2 ul{
+	width: 130px;
+	background: #ccc;
+	text-align: center;
+	line-height:38px;
+}
+.class_arrange{
+	position: relative;
+}
+.select_class2 ul li:hover{
+	background: #999;
+	cursor: pointer;
+}
+.tea_base_sex2{
+	float: left;
+	border: 1px solid #a9a9a9;
+	background: #fff;
+	width: 264px;
+	cursor: pointer;
+}
+.tea_base_sex2 input{
+	border: 0;
+	width: 228px;
+	height: 34px;
+	color: #666;
+	padding-left: 2px;
+}
+.tea_base_sex2 img{
+	margin-right: 18px;
+}
+.select_teacher{
+	position: absolute;
+	left: 98px;
+	top: 46px;
+	background: #fff;
+	z-index: 10;
+	display: none;
+}
+.tea_base_teacher{
+	position: relative;
+}
+.select_teacher ul{
+	width: 264px;
+	border: 1px solid #999;
+	background: #fff;
+	padding:25px 0;
+}
+.select_teacher ul li{
+	line-height: 33px;
+	text-align: center;
+}
+.select_teacher ul li:hover{
+	cursor: pointer;
+}
+.tea_base_sex3{
+	position: relative;
+}

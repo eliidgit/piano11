@@ -1,0 +1,87 @@
+.conf{
+	width: 1200px;
+	margin: 0 auto;
+}
+.confs{
+	width: 720px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.sumconf{
+	overflow: hidden;
+	background: #ccc;
+	padding: 98px 0 94px 130px;
+	margin-top: 24px;
+}
+.confcenter{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+	padding-bottom: 206px;
+}
+.newpwd1{
+	float: left;
+	width: 90px;
+	line-height: 40px;
+	font-size: 16px;
+}
+.newpwd2{
+	float: left;
+	width: 330px;
+	height: 40px;
+}
+.pwd1{
+	width: 90px;
+	line-height: 40px;
+	float: left;
+	font-size: 16px;
+}
+.pwd2{
+	float: left;
+	width: 330px;
+	height: 40px;
+}
+.sumconf3 input{
+	width: 120px;
+	height: 36px;
+	float: left;
+	font-size: 14px;
+	color: #333;
+}
+.confno{
+	margin-left: 90px;
+}
+.confyes{
+	margin-left: 36px;
+}
+.findconf{
+	font-size: 18px;
+}
+.sumconf2{
+	margin-top: 33px;
+}
+.sumconf3{
+	margin-top: 33px;
+}
+.sumchange{
+	position: relative;
+	display: none;
+}
+.changetip{
+	width: 100%;
+	height:48px;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: absolute;
+}
+.ctip{
+	width: 100%;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	line-height: 48px;
+}
+

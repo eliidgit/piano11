@@ -1,0 +1,120 @@
+.pianodetail{
+	width: 1200px;
+	margin: 0 auto;
+}
+.pdetail{
+	width: 1100px;
+	overflow: hidden;
+	background: #fff;
+	margin: 0 auto;
+}
+.pdetail .ptit{
+	width:1040px;
+	margin: 0 auto;
+	color: #999;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.detailtit{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	padding-bottom: 28px;
+	float: left;
+	margin-left: 461px;
+}
+.sumdetail{
+	margin-top:12px;
+}
+.sum1{
+	width: 1040px;
+	margin: 0 auto;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.sum2{
+	margin-top: 14px;
+}
+.sum2 span{
+	font-size: 16px;
+	font-family: "宋体";
+	color: #666;
+	width: 80px;
+	display: inline-block;
+}
+.sum2 input{
+	width: 260px;
+	height: 34px;
+	border: 1px solid #a9a9a9;
+}
+.sum2 .time{
+	float: left;
+}
+.sum2 .date{
+	width: 260px;
+	height: 34px;
+	background: #fff;
+	border: 1px solid #a9a9a9;
+	float: left;
+	margin-left: 4px;
+}
+.sum2 .date input{
+	width: 230px;
+	border: 0;
+}
+.sum2s{
+	overflow: hidden;
+	padding-top: 22px;
+	padding-left: 50px;
+	float: left;
+}
+.cancel{
+	width:100px;
+	height: 28px;
+	float: right;
+	color: #666;
+	margin:12px 20px 0 0;
+}
+.save{
+	width:120px;
+	height: 28px;
+	margin:20px 0 20px 500px;
+	color: #666;
+}
+.sdetcenter{
+	width: 1040px;
+	margin: 0 auto;
+	margin-bottom:60px;
+}
+.param{
+	margin-top: 36px;
+}
+.paramtit{
+	font-size: 17px;
+	color: #666;
+	padding-bottom: 13px;
+	border-bottom:1px solid #e4e4e4;
+	padding-left: 5px;
+}
+.paras{
+	margin-top:32px;
+	padding-left: 5px;
+}
+.paras p{
+	color:#666;
+	font-size: 14px;
+	line-height: 16px;
+}
+.pianotit{
+	width:1036px;
+	border-bottom: 1px solid #e4e4e4;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.apply{
+	float: right;
+	width:102px;
+	height: 28px;
+	color:#666;
+	font-size: 14px;
+}

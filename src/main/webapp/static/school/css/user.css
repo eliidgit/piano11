@@ -1,0 +1,396 @@
+.screen{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.loading{
+	width:100px;
+	height:100px;
+	position: absolute;
+	background: url(../img/spirit_img.png) no-repeat -340px -133px;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.user{
+	width:1200px;
+	margin: 0 auto;
+}
+.usercenter{
+	overflow: hidden;
+	margin: 0 auto;
+	padding-bottom: 35px;
+	background: #fff;
+	box-shadow: 4px 4px 30px #ddd9d7;
+}
+.pwdslide .user_btn input{
+	width: 120px;
+	height: 40px;
+	background:#f4f0ed;
+	border: 0;
+	border-radius: 30px;
+	font-size: 16px;
+	color: #696866;
+	padding-left: 0;
+}
+.usercancle{
+	margin: 0 20px 0 119px;
+}
+.user_btn{
+	margin-top: 20px;
+}
+.ucenter{
+	width: 1120px;
+	margin: 30px auto 0;
+}
+.uctit{
+	 color: #666;
+	 padding-bottom:19px;
+	 border-bottom: 2px solid #ebe9ea;
+}
+.pwdedit{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.pwdslide .user_btn .usersave{
+	background:#9a928f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+}
+.pwdslide{
+	display: none;
+	margin-top: 10px;
+}
+.contlink{
+	width: 324px;
+	margin: 48px auto 32px;
+}
+.use_hx2{
+	width:938px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+	margin-top:10px;
+}
+.use_hx3{
+	width:926px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+	margin-top:10px;
+}
+.advice{
+	width: 620px;
+	margin: 15px auto 0;
+	overflow: hidden;
+}
+.have_sumbit{
+	padding-bottom: 78px;
+}
+.advice_time{
+	float: left;
+	color: #b0b0b0;
+}
+.advice_cont{
+	float: right;
+	width: 510px;
+	color:#707070;
+	line-height: 21px;
+}
+.contlink span{
+	font-size: 15px;
+	color: #8f8687;
+}
+.nickname{
+	margin-top: 10px;
+}
+.contit{
+	font-size: 20px;
+	color: #666;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.nickname span{
+	display: block;
+}
+.use_hx0{
+	width: 22px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+	margin-top:10px;
+}
+.use_people{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.use_hx_sum{
+	overflow: hidden;
+	float: left;
+}
+.advice_list{
+	margin-top:40px;
+	overflow: hidden;
+}
+.use_cent{
+	float: left;
+	margin: 0 21px;
+	font-size: 16px;
+	color:#908684;
+}
+.use_hx1{
+	width:857px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+	margin-top:10px;
+}
+.use_hx0{
+	width: 22px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+}
+.useradvice{
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.useradcen{
+	font-size: 18px;
+	color: #6d6d6d;
+}
+.userad{
+	padding: 20px 0;
+	overflow: hidden;
+	text-align: center;
+	border-bottom: 1px solid #e4e4e4;
+}
+.add_nickname_sum{
+	padding-left: 344px;
+	padding-bottom: 46px;
+}
+.nick1{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	color:#afafaf;
+	text-align: right;
+	margin-right:18px;
+}
+.userzh .login_zh{
+	width: 100px;
+	text-align: right;
+	margin-right:18px;
+	line-height: 40px;
+}
+.nick2{
+	float: left;
+	line-height: 28px;
+}
+.nick2 input{
+	margin-right:18px;
+	color: #666666;
+	border: 0;
+	width: 246px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 14px;
+	border-radius: 6px;
+}
+.userzh{
+	color: #afafaf;
+	margin-top:10px;
+}
+.userzh span{
+	display: block;
+	float: left;
+}
+.userzh .zh_num{
+	color: #666;
+	border: 0;
+	width: 246px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 14px;
+	border-radius: 6px;
+}
+.pwdedit1{
+	float: left;
+	line-height: 30px;
+}
+.pwdedit1 span{
+	display: block;
+	float: left;
+	color: #afafaf;
+}
+.pwdedit1 .use_change_pwd{
+	width: 100px;
+	text-align: right;
+	margin-right:18px;
+	line-height: 40px;
+	border-radius: 6px;
+}
+.pwdedit1 .userpass{
+	color: #666;
+	border: 0;
+	width: 246px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 14px;
+	border-radius: 6px;
+}
+.pwdedit2{
+	float: left;
+    position: relative;
+    width: 100px;
+    margin-left: 16px;
+}
+.pwdedit2 input{
+	width: 90px;
+	color: #fff;
+	height: 30px;
+	background: #968887;
+	border: 0;
+	border-radius: 30px;
+	line-height: 30px;
+}
+.pwdedit2 img{
+	position: absolute;
+	right: 10px;
+	top: 14px;
+}
+.pwdslide label{
+	width: 100px;
+	color: #afafaf;
+	display: block;
+	float: left;
+	line-height: 40px;
+	text-align: right;
+	margin-right: 18px;
+}
+.pwdslide input{
+	float: left;
+	width:244px;
+	height: 38px;
+	border: 1px solid #e4e4e4;
+	border-radius: 6px;
+	color: #b6b6b6;
+	padding-left: 14px;
+}
+.contlink_span{
+	width:24px;
+	height:24px;
+	display: block;
+	float: left;
+	background: url(../img/spirit_img.png) no-repeat -293px -128px;
+	margin-right: 13px;
+}
+.pwdslide1{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.pwdslide2{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.pwdslide3{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.msg label{
+	width:60px;
+	color: #a9a9a9;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 18px;
+	line-height: 40px;
+}
+.msg input{
+	width:244px;
+	height: 38px;
+	border: 1px solid #e1e1e1;
+	border-radius: 6px;
+	padding-left: 14px;
+	color: #a9a9a9;
+}
+.contact{
+	overflow: hidden;
+}
+.usermsg{
+	width: 342px;
+    margin: 18px auto 0;
+}
+.board{
+	overflow:hidden;
+	margin-top: 10px;
+}
+.msg{
+	margin-top: 10px;
+}
+.board label{
+	color: #a9a9a9;
+	display: block;
+	float: left;
+	width: 60px;
+	text-align: right;
+	margin-right: 18px;
+	line-height: 40px;
+}
+.board textarea{
+	width: 260px;
+	height: 98px;
+	float: left;
+	resize: none;
+	outline: none;
+	border: 1px solid #e0e0e0;
+	border-radius: 6px;
+}
+.exit{
+	width:98px;
+	height: 40px;
+	position: absolute;
+	color:#000;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+}
+.all_btn input{
+	width:120px;
+	height: 40px;
+	font-size:16px;
+	color:#6b6a68;
+	background: #f4f0ed;
+	border: 0;
+	border-radius: 30px;
+}
+.userexit{
+	position: relative;
+}	
+.all_btn{
+	margin-top: 20px;
+    margin-left: 77px;
+}
+.all_btn .all_btn_save{
+	background:#9a928f;
+	color: #fff;
+	box-shadow: 4px 4px 10px #ddd9d7;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
